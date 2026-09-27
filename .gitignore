@@ -1,0 +1,12 @@
+# Never commit secrets or private ministry data
+.env
+.env.*
+*.pem
+*.key
+secrets/
+private/
+local-data/
+exports/
+raw-interviews/
+raw-pastoral-care/
+.DS_Store
