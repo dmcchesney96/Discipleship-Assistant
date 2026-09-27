@@ -1,0 +1,81 @@
+name: discipleship-assistant
+version: 1.0
+north_star: disciples_who_make_disciples_who_make_disciples
+
+source_of_truth:
+  durable_brain: google_drive
+  drive_root_name: discipleship brain
+  drive_root_id: 1TwlvfbE7l-04uExGoal36ejwlJc7KcoU
+  operating_system: github
+  repository: dmcchesney96/Discipleship-Assistant
+
+status_labels:
+  - CURRENT
+  - PENDING
+  - TENTATIVE
+  - HISTORICAL
+  - SUPERSEDED
+
+evidence_labels:
+  - DOCUMENTED_EVIDENCE
+  - ORGANIZATIONAL_CLAIM
+  - PRACTITIONER_OPINION
+  - INTERPRETATION
+  - HYPOTHESIS
+
+confidence_labels:
+  - HIGH_CONFIDENCE
+  - PROMISING
+  - CONTEXT_DEPENDENT
+  - UNCERTAIN
+  - CONTRADICTED
+
+measurement_domains:
+  - ABIDING
+  - TRANSFORMATION
+  - COMMUNITY
+  - MISSION
+  - DISCIPLE_MAKING
+  - MULTIPLICATION
+  - LEADERSHIP_MULTIPLICATION
+  - STORIES_AND_PASTORAL_DISCERNMENT
+
+shared_skills:
+  - ministry-second-brain-intake
+  - ministry-context-retriever
+  - current-state-synthesizer
+  - source-evidence-checker
+  - knowledge-conflict-resolver
+  - decision-action-extractor
+  - institutional-memory-writer
+  - pattern-connector
+
+discipleship_skills:
+  - discipleship-research-source-ingestor
+  - daily-discipleship-research-prompt
+  - discipleship-research-scout-agenda-builder
+  - ai-research-verification-integration
+  - church-movement-case-study-analyzer
+  - southbrook-interview-qualitative-evidence-analyzer
+  - southbrook-discipleship-diagnostic
+  - living-discipleship-synthesis-maintainer
+  - discipleship-measurement-architect
+  - discipleship-experiment-pilot-designer
+  - southbrook-discipleship-operating-system-designer
+  - discipleship-research-librarian-drive-curator
+  - strategy-decision-brief-builder
+
+specialist_agents:
+  - research-director
+  - southbrook-diagnostic-agent
+  - interview-analysis-agent
+  - measurement-strategy-agent
+
+guardrails:
+  drive_is_evidence_github_is_os: true
+  ai_research_requires_verification: true
+  attendance_is_not_maturity: true
+  multiplication_unit_must_be_named: true
+  external_and_local_evidence_stay_distinct: true
+  recommendations_are_not_decisions: true
+  sensitive_case_data_in_github: false
