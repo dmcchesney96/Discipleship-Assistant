@@ -153,6 +153,7 @@ Discipleship-specific:
 - `daily-discipleship-research-prompt`
 - `discipleship-research-scout-agenda-builder`
 - `ai-research-verification-integration`
+- `compare-big-picture`
 - `church-movement-case-study-analyzer`
 - `southbrook-interview-qualitative-evidence-analyzer`
 - `southbrook-discipleship-diagnostic`
