@@ -21,15 +21,16 @@ Reusable across ministry assistants:
 2. `daily-discipleship-research-prompt`
 3. `discipleship-research-scout-agenda-builder`
 4. `ai-research-verification-integration`
-5. `church-movement-case-study-analyzer`
-6. `southbrook-interview-qualitative-evidence-analyzer`
-7. `southbrook-discipleship-diagnostic`
-8. `living-discipleship-synthesis-maintainer`
-9. `discipleship-measurement-architect`
-10. `discipleship-experiment-pilot-designer`
-11. `southbrook-discipleship-operating-system-designer`
-12. `discipleship-research-librarian-drive-curator`
-13. `strategy-decision-brief-builder`
+5. `compare-big-picture`
+6. `church-movement-case-study-analyzer`
+7. `southbrook-interview-qualitative-evidence-analyzer`
+8. `southbrook-discipleship-diagnostic`
+9. `living-discipleship-synthesis-maintainer`
+10. `discipleship-measurement-architect`
+11. `discipleship-experiment-pilot-designer`
+12. `southbrook-discipleship-operating-system-designer`
+13. `discipleship-research-librarian-drive-curator`
+14. `strategy-decision-brief-builder`
 
 ## Skill rule
 
