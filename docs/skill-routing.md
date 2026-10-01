@@ -50,3 +50,12 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 ## Stop rule
 
 If the requested result is already supported, stop. A handoff is useful only when it adds new evidence, a required transformation, or an authorized next action.
+
+
+## Natural-language auto-trigger
+
+The user never needs to say the skill name.
+
+Automatically use `compare-big-picture` whenever the user asks to compare, review, synthesize, bring together, or identify the biggest learnings/common themes across a **specified group of Brain files, reports, a folder, or a bounded topic collection**.
+
+Respect the user's stated source boundary. Do not widen "these files" into the whole Brain unless requested.
