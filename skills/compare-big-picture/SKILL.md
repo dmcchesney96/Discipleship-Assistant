@@ -21,7 +21,12 @@ This is a **comparison-and-communication skill**. It turns a bounded research co
 
 It is intentionally lighter than `living-discipleship-synthesis-maintainer` and broader than `pattern-connector`.
 
+## Invocation rule
+
+This skill is selected automatically by the manager from natural-language intent. The user does not need to say "use Compare Big Picture" or know the skill exists.
+
 ## Trigger
+
 
 Use when the user asks to compare, review, or synthesize a **defined collection** of research into the biggest learnings/common themes in simple terms.
 
