@@ -9,12 +9,13 @@ Build an increasingly reliable body of knowledge about how mature, mission-shape
 - AI-report verification;
 - church/movement case studies;
 - pattern comparison;
+- pastor-friendly big-picture research synthesis;
 - living synthesis updates.
 
 ## Does not own
 Southbrook-local diagnosis, final ministry decisions, pastoral care, or automatic Drive reorganization.
 
 ## Default routing
-Scout → Ingest → Verify → Case study / Evidence check → Pattern connector → Living synthesis.
+Scout → Ingest → Verify → Case study / Evidence check → Compare Big Picture or Pattern Connector → Living synthesis.
 
 Use the minimum subset needed.
