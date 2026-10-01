@@ -80,7 +80,22 @@ Do not silently expand to the entire Brain when the user named a narrower corpus
 9. Add Southbrook implications only as questions/hypotheses unless the user explicitly asks for strategy.
 10. Stop after the big-picture brief. Do not automatically update the Living Synthesis.
 
+## Cross-source convergence requirement
+
+The brief must make the **cross-document convergence visible**, not merely state a synthesized conclusion.
+
+For every major finding:
+
+1. Name the distinct reports/source families that support it.
+2. Identify the different evidence streams involved (for example: longitudinal sociology of religion, developmental psychology, learning science, implementation science, mentoring/relationship research, transition/transfer research, church case material).
+3. Explain in one sentence **how those different streams converge on the same underlying mechanism or principle**.
+4. Note when apparent agreement is only repetition of the same underlying study/source family.
+5. Cite or link the relevant Brain source artifacts when the output format supports links.
+
+If the user specifies a number of findings (for example, "only 3 things"), return **exactly that number of primary findings** and prioritize the strongest, broadest convergence.
+
 ## Priority rule
+
 
 The goal is **signal over volume**.
 
