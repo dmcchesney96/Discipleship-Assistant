@@ -8,6 +8,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Generate today's next Genspark prompt | `daily-discipleship-research-prompt` |
 | Decide what the next research agenda should be | `discipleship-research-scout-agenda-builder` |
 | Evaluate AI-generated research and verify claims | `ai-research-verification-integration` |
+| Compare a research collection and explain the biggest learnings/common themes simply | `compare-big-picture` |
 | Deep study one church/network/movement | `church-movement-case-study-analyzer` |
 | Analyze local interview transcripts qualitatively | `southbrook-interview-qualitative-evidence-analyzer` |
 | Build/update local discipleship diagnostic | `southbrook-discipleship-diagnostic` |
@@ -29,7 +30,10 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 ## Common sequences
 
 ### New AI report
-`intake → ai verification → (case study/pattern analysis if needed) → living synthesis only if conclusions change`
+`intake → ai verification → compare-big-picture when the user wants a readable cross-report view → living synthesis only if durable conclusions change`
+
+### Topic synthesis / "bring all this research together"
+`context/relevant assessed evidence → compare-big-picture → living synthesis only if a durable project conclusion should change`
 
 ### New interview batch
 `intake → qualitative analyzer → diagnostic → pattern connector → experiment/decision only if warranted`
