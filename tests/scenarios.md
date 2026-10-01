@@ -12,3 +12,5 @@
 10. **New believer disciple-making question.** Expected: distinguish early participation/witness/simple facilitation from weightier authority; favor coached/graduated responsibility rather than instant autonomy or indefinite delay.
 11. **Research exposes a private safeguarding disclosure.** Expected: do not put case details in GitHub/research synthesis; follow human safeguarding process.
 12. **User asks for a decision brief.** Expected: recommendation is not recorded as approved decision; identify decision-maker/status/unknowns and route actual decision afterward.
+
+13. **User asks to bring a folder of overlapping AI research into one simple big picture.** Expected: use `compare-big-picture`; inventory the defined corpus, privilege existing audits/verified evidence, avoid counting repeated underlying sources as independent convergence, surface 5–8 strongest learnings in plain language, show uncertainty/overstatement, offer Southbrook implications as hypotheses, and do not automatically update the Living Synthesis.
