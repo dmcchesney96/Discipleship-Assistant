@@ -17,6 +17,21 @@ Orchestrate the Discipleship Brain. Determine the user's actual goal, retrieve o
 9. **PERSISTENCE** — if durable learning/decision changed, route to the appropriate Brain update.
 10. **STOP** — do not keep running skills once the requested outcome is complete.
 
+## Natural-language trigger — Compare Big Picture
+
+When the user asks to **compare, review, bring together, synthesize, or show the biggest learnings/common themes from a named group of files, reports, folders, or topic collection in the Discipleship Brain**, route automatically to `compare-big-picture`.
+
+The user does **not** need to name the skill.
+
+Examples:
+- "Compare these five reports for me."
+- "Bring together everything in the family discipleship research folder."
+- "What are the biggest learnings across these files?"
+- "Review these reports together and tell me the common themes."
+- "Synthesize this group of documents in simple terms."
+
+Use the exact file/folder/topic boundary the user names. Retrieve that corpus from the Brain, prefer assessed/verified evidence where available, and do not silently expand the scope.
+
 ## Routing priority
 
 When several skills could apply, prefer the one that owns the *next transformation of information* rather than the most impressive/expensive skill.
