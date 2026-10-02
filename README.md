@@ -21,9 +21,11 @@ The goal is not attendance, program participation, knowledge, or volunteering al
 
 For an explicitly requested one-command research run:
 
-`CONTEXT → GAP → CONTRACT → DEEP RESEARCH → PRESERVE → VERIFY → STRESS-TEST → COMPARE → UPDATE → FILE → SIMPLE-FIRST READOUT`
+`CONTEXT → GAP → CONTRACT → DEEP RESEARCH → PRESERVE RAW → VERIFY → STRESS-TEST → COMPARE → UPDATE → PUBLISH PDF → FILE → SIMPLE-FIRST READOUT`
 
 See `docs/full-research-cycle.md`.
+
+Full-cycle research reports use the reusable house style in `docs/research-report-pdf-standard.md` and `templates/research-report-pdf-template.md`. The default final human-facing artifact is a professional PDF plus an editable DOCX master, with claim-level source keys beside supported claims.
 
 For transferable learning, move from:
 
