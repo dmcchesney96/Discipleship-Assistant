@@ -1,6 +1,6 @@
 ---
 name: discipleship-experiment-pilot-designer
-description: Translate a supported discipleship principle or local diagnostic hypothesis into a small, measurable, reversible experiment or 3–6 month pilot with clear people, practice, support, measures, guardrails, and learning decisions.
+description: Translate a supported discipleship principle, promising practice, or local diagnostic hypothesis into a small, measurable, reversible experiment or 3–6 month pilot with clear people, practice, support, measures, guardrails, and learning decisions.
 ---
 
 # Discipleship Experiment & Pilot Designer
