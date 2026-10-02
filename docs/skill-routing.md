@@ -8,6 +8,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
 | Build concrete practice options/Practice Cards from churches, books, movements, or research | `discipleship-practice-intelligence-builder` |
 | Assess candidate practices for Southbrook fit and action warrant | `southbrook-practice-fit-assessor` |
+| Evaluate completed/in-progress Southbrook pilot results and decide what was learned | `discipleship-pilot-learning-evaluator` |
 | Conduct a defined research contract and produce the complete sourced report | `discipleship-deep-research-executor` |
 | Publish a completed research report as the standard professional PDF + editable master | `discipleship-research-report-publisher` |
 | Add a new research/source set to the Brain | `discipleship-research-source-ingestor` |
@@ -65,7 +66,7 @@ If concrete options are already known and the task is a leadership choice:
 `source ingestor → case-study analyzer → evidence checker → synthesis maintainer`
 
 ### Experiment lifecycle
-`diagnostic/synthesis → pilot designer → measurement architect → results → current-state/synthesis/decision update`
+`diagnostic/synthesis/practice-fit → pilot designer → measurement architect → pilot runs → discipleship-pilot-learning-evaluator → practice-fit reassessment → decision/synthesis/current-state update as warranted`
 
 ## Stop rule
 
@@ -85,6 +86,8 @@ Automatically use `full-discipleship-practice-design-cycle` when the user asks f
 Automatically use `discipleship-practice-intelligence-builder` when the user asks what churches/practitioners actually do or wants concrete practice options/Practice Cards without yet asking for local selection.
 
 Automatically use `southbrook-practice-fit-assessor` when candidate practices are already known and the question is which are worth exploring/testing locally and why.
+
+Automatically use `discipleship-pilot-learning-evaluator` when the user asks what a completed/in-progress Southbrook experiment taught us or whether to stop, adapt, repeat, expand, integrate, or scale.
 
 Automatically use `compare-big-picture` whenever the user asks to compare, review, synthesize, bring together, or identify the biggest learnings/common themes across a **specified group of Brain files, reports, a folder, or a bounded topic collection**.
 
