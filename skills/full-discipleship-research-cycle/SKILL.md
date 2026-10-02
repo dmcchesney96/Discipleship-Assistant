@@ -274,6 +274,23 @@ Research may produce:
 
 It does not automatically create an approved ministry decision.
 
+### Practice Intelligence capture gate
+
+If the research uncovers concrete external practices with reusable implementation value, route those practices to `discipleship-practice-intelligence-builder` in **CAPTURE MODE**.
+
+Capture:
+- what the practice actually is;
+- operational details available;
+- primary practice sources;
+- reported outcomes vs independent evidence;
+- mechanism/research backbone;
+- failure modes/transferability;
+- Practice Card status.
+
+Store durable cards/comparisons in the Practice Intelligence Library.
+
+This gate **does not** automatically choose a Southbrook practice or launch local design. If the user's primary question is "what should Southbrook do/how should we implement this?", the manager should route to `full-discipleship-practice-design-cycle`.
+
 ## Stage 11 — Publish the professional research report
 
 After verification, comparison, pattern analysis, and any warranted Brain updates, route to `discipleship-research-report-publisher`.
@@ -346,6 +363,7 @@ Explicitly report:
 - Editable master published: yes/no + location/link when available;
 - Verification artifact saved: yes/no;
 - Research Intelligence changes;
+- Practice Intelligence Cards/comparisons created or updated;
 - Living Synthesis changes;
 - Confidence changes;
 - Contradictions/open questions;
@@ -388,8 +406,9 @@ A successful run should allow the user to give **one request** and receive:
 5. the few findings that genuinely matter;
 6. explicit stress-testing and uncertainty;
 7. durable Brain updates only where warranted;
-8. a polished professional PDF with claim-level source keys and source appendix;
-9. an editable source/master artifact;
-10. a simple-language readout first;
-11. detailed sourced analysis below;
-12. no need to ask for each intermediate handoff.
+8. concrete reusable practices captured in Practice Intelligence when warranted;
+9. a polished professional PDF with claim-level source keys and source appendix;
+10. an editable source/master artifact;
+11. a simple-language readout first;
+12. detailed sourced analysis below;
+13. no need to ask for each intermediate handoff.
