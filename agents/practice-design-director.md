@@ -10,6 +10,7 @@ The goal is not to copy external programs or demand impossible levels of empiric
 
 - practice-intelligence agenda;
 - concrete practice scans;
+- corpus-scale Practice Intelligence backfills;
 - Practice Card creation/comparison;
 - practice mechanism/evidence backbone;
 - Southbrook practice-fit assessment;
