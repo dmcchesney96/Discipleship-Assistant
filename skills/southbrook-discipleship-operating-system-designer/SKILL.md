@@ -7,7 +7,7 @@ description: Design an integrated Southbrook discipleship operating system that 
 
 ## Purpose
 
-Turn strong research principles + verified current reality + pilot learning into an integrated church-wide system that ordinary believers can understand, practice, and reproduce.
+Turn strong research principles + verified current reality + **practice intelligence + local fit assessment + pilot learning** into an integrated church-wide system that ordinary believers can understand, practice, and reproduce.
 
 ## Design rule
 
@@ -48,15 +48,16 @@ How the system will know whether people are abiding, transforming, belonging, li
 ## Workflow
 
 1. Start from Southbrook Diagnostic, not a favorite external model.
-2. Retrieve strongest applicable synthesis principles and pilot learning.
+2. Retrieve strongest applicable synthesis principles, relevant Practice Cards/comparisons, practice-fit assessments, and pilot learning.
 3. Preserve what is already healthy; identify what to strengthen, simplify, stop, add, and connect.
 4. Map current system and desired system side-by-side.
-5. For each proposed component state Practice → Mechanism → Principle → Local Application.
-6. Test ordinary-person reproducibility and staff-dependency risk.
-7. Define interfaces between ministries and leadership layers.
-8. Resolve/flag language conflicts rather than silently deciding them.
-9. Sequence implementation: immediate, pilot, one-year, multi-year culture.
-10. Pair every major system change with measurement and feedback.
+5. For each proposed component state Practice → Mechanism → Research Backbone → Principle → Local Fit → Local Application.
+6. Do not require a named program to have direct causal evidence if its mechanism is credible and Southbrook has useful local pilot evidence; do not integrate/scale solely on external popularity.
+7. Test ordinary-person reproducibility and staff-dependency risk.
+8. Define interfaces between ministries and leadership layers.
+9. Resolve/flag language conflicts rather than silently deciding them.
+10. Sequence implementation: immediate, pilot, one-year, multi-year culture.
+11. Pair every major system change with measurement and feedback.
 
 ## Output
 
