@@ -189,6 +189,7 @@ Discipleship-specific:
 - `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
 - `full-discipleship-practice-design-cycle` — end-to-end local problem → practice intelligence → fit → test/pilot orchestration
 - `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
+- `discipleship-practice-intelligence-backfill` — mines large historical corpora into deduplicated Practice Intelligence
 - `southbrook-practice-fit-assessor` — assesses contextual fit and decision-calibrated action warrant
 - `discipleship-pilot-learning-evaluator` — turns Southbrook pilot results into local learning and updated action warrant
 - `discipleship-practice-implementation-kit-builder` — makes a selected practice/pilot ready for ordinary leaders to carry
