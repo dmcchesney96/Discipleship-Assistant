@@ -20,20 +20,23 @@ Reusable across ministry assistants:
 1. `full-discipleship-research-cycle` — explicit multi-skill orchestrator for one-command research
 2. `discipleship-deep-research-executor` — conducts a defined deep research contract
 3. `discipleship-research-report-publisher` — creates the reusable professional PDF + editable master
-4. `discipleship-research-source-ingestor`
-5. `daily-discipleship-research-prompt`
-6. `discipleship-research-scout-agenda-builder`
-7. `ai-research-verification-integration`
-8. `compare-big-picture`
-9. `church-movement-case-study-analyzer`
-10. `southbrook-interview-qualitative-evidence-analyzer`
-11. `southbrook-discipleship-diagnostic`
-12. `living-discipleship-synthesis-maintainer`
-13. `discipleship-measurement-architect`
-14. `discipleship-experiment-pilot-designer`
-15. `southbrook-discipleship-operating-system-designer`
-16. `discipleship-research-librarian-drive-curator`
-17. `strategy-decision-brief-builder`
+4. `full-discipleship-practice-design-cycle` — orchestrates local problem → practice → fit → test/pilot
+5. `discipleship-practice-intelligence-builder` — creates concrete external Practice Cards and comparisons
+6. `southbrook-practice-fit-assessor` — evaluates local fit and action warrant
+7. `discipleship-research-source-ingestor`
+8. `daily-discipleship-research-prompt`
+9. `discipleship-research-scout-agenda-builder`
+10. `ai-research-verification-integration`
+11. `compare-big-picture`
+12. `church-movement-case-study-analyzer`
+13. `southbrook-interview-qualitative-evidence-analyzer`
+14. `southbrook-discipleship-diagnostic`
+15. `living-discipleship-synthesis-maintainer`
+16. `discipleship-measurement-architect`
+17. `discipleship-experiment-pilot-designer`
+18. `southbrook-discipleship-operating-system-designer`
+19. `discipleship-research-librarian-drive-curator`
+20. `strategy-decision-brief-builder`
 
 ## Skill rule
 
