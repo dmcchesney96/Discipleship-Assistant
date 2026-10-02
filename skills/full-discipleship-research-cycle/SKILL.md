@@ -1,6 +1,6 @@
 ---
 name: full-discipleship-research-cycle
-description: Orchestrate one end-to-end discipleship research cycle from existing-Brain retrieval and gap selection through prompt/contract creation, deep research, Drive preservation, independent claim verification, cross-Brain comparison, durable synthesis updates, filing, and a simple-first final readout. Use only when the user asks for the whole research process to run without stopping between stages.
+description: Orchestrate one end-to-end discipleship research cycle from existing-Brain retrieval and gap selection through prompt/contract creation, deep research, Drive preservation, independent claim verification, cross-Brain comparison, durable synthesis updates, professional PDF publication, filing, and a simple-first final readout. Use only when the user asks for the whole research process to run without stopping between stages.
 metadata:
   short-description: Run the entire discipleship research workflow from question to durable learning
 ---
