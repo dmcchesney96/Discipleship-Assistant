@@ -19,6 +19,7 @@ Prevent attractive claims from outrunning their evidence.
 6. Identify independence/conflicts of interest, self-report limitations, missing data, and contrary evidence.
 7. Assess transferability to Southbrook separately from truth of the original claim.
 8. Assign project confidence only when enough evidence exists.
+9. Keep **claim confidence** separate from **action warrant**. Limited direct evidence for an exact practice does not automatically mean a low-risk reversible test is unwise; that judgment belongs to `southbrook-practice-fit-assessor` and depends on theology, mechanism, precedent, local fit, risk, and reversibility.
 
 ## Evidence strength
 
@@ -35,3 +36,4 @@ Use descriptive strength (Strong / Moderate / Limited) for source support where 
 - Project-confidence implication
 - Verification needs
 - Transferability note
+- Action-warrant note: what this evidence assessment can/cannot say about trying the practice locally; route to `southbrook-practice-fit-assessor` when needed

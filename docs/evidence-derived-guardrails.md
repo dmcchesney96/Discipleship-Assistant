@@ -33,3 +33,24 @@ Large movement numbers can inspire research but should not become project facts 
 ## 8. Programs do not transfer; principles may
 
 Always move: `PRACTICE → MECHANISM → PRINCIPLE → LOCAL APPLICATION`.
+
+
+## 9. Practice evidence and effect evidence are different
+
+A primary church/manual/practitioner source can strongly establish **what a ministry actually does** while providing weak evidence that the practice **causes** the claimed discipleship outcome. Preserve both facts rather than treating the source as either wholly strong or wholly weak.
+
+Likewise, absence of direct causal evidence for the exact named church practice does not automatically make the practice unworthy of a small reversible test. Mechanism evidence, credible precedent, theology, local fit, risk, and reversibility all matter.
+
+## 10. Research confidence and action warrant are separate
+
+Confidence answers: **How strongly does the evidence support this claim?**
+
+Action warrant answers: **What size of action is responsible given the evidence, theology, local fit, cost, risk, and reversibility?**
+
+The evidence threshold should rise as a proposed action becomes larger, costlier, harder to reverse, more pastorally consequential, or more church-wide.
+
+## 11. Local learning is required before broad scale when uncertainty is material
+
+A promising external practice should normally move through a bounded Southbrook test/pilot before broad integration when the mechanism, local fit, implementation burden, or side effects remain uncertain.
+
+Local learning should include implementation feasibility, ordinary-person reproducibility, discipleship outcomes, stories, and unintended effects — not merely participation.

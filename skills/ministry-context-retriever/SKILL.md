@@ -24,6 +24,15 @@ Current explicit user instruction → approved current decisions/policies → cu
 
 For external research questions, use the strongest research sources appropriate to the claim rather than treating Drive summaries as automatically verified.
 
+For **practice/design questions**, retrieve the smallest sufficient combination of:
+- current Southbrook diagnostic/current state;
+- relevant Living Synthesis mechanisms/principles;
+- relevant Practice Cards/comparisons;
+- active/previous local pilots and learning;
+- approved constraints/decisions.
+
+Do not flood a practice decision with unrelated research merely because it exists.
+
 ## Output
 
 - Question/scope

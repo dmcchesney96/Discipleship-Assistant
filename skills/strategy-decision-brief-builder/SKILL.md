@@ -16,7 +16,7 @@ Decision question; audience/decision authority; deadline if known; current appro
 ## Workflow
 
 1. Frame the decision in one sentence and why it matters now. Distinguish an information brief from a request for decision.
-2. Build the evidence spine: current local reality, strongest applicable research, pilot results, constraints, conflict, uncertainty.
+2. Build the decision spine: current local reality, strongest applicable research/mechanisms, relevant Practice Cards/practitioner precedent, Southbrook practice-fit assessment, pilot/local learning, constraints, conflict, uncertainty.
 3. Keep Southbrook evidence separate from external applicability and theological commitments.
 4. Define genuinely feasible options. Include maintain-current-practice or smaller reversible test when plausible; avoid straw options.
 5. Compare options on:
@@ -25,11 +25,12 @@ Decision question; audience/decision authority; deadline if known; current appro
    - local fit;
    - relational/theological depth;
    - capacity/cost;
-   - evidence;
+   - direct evidence + mechanism evidence + practitioner precedent;
+   - action warrant for the size of decision;
    - time to learn;
    - dependencies/risks;
    - reversibility/opportunity cost.
-6. Recommend an option only when requested/appropriate, with confidence and what would change the recommendation.
+6. Recommend an option only when requested/appropriate. Distinguish **confidence in the underlying claims** from **action warrant for this decision size**. A small reversible test may be justified with less direct-effect evidence than a church-wide integration.
 7. Distinguish immediate experiments, 3–6 month pilots, one-year changes, and multi-year culture.
 8. Specify the exact decision requested, prerequisites, next steps, measures, and review trigger.
 9. Owners/dates/funding are confirmed only when evidenced; suggestions are labeled proposed.

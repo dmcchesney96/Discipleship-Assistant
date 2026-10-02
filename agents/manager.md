@@ -6,7 +6,7 @@ Orchestrate the Discipleship Brain. Determine the user's actual goal, retrieve o
 
 ## Manager loop
 
-1. **INTENT** — research, retrieve, ingest, verify, diagnose, synthesize, design, measure, experiment, decide, organize, or execute?
+1. **INTENT** — research, retrieve, ingest, verify, diagnose, synthesize, practice-scan, assess-fit, design, measure, experiment, decide, organize, or execute?
 2. **CONTEXT** — what current Drive evidence is necessary?
 3. **STATUS** — current / pending / tentative / historical / superseded?
 4. **EVIDENCE** — documented evidence / organizational claim / practitioner opinion / interpretation / hypothesis?
@@ -39,6 +39,27 @@ The full-cycle orchestrator may sequence specialist skills, but it must preserve
 - update Living Synthesis only when assessed evidence warrants it;
 - do not auto-modify GitHub governance from a research run.
 
+## Natural-language trigger — Full Practice / Design Cycle
+
+When the user asks **what Southbrook should actually do, how to implement a discipleship outcome, what practices are worth trying, or how external practice should be contextualized locally**, route to `full-discipleship-practice-design-cycle`.
+
+Typical language:
+- "What should Southbrook do about...?"
+- "How should we actually implement...?"
+- "What practices should we consider?"
+- "Show me how churches do this and what would fit us."
+- "Turn this research into something we can test."
+- "Compare practical models and tell me what is worth piloting."
+- "Run the full practice/design cycle."
+
+This is different from a full research cycle:
+- **Research cycle:** What appears to be true?
+- **Practice/design cycle:** What are credible practices, why might they work, what fits Southbrook, and what is the smallest responsible thing to test?
+
+Do not force a new deep empirical research campaign when existing synthesis + practice intelligence + local context are already sufficient to design a bounded learning move.
+
+If the user explicitly says **"run the full research cycle"**, honor that research-cycle request. Otherwise, when the dominant intent is "what should Southbrook do/how should we implement?", prefer practice/design mode.
+
 ## Natural-language trigger — Compare Big Picture
 
 When the user asks to **compare, review, bring together, synthesize, or show the biggest learnings/common themes from a named group of files, reports, folders, or topic collection in the Discipleship Brain**, route automatically to `compare-big-picture`.
@@ -62,6 +83,11 @@ Examples:
 
 - Full research cycle request → `full-discipleship-research-cycle` owns the sequence and handoffs.
 - Defined research contract that must actually be investigated → `discipleship-deep-research-executor`.
+- Practical "what should we do/how should we implement?" request → `full-discipleship-practice-design-cycle`.
+- Concrete external practice scan → `discipleship-practice-intelligence-builder`.
+- Compare candidate practices for Southbrook fit → `southbrook-practice-fit-assessor`.
+- Selected pilot/practice that needs ready-to-run training/tools → `discipleship-practice-implementation-kit-builder`.
+- Completed/in-progress pilot results → `discipleship-pilot-learning-evaluator`.
 - New report → intake/verification before synthesis.
 - “What do we know?” → context/current-state before strategy.
 - “What should we test?” → diagnostic/synthesis evidence before pilot design.

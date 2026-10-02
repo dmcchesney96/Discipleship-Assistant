@@ -16,6 +16,21 @@ Map: `ENTRY → FORMATION → COMMUNITY → MISSION → LEADERSHIP → MULTIPLIC
 ### Actual practice
 Who disciples whom? What happens weekly/monthly? One-to-one, triads, groups, missional communities, coaching, Bible/prayer, evangelism, apprenticeships, family systems?
 
+Recover enough operational detail to understand the practice:
+- who initiates;
+- exact steps;
+- cadence/duration;
+- group/relationship size;
+- tools/materials;
+- training before launch;
+- coaching/check-ins;
+- maturity/authority threshold;
+- theological/pastoral oversight;
+- what happens when someone struggles/fails;
+- staff/volunteer load;
+- how the practice changes as people mature;
+- how reproduction is expected/recognized.
+
 ### Ordinary-person expectation
 What is an ordinary participant expected and equipped to do? When do they begin practicing? What requires higher maturity/authority?
 
@@ -45,7 +60,9 @@ What has failed, stalled, been criticized, or depended on unique context? What t
 
 For every notable practice:
 
-`PRACTICE → OBSERVED OUTCOME → PLAUSIBLE MECHANISM → TRANSFERABLE PRINCIPLE → LOCAL APPLICATION OPTIONS`
+`PRACTICE → OBSERVED/REPORTED OUTCOME → PLAUSIBLE MECHANISM → RESEARCH BACKBONE → TRANSFERABLE PRINCIPLE → TRANSFERABILITY LIMIT → LOCAL APPLICATION OPTIONS`
+
+For "what they do" claims, primary organizational material can be strong practice evidence even when outcome evidence is weak. Keep those evidentiary questions separate.
 
 Do not conclude “Church X does this, so Southbrook should.”
 
@@ -60,5 +77,8 @@ Do not conclude “Church X does this, so Southbrook should.”
 - Failure modes/risks
 - Transferable principles
 - Context-specific practices
+- **Practice Card handoff(s)** using `templates/discipleship-practice-card-template.md` for practices worth preserving
 - Southbrook questions/hypotheses (not prescriptions)
 - Research gaps / sources
+
+Route reusable cards to `discipleship-practice-intelligence-builder` / Practice Intelligence Library. Do not bury operational practice learning only inside the case report.

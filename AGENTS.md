@@ -33,6 +33,9 @@ Rules:
 Never collapse these categories:
 
 - `DOCUMENTED_EVIDENCE` — supported by an identifiable source or local record.
+- `DOCUMENTED_PRACTICE` — an identifiable source establishes what a church/movement/practitioner actually does; this does **not** by itself establish effectiveness.
+- `REPORTED_OUTCOME` — a church/movement/practitioner reports an outcome connected to its practice; treat as organizational/practitioner claim unless independently supported.
+- `MECHANISM_SUPPORT` — evidence supports a plausible underlying mechanism without directly proving the exact named ministry practice.
 - `ORGANIZATIONAL_CLAIM` — what a church, network, ministry, movement, or vendor says about itself.
 - `PRACTITIONER_OPINION` — experience-based judgment that may be valuable without proving causation.
 - `INTERPRETATION` — reasoned synthesis from evidence.
@@ -91,6 +94,26 @@ For substantial work:
 - Look for G0→G1→G2→G3→G4+ where possible.
 - Do not infer causal effectiveness from size, attendance growth, fame, or innovation.
 
+## Research ↔ practice balance
+
+The Brain has two complementary operating modes:
+
+1. **RESEARCH / TRUTH MODE** — determine what appears to be true, how strongly the evidence supports it, and what mechanisms/principles deserve durable synthesis.
+2. **PRACTICE / DESIGN MODE** — study what credible churches, movements, practitioners, books, and historical examples actually do; understand the mechanism; assess Southbrook fit; and choose a responsible learning action.
+
+Do not require direct causal evidence for every named ministry practice before considering a small reversible test. Empirical research often supports the **mechanism** more strongly than the exact church program.
+
+Also do not infer that a practice works merely because several churches use it.
+
+Use:
+`PRACTICE → OBSERVED/REPORTED OUTCOME → MECHANISM → RESEARCH BACKBONE → TRANSFERABILITY → LOCAL FIT → TEST → LOCAL LEARNING`
+
+Keep **research confidence** separate from **action warrant**. The evidence threshold should rise with risk, scale, cost, irreversibility, and pastoral/theological consequence.
+
+A low-risk reversible test may be warranted by theological coherence, plausible mechanism, credible precedent, local need, and clear learning criteria even when exact-program causal evidence is limited. Broad integration/scale should require materially stronger local learning and leadership judgment.
+
+See `docs/research-practice-action-framework.md`.
+
 ## Formation and multiplication test
 
 For every strategy ask:
@@ -136,11 +159,17 @@ Do not call a recommendation a decision or a pilot a proven system.
 
 The manager/orchestrator chooses the skill. Skills do not automatically chain themselves unless the user or manager requested a multi-skill workflow.
 
-### Explicit full-cycle exception
+### Explicit orchestrator exceptions
 
-When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`. That orchestrator is intentionally allowed to sequence bounded specialist skills. It must still honor each skill's evidence, persistence, authorization, and stop rules.
+When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`.
 
-A full-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
+When the user clearly asks for the **entire practical path from Southbrook problem through practice options, fit, and a test/pilot**, route to `full-discipleship-practice-design-cycle`.
+
+These orchestrators are intentionally allowed to sequence bounded specialist skills. They must still honor each skill's evidence, persistence, authorization, and stop rules.
+
+A full research-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
+
+A full practice/design cycle should not skip local diagnosis, confuse practice precedent with effect evidence, or scale a practice without action warrant appropriate to the decision size.
 
 Shared intelligence core:
 
@@ -158,6 +187,11 @@ Discipleship-specific:
 - `full-discipleship-research-cycle` — explicit end-to-end multi-skill research orchestrator
 - `discipleship-deep-research-executor` — conducts a defined deep research contract
 - `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
+- `full-discipleship-practice-design-cycle` — end-to-end local problem → practice intelligence → fit → test/pilot orchestration
+- `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
+- `southbrook-practice-fit-assessor` — assesses contextual fit and decision-calibrated action warrant
+- `discipleship-pilot-learning-evaluator` — turns Southbrook pilot results into local learning and updated action warrant
+- `discipleship-practice-implementation-kit-builder` — makes a selected practice/pilot ready for ordinary leaders to carry
 - `discipleship-research-source-ingestor`
 - `daily-discipleship-research-prompt`
 - `discipleship-research-scout-agenda-builder`

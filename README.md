@@ -31,6 +31,14 @@ For transferable learning, move from:
 
 `PRACTICE → MECHANISM → PRINCIPLE → LOCAL APPLICATION`
 
+For practical ministry design, use the fuller learning loop:
+
+`LOCAL PROBLEM → PRACTICE LANDSCAPE → MECHANISM/EVIDENCE BACKBONE → SOUTH BROOK FIT → ACTION WARRANT → TEST/PILOT → IMPLEMENT SUPPORT → LOCAL LEARNING`
+
+The system separates **research confidence** from **action warrant**. A low-risk reversible test can be responsible before an exact ministry practice is causally proven; broad scale/integration requires stronger local learning.
+
+See `docs/research-practice-action-framework.md`.
+
 ## Repository map
 
 - `AGENTS.md` — master constitution and routing rules

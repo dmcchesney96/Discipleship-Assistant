@@ -32,7 +32,8 @@ AI reports are **inputs, not authorities**. Preserve useful leads while preventi
    - SOURCE NOT FOUND.
 8. Preserve useful verified primary sources in External Evidence; do not make the AI report the canonical evidence when the original is available.
 9. Identify genuinely new insights versus repeated material.
-10. Route supported synthesis changes to `living-discipleship-synthesis-maintainer`; research gaps to the scout; specific organizations to case-study analysis.
+10. Extract useful **practice leads** separately from effect claims. For a claimed church practice, verify the practice/process from primary materials when practical; do not require the same evidence to prove "they do this" as to prove "this caused the outcome."
+11. Route supported synthesis changes to `living-discipleship-synthesis-maintainer`; practice leads/details to `discipleship-practice-intelligence-builder`; research gaps to the scout; specific organizations to case-study analysis.
 
 ## Multiplication checks
 
@@ -56,6 +57,7 @@ For any large multiplication claim, identify:
 - New credible sources recovered
 - Agreement/contradiction with Brain
 - Integrate / do not integrate / investigate further
+- Practice leads worth preserving as Practice Intelligence
 - Specific handoffs
 
 Never silently “clean up” the AI report and present it as verified research.

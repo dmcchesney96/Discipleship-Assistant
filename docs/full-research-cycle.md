@@ -41,9 +41,10 @@ The missing pieces were:
 8. `compare-big-picture`
 9. `pattern-connector` only when a cross-source pattern materially changes
 10. `living-discipleship-synthesis-maintainer` only when durable conclusions change
-11. `discipleship-research-report-publisher` to create the professional PDF + editable master from the verification-aware final content
-12. `discipleship-research-librarian-drive-curator` to verify links/placement
-13. user-facing readout: simple language first, full evidence below
+11. `discipleship-practice-intelligence-builder` in CAPTURE MODE when the research contains reusable concrete practices
+12. `discipleship-research-report-publisher` to create the professional PDF + editable master from the verification-aware final content
+13. `discipleship-research-librarian-drive-curator` to verify links/placement
+14. user-facing readout: simple language first, full evidence below
 
 ## Persistence layers
 
@@ -81,6 +82,14 @@ Store or update:
 ### Living Synthesis
 
 Update only when assessed evidence materially confirms, strengthens, narrows, complicates, contradicts, or adds a durable conclusion.
+
+### Practice Intelligence
+
+When research surfaces reusable concrete ministry practices, preserve them separately from Living Synthesis in:
+
+`04 — RESEARCH INTELLIGENCE → 06 Practice Intelligence Library`
+
+Use Practice Cards/comparisons to retain **how people actually implement** the principle without pretending the practice itself is causally proven or approved for Southbrook.
 
 ### GitHub operating system
 

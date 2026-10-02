@@ -12,3 +12,7 @@ Canonical Brain root: `1TwlvfbE7l-04uExGoal36ejwlJc7KcoU`.
 8. Temporary agent output goes to Agent Workspace until intentionally promoted.
 9. External evidence and Southbrook-local evidence remain separate.
 10. Derived artifacts should link to evidence rather than copy it unnecessarily.
+
+
+11. Concrete external ministry practices belong in `04 — RESEARCH INTELLIGENCE → 06 Practice Intelligence Library`, not automatically in the Living Synthesis.
+12. Practice Cards describe what is done/how it works and must retain the distinction between documented practice, reported outcome, mechanism support, independent effect evidence, and Southbrook hypothesis.

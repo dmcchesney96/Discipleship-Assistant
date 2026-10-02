@@ -16,7 +16,9 @@ Build an increasingly reliable body of knowledge about how mature, mission-shape
 - living synthesis updates.
 
 ## Does not own
-Southbrook-local diagnosis, final ministry decisions, pastoral care, or automatic Drive reorganization.
+Southbrook-local diagnosis, final ministry decisions, pastoral care, automatic Drive reorganization, or final local practice-fit judgment.
+
+When a question shifts from **what appears true** to **what should Southbrook try**, hand off to the Practice & Design Director rather than demanding ever-higher empirical certainty.
 
 ## Default routing
 
@@ -31,3 +33,5 @@ When the manager routes an end-to-end request:
 Context Retriever → Scout/Redundancy Gate → Prompt Builder (SELF_EXECUTE) → Deep Research Executor → Preserve Raw Report → AI Verification → Evidence Check → Compare Big Picture → Pattern Connector only if warranted → Living Synthesis only if warranted → Research Report Publisher → Librarian verification → Simple-first readout.
 
 The complete generated report remains AI-generated research input until the independent verification stage. A full cycle may update Drive knowledge layers when authorized, but it must not autonomously rewrite GitHub governance.
+
+When research identifies concrete ministry practices with reusable implementation value, capture them through `discipleship-practice-intelligence-builder` rather than burying them only inside a synthesis/PDF. Practice Cards remain distinct from high-confidence principles.

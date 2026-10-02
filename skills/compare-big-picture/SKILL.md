@@ -79,6 +79,7 @@ Do not silently expand to the entire Brain when the user named a narrower corpus
 8. Translate the findings into plain language.
 9. Add Southbrook implications only as questions/hypotheses unless the user explicitly asks for strategy.
 10. Stop after the big-picture brief. Do not automatically update the Living Synthesis.
+11. If the corpus contains concrete ministry practices that are operationally useful, identify them as **Practice Intelligence candidates** and suggest `discipleship-practice-intelligence-builder`; do not force practice details into the Living Synthesis.
 
 ## Cross-source convergence requirement
 
@@ -164,8 +165,12 @@ Do not:
 - recommend a major church-wide strategy unless separately asked;
 - update the Living Synthesis automatically.
 
-If the brief reveals a conclusion that may deserve durable project status, end with one suggested handoff:
+If the brief reveals a conclusion that may deserve durable project status, suggest:
 
 `compare-big-picture → living-discipleship-synthesis-maintainer`
 
-only if warranted and only as a proposed next step.
+If the main value is **concrete practice** rather than a new durable principle, suggest:
+
+`compare-big-picture → discipleship-practice-intelligence-builder`
+
+Use only the handoff(s) actually warranted.

@@ -4,6 +4,28 @@
 
 `SOURCE → INTAKE → VERIFY → ANALYZE → SYNTHESIZE → DIAGNOSE → DESIGN → MEASURE → EXPERIMENT → DECIDE → LEARN`
 
+## Two complementary operating modes
+
+### Research / truth mode
+
+Primary question: **What appears to be true, how confident are we, and why?**
+
+Use the full research cycle below.
+
+### Practice / design mode
+
+Primary question: **What are credible people/churches actually doing, why might those practices work, what fits Southbrook, and what should we test?**
+
+Use:
+
+`LOCAL PROBLEM → CONTEXT/DIAGNOSTIC → PRACTICE LANDSCAPE → OPERATIONAL DETAIL → MECHANISM/EVIDENCE BACKBONE → SOUTHBROOK FIT → ACTION WARRANT → TEST/PILOT → MEASUREMENT → DECISION/LEARNING`
+
+This is routed through `full-discipleship-practice-design-cycle`.
+
+Practice/design mode does **not** lower truth standards. It separates truth-confidence from action-warrant and calibrates the evidence threshold to the size/risk/reversibility of the proposed action.
+
+See `docs/research-practice-action-framework.md`.
+
 ## One-command full research cycle
 
 When the user explicitly asks for the whole research process without intermediate prompts, use:
@@ -43,7 +65,11 @@ Update the living body of knowledge: convergences, disagreements, confidence lev
 Compare intention, delivered practice, and lived experience. Identify strengths, bottlenecks, perception gaps, and local constraints.
 
 ### 6. Design
-Move from external practice to mechanism to principle to local application. Build toward one church-wide operating system, not isolated programs.
+Move from external practice to mechanism to research backbone to local fit to application. Do not require exact-program causal proof before a low-risk reversible test, and do not scale a practice merely because it is popular.
+
+Use `PRACTICE → OBSERVED/REPORTED OUTCOME → MECHANISM → RESEARCH BACKBONE → TRANSFERABILITY → LOCAL FIT → TEST → LOCAL LEARNING`.
+
+Build toward one church-wide operating system, not isolated programs.
 
 ### 7. Measure
 Layer evidence: access/pathway, participation/contribution, formation, disciple-making/multiplication, stories/pastoral discernment. Never turn engagement into a spiritual grade.

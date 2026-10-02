@@ -2,7 +2,7 @@
 
 Canonical root: `https://drive.google.com/drive/folders/1TwlvfbE7l-04uExGoal36ejwlJc7KcoU`
 
-This architecture was verified from the live Drive on 2026-09-27.
+This architecture was verified from the live Drive and extended with the Practice Intelligence Library on 2026-10-02.
 
 ## Top level
 
@@ -19,6 +19,11 @@ This architecture was verified from the live Drive on 2026-09-27.
 - `10 — STRATEGY & DECISIONS`
 - `11 — AGENT WORKSPACE`
 - `99 — ARCHIVE`
+
+## 00 — BRAIN OS — START HERE
+
+- Discipleship Project Purpose Document
+- Research ↔ Practice ↔ Local Learning Framework
 
 ## 01 — INBOX — INTAKE
 
@@ -54,6 +59,9 @@ This architecture was verified from the live Drive on 2026-09-27.
 - Contradictions & Disagreements
 - Strongest Converging Principles
 - Research Gaps & Open Questions
+- 06 Practice Intelligence Library
+  - 01 Practice Cards
+  - 02 Practice Comparisons & Landscapes
 
 ## 05 — LIVING DISCIPLESHIP SYNTHESIS
 

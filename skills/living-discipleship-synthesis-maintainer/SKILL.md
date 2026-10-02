@@ -7,7 +7,9 @@ description: Maintain the project's evolving synthesis of what appears to produc
 
 ## Purpose
 
-Make the project increasingly smarter as research accumulates. This skill updates project-level knowledge, not raw evidence.
+Make the project increasingly smarter as research accumulates. This skill updates project-level mechanisms/principles, not raw evidence **and not the catalog of concrete ministry practices**.
+
+Concrete external practices belong in the Practice Intelligence Library unless the evidence supports a more general mechanism/principle.
 
 ## Preconditions
 
@@ -53,3 +55,5 @@ Maturity/definition; formation; abiding/practices; community/accountability; obe
 - Version/change note
 
 A synthesis update is not a ministry decision.
+
+When new evidence mainly adds a useful **how-to practice** rather than changing a project-level conclusion, route it to `discipleship-practice-intelligence-builder` instead of forcing it into Living Synthesis.

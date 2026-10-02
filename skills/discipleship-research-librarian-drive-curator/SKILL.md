@@ -15,6 +15,16 @@ Keep evidence findable and connected to intelligence without rebuilding the user
 
 Match real folder IDs/titles from Drive before mutation.
 
+## Practice Intelligence destination
+
+Within `04 — RESEARCH INTELLIGENCE`, the verified Practice Intelligence structure is:
+
+- `06 Practice Intelligence Library`
+  - `01 Practice Cards`
+  - `02 Practice Comparisons & Landscapes`
+
+Practice Cards are derived intelligence about **what is done/how it works**, not verified causal-effect evidence and not approved Southbrook strategy.
+
 ## Workflow
 
 1. Ground Brain root/targets using live Drive metadata, not guessed titles/IDs.

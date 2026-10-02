@@ -73,3 +73,5 @@ Diagnose before designing.
 Destination: `06 — SOUTHBROOK DISCIPLESHIP DIAGNOSTIC`.
 
 A diagnostic finding is not yet an approved strategy.
+
+When the local problem is clear and the user asks **what to do about it**, route to `full-discipleship-practice-design-cycle` so the system studies concrete practices, mechanism/evidence backbone, local fit, and the smallest responsible test before jumping to a church-wide design.

@@ -33,9 +33,17 @@ Before writing the prompt, inspect the current conversation/Brain sufficiently t
 
 Do not issue another generic “best discipleship systems” prompt when adjacent deeper questions are available.
 
-## Research modes
+## Research intent + modes
 
-Choose ONE best mode: `DEEPEN`, `EXPAND`, `COMPARE`, `TEST`, `CASE STUDY`, `IMPLEMENT`, `DIAGNOSE`, `MEASURE`, or `SYNTHESIZE`.
+First choose the research intent:
+
+- **EVIDENCE / PRINCIPLE** — primarily asks what appears true and why.
+- **PRACTICE INTELLIGENCE** — primarily asks what credible practitioners actually do and how it is implemented.
+- **HYBRID** — needs both concrete practice detail and an evidence/mechanism backbone.
+
+Then choose ONE best mode: `DEEPEN`, `EXPAND`, `COMPARE`, `TEST`, `CASE STUDY`, `PRACTICE SCAN`, `IMPLEMENT`, `DIAGNOSE`, `MEASURE`, or `SYNTHESIZE`.
+
+Do not force an implementation/practice question into an academic-literature-only prompt. For PRACTICE INTELLIGENCE or HYBRID work, require primary church/network materials, practitioner manuals/books/interviews, and concrete operational detail alongside appropriate research on the mechanism.
 
 Internally consider 3–5 candidate gaps; select the one with the strongest combination of importance, novelty, practical usefulness, and connection to the ongoing research program. Do not show the candidate list unless asked.
 
@@ -45,7 +53,9 @@ The prompt should require deep research using appropriate sources such as peer-r
 
 Tell Genspark to distinguish documented evidence, organizational claims, practitioner experience, theological argument, interpretation, anecdote, and marketing.
 
-For case studies, ask what they do, pathway, ordinary-person role, leader development, multiplication mechanism, outcomes/evidence, weaknesses, transferability, and contextual dependence.
+For case studies and practice scans, ask what they do **operationally**: who initiates, exact steps, cadence, group/relationship size, tools, training, coaching, maturity threshold, staff load, oversight, what happens when people struggle, reproduction expectation, outcomes/evidence, weaknesses, transferability, and contextual dependence.
+
+Use empirical/academic evidence as a backbone and corrective for mechanisms. Do not require direct causal evidence for the exact named ministry practice before it can be considered a promising practice or small-test candidate.
 
 ## Required report artifact
 
@@ -66,6 +76,18 @@ Tell Genspark to create a polished, skimmable report with:
 13. Sources with direct links/citations
 
 Require strong headings, concise paragraphs, bullets, useful tables, major-claim citations, evidence/opinion separation, limitations, and no filler.
+
+For `PRACTICE INTELLIGENCE` or `HYBRID` intent, additionally require:
+
+- Practice Landscape
+- 5–15 concrete operational practices when the evidence base supports breadth
+- who/steps/cadence/tools/training/coaching/oversight for each serious practice
+- reported outcomes separated from independent evidence
+- mechanism/research backbone
+- failure modes and implementation burdens
+- transferability conditions
+- Practice Card-ready summaries
+- which practices are worth deeper case-study analysis
 
 ## Output contract
 
@@ -89,6 +111,7 @@ Do not give multiple prompts unless asked.
 Return:
 
 ### RESEARCH CONTRACT
+- Research intent: EVIDENCE / PRINCIPLE, PRACTICE INTELLIGENCE, or HYBRID
 - Research question
 - Why now
 - Existing Brain starting point
