@@ -8,7 +8,7 @@
 
 When the user explicitly asks for the whole research process without intermediate prompts, use:
 
-`CONTEXT → GAP/REDUNDANCY CHECK → RESEARCH CONTRACT → DEEP RESEARCH → PRESERVE REPORT → VERIFY → STRESS-TEST → COMPARE/PATTERN → KNOWLEDGE IMPACT → DURABLE UPDATES → FILE → SIMPLE-FIRST READOUT`
+`CONTEXT → GAP/REDUNDANCY CHECK → RESEARCH CONTRACT → DEEP RESEARCH → PRESERVE RAW REPORT → VERIFY → STRESS-TEST → COMPARE/PATTERN → KNOWLEDGE IMPACT → DURABLE UPDATES → PUBLISH PDF → FILE → SIMPLE-FIRST READOUT`
 
 This is routed through `full-discipleship-research-cycle`.
 
@@ -20,6 +20,9 @@ Key rules:
 - preserve the report as `AI-GENERATED RESEARCH INPUT` before promoting conclusions;
 - a separate verification pass must reopen original/stronger sources and seek limiting/counterevidence;
 - only assessed evidence may change the Living Synthesis;
+- after verification and Brain-impact decisions, `discipleship-research-report-publisher` creates the polished human-reading artifact using `docs/research-report-pdf-standard.md`;
+- default final publication is a professional PDF plus an editable DOCX master, with claim-level source keys next to supported claims and a full source ledger;
+- the publisher must render/inspect the PDF before finalizing when rendering capability exists;
 - research can produce a GitHub guardrail candidate, but a research cycle does not self-modify governance.
 
 See `docs/full-research-cycle.md`.
