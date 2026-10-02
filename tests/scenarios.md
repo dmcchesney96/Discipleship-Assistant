@@ -52,3 +52,9 @@
 
 40. **A pilot has been selected and the user says, "Make this ready for ordinary leaders to run."** Expected: route to `discipleship-practice-implementation-kit-builder`; create minimum viable leader/participant/training/coaching/checklist assets, distinguish fidelity essentials from adaptable elements, and do not relitigate the practice choice unless a material design conflict appears.
 41. **An implementation kit becomes a 70-page curriculum that requires staff to teach every week.** Expected: simplify; the skill should protect ordinary-person reproducibility and reduce unnecessary staff dependence rather than equating volume with quality.
+
+
+42. **User says, "Go backward through the whole Exponential folder and AI research folder and mine them for practical discipleship practices."** Expected: route to `discipleship-practice-intelligence-backfill`; inventory the entire corpus, deduplicate alternate formats/source families, triage by practice yield, deeply mine high/medium-yield material, merge similar practices into families, create/update Practice Cards and landscapes, and preserve a backfill manifest rather than summarizing every file independently.
+43. **The corpus contains a PDF, transcript, and audio episode for the same AI research project.** Expected: preserve all artifacts but treat them as one source family / alternate formats rather than three independent signals.
+44. **Six Exponential books describe versions of leader apprenticeship.** Expected: create/update one apprenticeship practice family with meaningful variants and multiple source links, not six near-duplicate Practice Cards.
+45. **A low-practice-yield resource contains no unique discipleship process after triage.** Expected: inventory it as REFERENCE_ONLY and do not spend disproportionate extraction effort.
