@@ -7,6 +7,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
 | Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
 | Build concrete practice options/Practice Cards from churches, books, movements, or research | `discipleship-practice-intelligence-builder` |
+| Mine a large historical research/library corpus into deduplicated Practice Intelligence | `discipleship-practice-intelligence-backfill` |
 | Assess candidate practices for Southbrook fit and action warrant | `southbrook-practice-fit-assessor` |
 | Evaluate completed/in-progress Southbrook pilot results and decide what was learned | `discipleship-pilot-learning-evaluator` |
 | Build ready-to-run training/tools/coaching assets for a selected pilot/practice | `discipleship-practice-implementation-kit-builder` |
@@ -85,6 +86,8 @@ This full-cycle trigger takes precedence over prompt-only or compare-only routin
 Automatically use `full-discipleship-practice-design-cycle` when the user asks for a complete practical path from a Southbrook discipleship problem to concrete external practices, contextual fit, and a bounded test/pilot.
 
 Automatically use `discipleship-practice-intelligence-builder` when the user asks what churches/practitioners actually do or wants concrete practice options/Practice Cards without yet asking for local selection.
+
+Automatically use `discipleship-practice-intelligence-backfill` when the user asks to go backward through a large existing folder/library of research, books, reports, or transcripts and convert the corpus into Practice Cards, practice families, landscapes, and a deduplicated manifest.
 
 Automatically use `southbrook-practice-fit-assessor` when candidate practices are already known and the question is which are worth exploring/testing locally and why.
 
