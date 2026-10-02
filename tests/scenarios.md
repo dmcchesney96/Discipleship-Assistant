@@ -48,3 +48,7 @@
 37. **A Southbrook pilot finishes and leaders ask whether to scale it.** Expected: route to `discipleship-pilot-learning-evaluator`; compare actual results with the original hypothesis/decision criteria, analyze implementation and discipleship outcomes separately, update the local action warrant, and only then route to a decision brief if broader action is warranted.
 38. **A pilot's participants report enthusiasm but fidelity was low and no reproduction occurred.** Expected: do not call the practice effective; classify the result as implementation/insufficient-evidence learning and recommend adapt/repeat/stop as warranted.
 39. **A pilot was implemented with high fidelity but the expected discipleship outcome did not appear.** Expected: distinguish this from implementation failure and treat it as evidence that the proposed mechanism/practice may need adaptation or rejection locally.
+
+
+40. **A pilot has been selected and the user says, "Make this ready for ordinary leaders to run."** Expected: route to `discipleship-practice-implementation-kit-builder`; create minimum viable leader/participant/training/coaching/checklist assets, distinguish fidelity essentials from adaptable elements, and do not relitigate the practice choice unless a material design conflict appears.
+41. **An implementation kit becomes a 70-page curriculum that requires staff to teach every week.** Expected: simplify; the skill should protect ordinary-person reproducibility and reduce unnecessary staff dependence rather than equating volume with quality.
