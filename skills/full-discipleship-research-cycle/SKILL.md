@@ -15,7 +15,7 @@ This is an **explicitly multi-skill orchestrator**. It does not replace speciali
 
 Core flow:
 
-`CONTEXT → GAP/REDUNDANCY CHECK → RESEARCH CONTRACT → DEEP RESEARCH → PRESERVE REPORT → VERIFY → STRESS-TEST → COMPARE/PATTERN → KNOWLEDGE IMPACT → DURABLE UPDATES → LIBRARY CHECK → SIMPLE-FIRST READOUT → STOP`
+`CONTEXT → GAP/REDUNDANCY CHECK → RESEARCH CONTRACT → DEEP RESEARCH → PRESERVE RAW REPORT → VERIFY → STRESS-TEST → COMPARE/PATTERN → KNOWLEDGE IMPACT → DURABLE UPDATES → PUBLISH PROFESSIONAL PDF → LIBRARY CHECK → SIMPLE-FIRST READOUT → STOP`
 
 ## Natural-language trigger
 
@@ -144,13 +144,14 @@ Require source traceability for major claims and a claim register suitable for s
 
 Before interpreting the report as project truth, preserve it with provenance.
 
-When a Drive document-creation capability is available:
+When a Drive document/file-creation capability is available:
 
-1. create a durable report artifact from the **complete** executor output rather than only a short summary;
-2. prefer an editable Google Doc for the research report unless the user requested another format;
-3. preserve the research question, as-of date, claim register, source ledger, and links/citations;
-4. classify it as `AI-GENERATED RESEARCH INPUT`;
-5. use `discipleship-research-librarian-drive-curator` to resolve the live destination, deduplicate, index, and verify the resulting artifact.
+1. preserve the **complete raw executor output** before verification rather than only a short summary;
+2. preserve the research question, as-of date, claim register, source ledger, and links/citations;
+3. classify it as `AI-GENERATED RESEARCH INPUT`;
+4. use `discipleship-research-librarian-drive-curator` to resolve the live destination, deduplicate, index, and verify the raw artifact.
+
+Do not treat this raw artifact as the final human-facing report. The polished PDF is created after verification in Stage 11A.
 
 Default classification:
 
@@ -273,6 +274,42 @@ Research may produce:
 
 It does not automatically create an approved ministry decision.
 
+## Stage 11A — Publish the professional research report
+
+After verification, comparison, pattern analysis, and any warranted Brain updates, route to `discipleship-research-report-publisher`.
+
+The publisher creates the final **verification-aware publication package**:
+
+1. a polished professional PDF using `docs/research-report-pdf-standard.md`;
+2. an editable DOCX master using the same content hierarchy;
+3. claim-level source keys immediately beside supported claims;
+4. a complete keyed source ledger with direct links/DOIs when available;
+5. final confidence/evidence labels;
+6. visible limitations/counterevidence;
+7. a "What changed in the Discipleship Brain" section.
+
+Default filename:
+
+`YYYY-MM-DD - [Short Research Title] - Discipleship Research.pdf`
+
+Editable master:
+
+`YYYY-MM-DD - [Short Research Title] - Discipleship Research.docx`
+
+### Required publication QA
+
+When authoring/rendering tools support it:
+
+- author text-heavy research in DOCX or an equivalent structured format;
+- export/convert to PDF;
+- render every PDF page to images;
+- inspect every page for clipping, overlap, broken glyphs, broken tables, stranded headings, citation collisions, and page-number issues;
+- fix and re-render until clean.
+
+The polished report must incorporate verification corrections. Do not publish the pre-verification executor wording unchanged when the verification pass weakened or corrected a claim.
+
+If professional PDF generation is unavailable in the current environment, report `PDF PUBLICATION BLOCKED` and preserve the structured final content rather than falsely claiming a PDF exists.
+
 ## Stage 11 — Library verification
 
 Route to `discipleship-research-librarian-drive-curator` to ensure:
@@ -304,7 +341,9 @@ Usually 3–6. For each:
 # What changed in the Discipleship Brain
 
 Explicitly report:
-- Research report saved: yes/no + location/link when available;
+- Raw research input saved: yes/no + location/link when available;
+- Professional PDF published: yes/no + location/link when available;
+- Editable master published: yes/no + location/link when available;
 - Verification artifact saved: yes/no;
 - Research Intelligence changes;
 - Living Synthesis changes;
@@ -343,12 +382,14 @@ Do not keep running skills to maximize activity.
 A successful run should allow the user to give **one request** and receive:
 
 1. a non-redundant research question/contract;
-2. a complete sourced report;
-3. a preserved Drive artifact;
+2. a complete sourced raw research report;
+3. a preserved raw Drive artifact;
 4. a second-pass evidence audit;
 5. the few findings that genuinely matter;
 6. explicit stress-testing and uncertainty;
 7. durable Brain updates only where warranted;
-8. a simple-language readout first;
-9. detailed sourced analysis below;
-10. no need to ask for each intermediate handoff.
+8. a polished professional PDF with claim-level source keys and source appendix;
+9. an editable source/master artifact;
+10. a simple-language readout first;
+11. detailed sourced analysis below;
+12. no need to ask for each intermediate handoff.
