@@ -48,7 +48,9 @@ The missing pieces were:
 
 ### External Evidence
 
-The generated research report is preserved as `AI-GENERATED RESEARCH INPUT`. It remains an evidence artifact, not project truth merely because the assistant created it.
+The generated research report is preserved as `AI-GENERATED RESEARCH INPUT`. When Drive document creation is available, preserve the **complete report** as an editable durable artifact, then use the librarian workflow to resolve its live destination, index it, and verify the link. It remains an evidence artifact, not project truth merely because the assistant created it.
+
+If persistence is blocked, the run must say so explicitly rather than claim that the report was saved.
 
 ### Research Intelligence
 
