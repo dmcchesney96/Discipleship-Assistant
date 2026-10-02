@@ -157,6 +157,7 @@ Discipleship-specific:
 
 - `full-discipleship-research-cycle` — explicit end-to-end multi-skill research orchestrator
 - `discipleship-deep-research-executor` — conducts a defined deep research contract
+- `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
 - `discipleship-research-source-ingestor`
 - `daily-discipleship-research-prompt`
 - `discipleship-research-scout-agenda-builder`

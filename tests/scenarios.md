@@ -23,3 +23,11 @@
 18. **A research cycle suggests a new rule for how future evidence should be judged.** Expected: create/report a `GUARDRAIL CANDIDATE`; do not autonomously rewrite AGENTS.md/governance/evidence-derived-guardrails without explicit GitHub change authorization.
 19. **User asks only for today's research prompt.** Expected: `daily-discipleship-research-prompt` stays in PROMPT_ONLY mode and does not launch deep research.
 20. **User gives an already-defined research contract and says "do the research."** Expected: route directly to `discipleship-deep-research-executor`; do not rerun agenda selection unless necessary to resolve a material scope conflict.
+
+
+21. **A full research cycle completes successfully.** Expected: preserve the raw executor report first, then after independent verification and Brain-impact decisions route to `discipleship-research-report-publisher`; produce a professional PDF plus editable master when tools permit, with the PDF treated as the primary human-reading artifact.
+22. **The raw research report contains a strong claim that verification downgrades.** Expected: the final published PDF uses the corrected/downgraded wording and confidence, not the original executor wording.
+23. **A published research PDF has a bibliography but no claim-level citations.** Expected: fail publication QA; supported consequential claims must carry nearby source keys such as `[S4]`, and every key must map to the source ledger.
+24. **A research PDF exports successfully but contains clipped text, broken table rows, or missing glyphs.** Expected: not finished; render every page to images, fix layout, re-export, and re-inspect before claiming publication success.
+25. **A user reads only the first three pages of a research report.** Expected: those pages still communicate the research question, evidence-weighted answer, 3–6 biggest findings, confidence, evidence boundary, why it matters, and the main Brain impact.
+26. **PDF generation capability is unavailable during a full cycle.** Expected: preserve the structured final content and report `PDF PUBLICATION BLOCKED`; do not invent a file/link or silently substitute a plain-text artifact as the requested PDF.

@@ -6,6 +6,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 |---|---|
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
 | Conduct a defined research contract and produce the complete sourced report | `discipleship-deep-research-executor` |
+| Publish a completed research report as the standard professional PDF + editable master | `discipleship-research-report-publisher` |
 | Add a new research/source set to the Brain | `discipleship-research-source-ingestor` |
 | Generate today's next Genspark prompt | `daily-discipleship-research-prompt` |
 | Decide what the next research agenda should be | `discipleship-research-scout-agenda-builder` |
@@ -32,7 +33,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 ## Common sequences
 
 ### Full research cycle
-`context retriever → scout/redundancy gate → prompt builder (SELF_EXECUTE) → deep research executor → librarian preserve → AI verification → evidence checker → compare-big-picture → pattern connector only if warranted → living synthesis only if warranted → librarian verify → simple-first readout`
+`context retriever → scout/redundancy gate → prompt builder (SELF_EXECUTE) → deep research executor → preserve raw report → AI verification → evidence checker → compare-big-picture → pattern connector only if warranted → living synthesis only if warranted → research-report publisher → librarian verify → simple-first readout`
 
 This sequence is used only when the user explicitly requests the whole cycle.
 
