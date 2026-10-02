@@ -4,6 +4,8 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 
 | User intent | Primary skill |
 |---|---|
+| Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
+| Conduct a defined research contract and produce the complete sourced report | `discipleship-deep-research-executor` |
 | Add a new research/source set to the Brain | `discipleship-research-source-ingestor` |
 | Generate today's next Genspark prompt | `daily-discipleship-research-prompt` |
 | Decide what the next research agenda should be | `discipleship-research-scout-agenda-builder` |
@@ -28,6 +30,11 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Connect patterns across evidence | `pattern-connector` |
 
 ## Common sequences
+
+### Full research cycle
+`context retriever → scout/redundancy gate → prompt builder (SELF_EXECUTE) → deep research executor → librarian preserve → AI verification → evidence checker → compare-big-picture → pattern connector only if warranted → living synthesis only if warranted → librarian verify → simple-first readout`
+
+This sequence is used only when the user explicitly requests the whole cycle.
 
 ### New AI report
 `intake → ai verification → compare-big-picture when the user wants a readable cross-report view → living synthesis only if durable conclusions change`
@@ -55,6 +62,10 @@ If the requested result is already supported, stop. A handoff is useful only whe
 ## Natural-language auto-trigger
 
 The user never needs to say the skill name.
+
+Automatically use `full-discipleship-research-cycle` when the user clearly asks for the research process to continue from existing-Brain retrieval/gap selection through prompt/contract creation, actual research, report preservation, verification, evaluation, and warranted Brain updates **without stopping for separate prompts between stages**.
+
+This full-cycle trigger takes precedence over prompt-only or compare-only routing.
 
 Automatically use `compare-big-picture` whenever the user asks to compare, review, synthesize, bring together, or identify the biggest learnings/common themes across a **specified group of Brain files, reports, a folder, or a bounded topic collection**.
 

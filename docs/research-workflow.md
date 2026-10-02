@@ -4,6 +4,26 @@
 
 `SOURCE → INTAKE → VERIFY → ANALYZE → SYNTHESIZE → DIAGNOSE → DESIGN → MEASURE → EXPERIMENT → DECIDE → LEARN`
 
+## One-command full research cycle
+
+When the user explicitly asks for the whole research process without intermediate prompts, use:
+
+`CONTEXT → GAP/REDUNDANCY CHECK → RESEARCH CONTRACT → DEEP RESEARCH → PRESERVE REPORT → VERIFY → STRESS-TEST → COMPARE/PATTERN → KNOWLEDGE IMPACT → DURABLE UPDATES → FILE → SIMPLE-FIRST READOUT`
+
+This is routed through `full-discipleship-research-cycle`.
+
+Key rules:
+
+- check what the Brain already knows before spending external research effort;
+- use `daily-discipleship-research-prompt` in `SELF_EXECUTE` mode to define the research contract;
+- `discipleship-deep-research-executor` conducts the investigation and creates the complete report;
+- preserve the report as `AI-GENERATED RESEARCH INPUT` before promoting conclusions;
+- a separate verification pass must reopen original/stronger sources and seek limiting/counterevidence;
+- only assessed evidence may change the Living Synthesis;
+- research can produce a GitHub guardrail candidate, but a research cycle does not self-modify governance.
+
+See `docs/full-research-cycle.md`.
+
 ### 1. Source / Intake
 Preserve provenance, classify, deduplicate, route. Do not prematurely conclude what the source proves.
 

@@ -17,23 +17,27 @@ Reusable across ministry assistants:
 
 ## Discipleship-specific skills
 
-1. `discipleship-research-source-ingestor`
-2. `daily-discipleship-research-prompt`
-3. `discipleship-research-scout-agenda-builder`
-4. `ai-research-verification-integration`
-5. `compare-big-picture`
-6. `church-movement-case-study-analyzer`
-7. `southbrook-interview-qualitative-evidence-analyzer`
-8. `southbrook-discipleship-diagnostic`
-9. `living-discipleship-synthesis-maintainer`
-10. `discipleship-measurement-architect`
-11. `discipleship-experiment-pilot-designer`
-12. `southbrook-discipleship-operating-system-designer`
-13. `discipleship-research-librarian-drive-curator`
-14. `strategy-decision-brief-builder`
+1. `full-discipleship-research-cycle` — explicit multi-skill orchestrator for one-command research
+2. `discipleship-deep-research-executor` — conducts a defined deep research contract
+3. `discipleship-research-source-ingestor`
+4. `daily-discipleship-research-prompt`
+5. `discipleship-research-scout-agenda-builder`
+6. `ai-research-verification-integration`
+7. `compare-big-picture`
+8. `church-movement-case-study-analyzer`
+9. `southbrook-interview-qualitative-evidence-analyzer`
+10. `southbrook-discipleship-diagnostic`
+11. `living-discipleship-synthesis-maintainer`
+12. `discipleship-measurement-architect`
+13. `discipleship-experiment-pilot-designer`
+14. `southbrook-discipleship-operating-system-designer`
+15. `discipleship-research-librarian-drive-curator`
+16. `strategy-decision-brief-builder`
 
 ## Skill rule
 
 A skill owns one bounded transformation. The master assistant chooses which skill(s) to use and which tools/evidence sources are appropriate. Skills should not independently trigger expensive chains of other skills unless a calling workflow explicitly requests that handoff.
+
+`full-discipleship-research-cycle` is the intentional exception: it is an orchestrator whose bounded job is to manage the complete handoff sequence while leaving research, verification, comparison, synthesis, and library work to the specialist skills.
 
 Each skill inherits `AGENTS.md` and governance rules.

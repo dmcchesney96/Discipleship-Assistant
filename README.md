@@ -19,6 +19,12 @@ The goal is not attendance, program participation, knowledge, or volunteering al
 
 `INTAKE → RETRIEVE → VERIFY → ANALYZE → SYNTHESIZE → DIAGNOSE → DESIGN → MEASURE → EXPERIMENT → DECIDE → LEARN`
 
+For an explicitly requested one-command research run:
+
+`CONTEXT → GAP → CONTRACT → DEEP RESEARCH → PRESERVE → VERIFY → STRESS-TEST → COMPARE → UPDATE → FILE → SIMPLE-FIRST READOUT`
+
+See `docs/full-research-cycle.md`.
+
 For transferable learning, move from:
 
 `PRACTICE → MECHANISM → PRINCIPLE → LOCAL APPLICATION`
