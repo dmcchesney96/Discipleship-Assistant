@@ -30,6 +30,7 @@ Required:
 
 - exact research question;
 - research contract from the prompt-builder or equivalent;
+- research intent when known: EVIDENCE / PRINCIPLE, PRACTICE INTELLIGENCE, or HYBRID;
 - relevant existing-Brain context: current conclusion, confidence, known source families, unresolved gap;
 - user/source boundaries;
 - as-of date.
@@ -57,7 +58,17 @@ Actively test:
 
 Treat the North Star as the ministry relevance filter, not as permission to force all evidence toward multiplication claims.
 
-## Source hierarchy
+## Source strategy
+
+Use the strongest source **for the claim being answered**, not one universal hierarchy.
+
+For truth/effect claims, prioritize stronger independent empirical/theological evidence.
+
+For "what do they actually do?" claims, primary church/network manuals, training documents, practitioner books/interviews, and direct process descriptions may be the best source even though they cannot prove effectiveness.
+
+For practice questions, research on learning, mentoring, behavior, implementation, leadership, organizations, and formation can support or challenge the **mechanism** without directly proving the exact ministry program.
+
+### Default source hierarchy
 
 Prefer, as appropriate:
 
@@ -73,6 +84,31 @@ Prefer, as appropriate:
 For a named church or movement, pair primary organizational material with independent analysis where possible.
 
 Do not rely on SEO summaries when an original source is available.
+
+## Practice-intelligence mode
+
+When the contract is PRACTICE INTELLIGENCE or HYBRID:
+
+1. Recover concrete operational practices, not only principles.
+2. Prefer primary materials for exact process details.
+3. Separate "they do this" from "this causes the outcome."
+4. Document:
+   - people/roles;
+   - exact steps;
+   - cadence/duration;
+   - tools/content;
+   - training;
+   - coaching/feedback;
+   - maturity/authority threshold;
+   - staff dependence;
+   - oversight/correction;
+   - reproduction expectation;
+   - implementation burdens;
+   - adaptations/failure modes.
+5. Look across multiple independent contexts for repeated practice patterns.
+6. Use empirical/academic research to examine mechanism plausibility and limits.
+7. Do not downgrade practical usefulness merely because no RCT/longitudinal study tests the exact named church practice.
+8. Do not upgrade reported ministry outcomes into independent evidence.
 
 ## Evidence distinctions
 
@@ -197,7 +233,7 @@ When relevant, distinguish:
 
 Organize by strongest evidence streams rather than by source order.
 
-## 7. Case studies / movement evidence
+## 7. Case studies / movement & practice evidence
 
 When applicable, include:
 - definition of disciple/maturity/multiplication;
@@ -207,15 +243,21 @@ When applicable, include:
 - multiplication mechanism;
 - documented outcomes vs organizational claims;
 - failure points;
-- transferability.
+- transferability;
+- concrete implementation detail sufficient for a Practice Card.
 
 ## 8. Failure modes and counterevidence
 
 What breaks, what does not work reliably, and what attractive claims are weaker than they appear?
 
-## 9. Practice → Mechanism → Principle
+## 9. Practice → Mechanism → Research Backbone → Principle
 
-Translate major practices into underlying transferable principles without jumping directly to programs.
+Translate major practices without jumping directly to programs.
+
+For implementation-relevant practices, use:
+`PRACTICE → OBSERVED/REPORTED OUTCOME → MECHANISM → RESEARCH BACKBONE → TRANSFERABILITY → POSSIBLE LOCAL TEST`
+
+Do not require exact-program causal evidence for a low-risk reversible test; do require stronger local learning before broad integration/scale.
 
 ## 10. Implications for an established local church
 
@@ -284,7 +326,14 @@ Return:
    - date;
    - recommended Drive evidence destination;
    - related existing synthesis domains.
-6. **Publisher Handoff Metadata**:
+6. **Practice Intelligence Handoff**:
+   - concrete practices worth preserving as Practice Cards;
+   - repeated practice patterns;
+   - primary operational sources;
+   - mechanism evidence;
+   - reported outcomes vs independent outcomes;
+   - recommended CAPTURE MODE handoff to `discipleship-practice-intelligence-builder` when warranted.
+7. **Publisher Handoff Metadata**:
    - short display title;
    - one-sentence evidence-weighted answer draft;
    - 3–6 candidate executive takeaways;
