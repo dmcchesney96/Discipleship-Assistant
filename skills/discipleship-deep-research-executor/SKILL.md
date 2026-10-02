@@ -246,6 +246,26 @@ When applicable, include:
 - transferability;
 - concrete implementation detail sufficient for a Practice Card.
 
+## 7A. Practice Landscape (for PRACTICE INTELLIGENCE / HYBRID)
+
+When relevant, compare the concrete practices discovered across cases.
+
+For each serious practice include:
+- what actually happens;
+- people/roles;
+- steps/cadence;
+- tools/content;
+- training/coaching;
+- staff/volunteer load;
+- reported outcomes;
+- independent effect evidence, if any;
+- mechanism evidence;
+- failure modes;
+- transferability;
+- Practice Card status.
+
+Do not force this section into purely evidence/principle research.
+
 ## 8. Failure modes and counterevidence
 
 What breaks, what does not work reliably, and what attractive claims are weaker than they appear?
