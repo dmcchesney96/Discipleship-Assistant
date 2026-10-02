@@ -86,6 +86,7 @@ Examples:
 - Practical "what should we do/how should we implement?" request → `full-discipleship-practice-design-cycle`.
 - Concrete external practice scan → `discipleship-practice-intelligence-builder`.
 - Compare candidate practices for Southbrook fit → `southbrook-practice-fit-assessor`.
+- Completed/in-progress pilot results → `discipleship-pilot-learning-evaluator`.
 - New report → intake/verification before synthesis.
 - “What do we know?” → context/current-state before strategy.
 - “What should we test?” → diagnostic/synthesis evidence before pilot design.
