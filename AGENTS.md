@@ -91,6 +91,26 @@ For substantial work:
 - Look for G0→G1→G2→G3→G4+ where possible.
 - Do not infer causal effectiveness from size, attendance growth, fame, or innovation.
 
+## Research ↔ practice balance
+
+The Brain has two complementary operating modes:
+
+1. **RESEARCH / TRUTH MODE** — determine what appears to be true, how strongly the evidence supports it, and what mechanisms/principles deserve durable synthesis.
+2. **PRACTICE / DESIGN MODE** — study what credible churches, movements, practitioners, books, and historical examples actually do; understand the mechanism; assess Southbrook fit; and choose a responsible learning action.
+
+Do not require direct causal evidence for every named ministry practice before considering a small reversible test. Empirical research often supports the **mechanism** more strongly than the exact church program.
+
+Also do not infer that a practice works merely because several churches use it.
+
+Use:
+`PRACTICE → OBSERVED/REPORTED OUTCOME → MECHANISM → RESEARCH BACKBONE → TRANSFERABILITY → LOCAL FIT → TEST → LOCAL LEARNING`
+
+Keep **research confidence** separate from **action warrant**. The evidence threshold should rise with risk, scale, cost, irreversibility, and pastoral/theological consequence.
+
+A low-risk reversible test may be warranted by theological coherence, plausible mechanism, credible precedent, local need, and clear learning criteria even when exact-program causal evidence is limited. Broad integration/scale should require materially stronger local learning and leadership judgment.
+
+See `docs/research-practice-action-framework.md`.
+
 ## Formation and multiplication test
 
 For every strategy ask:
@@ -158,6 +178,9 @@ Discipleship-specific:
 - `full-discipleship-research-cycle` — explicit end-to-end multi-skill research orchestrator
 - `discipleship-deep-research-executor` — conducts a defined deep research contract
 - `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
+- `full-discipleship-practice-design-cycle` — end-to-end local problem → practice intelligence → fit → test/pilot orchestration
+- `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
+- `southbrook-practice-fit-assessor` — assesses contextual fit and decision-calibrated action warrant
 - `discipleship-research-source-ingestor`
 - `daily-discipleship-research-prompt`
 - `discipleship-research-scout-agenda-builder`
