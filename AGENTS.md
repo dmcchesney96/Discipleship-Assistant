@@ -33,6 +33,9 @@ Rules:
 Never collapse these categories:
 
 - `DOCUMENTED_EVIDENCE` — supported by an identifiable source or local record.
+- `DOCUMENTED_PRACTICE` — an identifiable source establishes what a church/movement/practitioner actually does; this does **not** by itself establish effectiveness.
+- `REPORTED_OUTCOME` — a church/movement/practitioner reports an outcome connected to its practice; treat as organizational/practitioner claim unless independently supported.
+- `MECHANISM_SUPPORT` — evidence supports a plausible underlying mechanism without directly proving the exact named ministry practice.
 - `ORGANIZATIONAL_CLAIM` — what a church, network, ministry, movement, or vendor says about itself.
 - `PRACTITIONER_OPINION` — experience-based judgment that may be valuable without proving causation.
 - `INTERPRETATION` — reasoned synthesis from evidence.
@@ -156,11 +159,17 @@ Do not call a recommendation a decision or a pilot a proven system.
 
 The manager/orchestrator chooses the skill. Skills do not automatically chain themselves unless the user or manager requested a multi-skill workflow.
 
-### Explicit full-cycle exception
+### Explicit orchestrator exceptions
 
-When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`. That orchestrator is intentionally allowed to sequence bounded specialist skills. It must still honor each skill's evidence, persistence, authorization, and stop rules.
+When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`.
 
-A full-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
+When the user clearly asks for the **entire practical path from Southbrook problem through practice options, fit, and a test/pilot**, route to `full-discipleship-practice-design-cycle`.
+
+These orchestrators are intentionally allowed to sequence bounded specialist skills. They must still honor each skill's evidence, persistence, authorization, and stop rules.
+
+A full research-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
+
+A full practice/design cycle should not skip local diagnosis, confuse practice precedent with effect evidence, or scale a practice without action warrant appropriate to the decision size.
 
 Shared intelligence core:
 
