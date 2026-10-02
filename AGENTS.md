@@ -136,6 +136,12 @@ Do not call a recommendation a decision or a pilot a proven system.
 
 The manager/orchestrator chooses the skill. Skills do not automatically chain themselves unless the user or manager requested a multi-skill workflow.
 
+### Explicit full-cycle exception
+
+When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`. That orchestrator is intentionally allowed to sequence bounded specialist skills. It must still honor each skill's evidence, persistence, authorization, and stop rules.
+
+A full-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
+
 Shared intelligence core:
 
 - `ministry-second-brain-intake`
@@ -149,6 +155,8 @@ Shared intelligence core:
 
 Discipleship-specific:
 
+- `full-discipleship-research-cycle` — explicit end-to-end multi-skill research orchestrator
+- `discipleship-deep-research-executor` — conducts a defined deep research contract
 - `discipleship-research-source-ingestor`
 - `daily-discipleship-research-prompt`
 - `discipleship-research-scout-agenda-builder`
