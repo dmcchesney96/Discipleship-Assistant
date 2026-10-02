@@ -6,7 +6,7 @@ Allow one natural-language request to carry a research question all the way from
 
 ## One-command loop
 
-`CONTEXT → GAP → CONTRACT → RESEARCH → PRESERVE → VERIFY → STRESS-TEST → COMPARE → UPDATE → FILE → READOUT`
+`CONTEXT → GAP → CONTRACT → RESEARCH → PRESERVE RAW → VERIFY → STRESS-TEST → COMPARE → UPDATE → PUBLISH PDF → FILE → READOUT`
 
 The manager routes to `full-discipleship-research-cycle` when the user clearly asks for the whole process.
 
@@ -41,16 +41,31 @@ The missing pieces were:
 8. `compare-big-picture`
 9. `pattern-connector` only when a cross-source pattern materially changes
 10. `living-discipleship-synthesis-maintainer` only when durable conclusions change
-11. `discipleship-research-librarian-drive-curator` to verify links/placement
-12. user-facing readout: simple language first, full evidence below
+11. `discipleship-research-report-publisher` to create the professional PDF + editable master from the verification-aware final content
+12. `discipleship-research-librarian-drive-curator` to verify links/placement
+13. user-facing readout: simple language first, full evidence below
 
 ## Persistence layers
 
 ### External Evidence
 
-The generated research report is preserved as `AI-GENERATED RESEARCH INPUT`. When Drive document creation is available, preserve the **complete report** as an editable durable artifact, then use the librarian workflow to resolve its live destination, index it, and verify the link. It remains an evidence artifact, not project truth merely because the assistant created it.
+The executor's complete raw research report is preserved as `AI-GENERATED RESEARCH INPUT` before verification.
 
-If persistence is blocked, the run must say so explicitly rather than claim that the report was saved.
+After verification and Brain-impact decisions, publish a **final verification-aware research package** using `discipleship-research-report-publisher`:
+
+- professional PDF for human reading;
+- editable DOCX master for revision/accessibility;
+- claim-level source keys beside supported claims;
+- complete keyed source ledger;
+- final confidence/evidence labels;
+- corrected/downgraded claims from verification;
+- "What changed in the Brain" section.
+
+Use `docs/research-report-pdf-standard.md` and `templates/research-report-pdf-template.md` as the reusable house style.
+
+When Drive document/file creation is available, store the PDF and editable master together in the resolved research destination and link them to the raw executor report and verification artifact.
+
+If persistence or PDF generation is blocked, the run must say so explicitly rather than claim that the report was saved/published.
 
 ### Research Intelligence
 
@@ -106,6 +121,16 @@ The verification pass must reopen original/stronger sources and test:
 - contrary evidence;
 - multiplication unit/generations;
 - transferability.
+
+## Professional research-report artifact
+
+The full-cycle default is a polished research PDF, not a raw chat transcript or plain text export.
+
+The PDF should be useful in the first 2–3 pages even if the reader never finishes the document. It should include a strong cover, plain-language Start Here section, numbered findings, confidence labels, evidence-boundary callouts, readable tables, claim-level source keys, Brain-impact summary, and full source appendix.
+
+The publisher also preserves an editable DOCX master. The PDF is the primary reading artifact; the editable master is the revision/accessibility source.
+
+Publication occurs **after independent verification** so the polished report reflects corrected claims and final evidence language.
 
 ## User-facing output
 
