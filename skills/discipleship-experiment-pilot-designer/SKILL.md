@@ -14,10 +14,12 @@ Learn before scaling. Test mechanisms in real leaders' hands without prematurely
 A pilot should respond to:
 
 - a local diagnostic gap/opportunity;
-- a supported external principle/mechanism;
+- a supported external principle/mechanism **or a promising practice with a plausible mechanism**;
 - a meaningful strategic uncertainty.
 
 Do not pilot merely because a program is popular.
+
+Do not require the exact named practice to be causally proven before a bounded pilot. The evidence threshold should match the pilot's risk, cost, scale, reversibility, and pastoral consequence. Use `docs/research-practice-action-framework.md`.
 
 ## Required design
 
@@ -37,7 +39,7 @@ Enough time to observe behavior and adaptation. State why.
 Training, coaching, tools, check-ins, theological/pastoral oversight.
 
 ### MEASUREMENT
-Baseline when feasible, leading indicators, formation/mission/disciple-making outcomes, stories, leader observations, reproduction evidence.
+Baseline when feasible, **implementation learning** (reach/adoption/fidelity/burden/reproducibility), leading indicators, formation/mission/disciple-making outcomes, stories, leader observations, reproduction evidence.
 
 ### LEARNING DECISION
 At the end choose among: stop, adapt, repeat, expand cautiously, scale, or research more. Define criteria before results when possible.
@@ -53,7 +55,8 @@ Track not only whether G0 helps G1, but whether G1 begins helping G2 and whether
 **Pilot Charter**
 
 - Problem/opportunity
-- Evidence/principle
+- Practice status/action warrant
+- Evidence/principle/mechanism backbone
 - Hypothesis/mechanism
 - People
 - Practice
