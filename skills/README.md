@@ -23,20 +23,21 @@ Reusable across ministry assistants:
 4. `full-discipleship-practice-design-cycle` — orchestrates local problem → practice → fit → test/pilot
 5. `discipleship-practice-intelligence-builder` — creates concrete external Practice Cards and comparisons
 6. `southbrook-practice-fit-assessor` — evaluates local fit and action warrant
-7. `discipleship-research-source-ingestor`
-8. `daily-discipleship-research-prompt`
-9. `discipleship-research-scout-agenda-builder`
-10. `ai-research-verification-integration`
-11. `compare-big-picture`
-12. `church-movement-case-study-analyzer`
-13. `southbrook-interview-qualitative-evidence-analyzer`
-14. `southbrook-discipleship-diagnostic`
-15. `living-discipleship-synthesis-maintainer`
-16. `discipleship-measurement-architect`
-17. `discipleship-experiment-pilot-designer`
-18. `southbrook-discipleship-operating-system-designer`
-19. `discipleship-research-librarian-drive-curator`
-20. `strategy-decision-brief-builder`
+7. `discipleship-pilot-learning-evaluator` — evaluates local pilot results and updates action warrant
+8. `discipleship-research-source-ingestor`
+9. `daily-discipleship-research-prompt`
+10. `discipleship-research-scout-agenda-builder`
+11. `ai-research-verification-integration`
+12. `compare-big-picture`
+13. `church-movement-case-study-analyzer`
+14. `southbrook-interview-qualitative-evidence-analyzer`
+15. `southbrook-discipleship-diagnostic`
+16. `living-discipleship-synthesis-maintainer`
+17. `discipleship-measurement-architect`
+18. `discipleship-experiment-pilot-designer`
+19. `southbrook-discipleship-operating-system-designer`
+20. `discipleship-research-librarian-drive-curator`
+21. `strategy-decision-brief-builder`
 
 ## Skill rule
 
