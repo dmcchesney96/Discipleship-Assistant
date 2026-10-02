@@ -55,7 +55,11 @@ Use this when the user asks **what Southbrook should do/how to implement**, not 
 `intake → qualitative analyzer → diagnostic → pattern connector → experiment/decision only if warranted`
 
 ### Strategy question
-`context retriever → current-state synthesizer → evidence checker → decision brief`
+If concrete practice options are **not yet known**:
+`full-discipleship-practice-design-cycle`
+
+If concrete options are already known and the task is a leadership choice:
+`context retriever → current-state synthesizer → southbrook-practice-fit-assessor → decision brief`
 
 ### New external church to study
 `source ingestor → case-study analyzer → evidence checker → synthesis maintainer`
