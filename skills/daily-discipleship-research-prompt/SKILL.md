@@ -1,13 +1,21 @@
 ---
 name: daily-discipleship-research-prompt
-description: Create one fresh, high-value, self-contained Genspark research prompt based on the current Discipleship Brain, avoiding repetition and selecting the most useful next research question.
+description: Create one fresh, high-value, self-contained discipleship research prompt/contract based on the current Discipleship Brain, avoiding repetition and selecting the most useful next research question. Supports prompt-only use and SELF_EXECUTE handoff to the deep research executor.
 ---
 
 # Daily Discipleship Research Prompt Generator
 
 ## Job
 
-Do **not** perform the research. Create ONE outstanding prompt the user can paste into Genspark to spend daily agentic-research credits wisely.
+Do **not** perform the research. Own the bounded transformation from **research need/gap → excellent research prompt/contract**.
+
+### Invocation modes
+
+**PROMPT_ONLY (default)**  
+Create ONE outstanding prompt the user can paste into Genspark or another deep-research model.
+
+**SELF_EXECUTE (orchestrator handoff)**  
+Create the same rigorous research design as a structured research contract plus execution prompt, then hand it back to the calling orchestrator. Do not stop the overall workflow and do not conduct the research yourself. The orchestrator must pass the contract to `discipleship-deep-research-executor`.
 
 ## Goal
 
@@ -61,6 +69,8 @@ Require strong headings, concise paragraphs, bullets, useful tables, major-claim
 
 ## Output contract
 
+### PROMPT_ONLY
+
 Return exactly:
 
 ### TODAY'S RESEARCH QUESTION
@@ -73,3 +83,29 @@ One sentence.
 One complete self-contained prompt inside a code block.
 
 Do not give multiple prompts unless asked.
+
+### SELF_EXECUTE
+
+Return:
+
+### RESEARCH CONTRACT
+- Research question
+- Why now
+- Existing Brain starting point
+- Specific unresolved gap
+- Scope/populations/contexts
+- Definitions/units that must remain explicit
+- Must-answer subquestions
+- Counterclaims/failure modes to test
+- Required source types
+- Redundancy/exclusions
+- Required report artifact
+- Success criteria
+
+### EXECUTION PROMPT
+One complete self-contained prompt suitable for `discipleship-deep-research-executor`.
+
+### HANDOFF
+`NEXT: discipleship-deep-research-executor`
+
+The calling orchestrator continues automatically.
