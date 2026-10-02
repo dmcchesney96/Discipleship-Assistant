@@ -77,6 +77,18 @@ Tell Genspark to create a polished, skimmable report with:
 
 Require strong headings, concise paragraphs, bullets, useful tables, major-claim citations, evidence/opinion separation, limitations, and no filler.
 
+For `PRACTICE INTELLIGENCE` or `HYBRID` intent, additionally require:
+
+- Practice Landscape
+- 5–15 concrete operational practices when the evidence base supports breadth
+- who/steps/cadence/tools/training/coaching/oversight for each serious practice
+- reported outcomes separated from independent evidence
+- mechanism/research backbone
+- failure modes and implementation burdens
+- transferability conditions
+- Practice Card-ready summaries
+- which practices are worth deeper case-study analysis
+
 ## Output contract
 
 ### PROMPT_ONLY
