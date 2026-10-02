@@ -258,6 +258,7 @@ Explicitly report:
 - local fit assessment saved: yes/no + destination;
 - pilot/test draft saved: yes/no;
 - measurement plan saved: yes/no;
+- implementation kit saved: yes/no when requested;
 - decision brief status;
 - what remains proposed vs approved.
 
