@@ -42,6 +42,6 @@ Reusable across ministry assistants:
 
 A skill owns one bounded transformation. The master assistant chooses which skill(s) to use and which tools/evidence sources are appropriate. Skills should not independently trigger expensive chains of other skills unless a calling workflow explicitly requests that handoff.
 
-`full-discipleship-research-cycle` is the intentional exception: it is an orchestrator whose bounded job is to manage the complete handoff sequence while leaving research, verification, comparison, synthesis, and library work to the specialist skills.
+`full-discipleship-research-cycle` and `full-discipleship-practice-design-cycle` are intentional orchestrator exceptions. Their bounded job is to manage complete handoff sequences while leaving research, practice intelligence, fit assessment, verification, synthesis, pilot design, measurement, and library work to the specialist skills.
 
 Each skill inherits `AGENTS.md` and governance rules.
