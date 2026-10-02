@@ -20,6 +20,11 @@ This architecture was verified from the live Drive and extended with the Practic
 - `11 — AGENT WORKSPACE`
 - `99 — ARCHIVE`
 
+## 00 — BRAIN OS — START HERE
+
+- Discipleship Project Purpose Document
+- Research ↔ Practice ↔ Local Learning Framework
+
 ## 01 — INBOX — INTAKE
 
 - External Research - To Process
