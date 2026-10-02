@@ -40,6 +40,7 @@ A practice/design-cycle request authorizes bounded internal analysis **and Drive
 - local fit assessment;
 - proposed experiments/pilots;
 - proposed measurement plan;
+- minimum viable implementation kit when requested;
 - decision brief draft when needed.
 
 Use the existing Brain architecture and verify destinations/results.
@@ -163,7 +164,24 @@ The pilot should specify:
 - risks/guardrails;
 - stop/adapt/expand criteria.
 
-## Stage 8 — Prepare a leadership decision when required
+## Stage 8 — Build implementation assets when requested
+
+If the user wants the selected test/pilot **ready to run**, route to `discipleship-practice-implementation-kit-builder`.
+
+Create only the minimum viable assets needed:
+- practice overview;
+- leader quick-start;
+- participant tool;
+- training outline;
+- coaching rhythm;
+- fidelity essentials vs adaptable elements;
+- launch checklist;
+- measurement prompts;
+- troubleshooting/safeguards.
+
+Do not create a giant curriculum by default, and do not launch/send/commit the church merely because the toolkit exists.
+
+## Stage 9 — Prepare a leadership decision when required
 
 If the next move requires leadership approval, resources, cross-ministry change, or broad integration, route to:
 
@@ -180,7 +198,7 @@ Keep:
 
 distinct.
 
-## Stage 9 — Evaluate local results when they already exist
+## Stage 10 — Evaluate local results when they already exist
 
 If this request includes results from a completed/in-progress pilot, route to `discipleship-pilot-learning-evaluator` before making a larger recommendation.
 
@@ -193,7 +211,7 @@ Distinguish:
 
 If the pilot has not happened yet, stop at the designed test/pilot and do not invent future learning.
 
-## Stage 10 — Preserve learning
+## Stage 11 — Preserve learning
 
 External practices → Practice Intelligence Library.
 
