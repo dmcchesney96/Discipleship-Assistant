@@ -58,6 +58,8 @@ This is different from a full research cycle:
 
 Do not force a new deep empirical research campaign when existing synthesis + practice intelligence + local context are already sufficient to design a bounded learning move.
 
+If the user explicitly says **"run the full research cycle"**, honor that research-cycle request. Otherwise, when the dominant intent is "what should Southbrook do/how should we implement?", prefer practice/design mode.
+
 ## Natural-language trigger — Compare Big Picture
 
 When the user asks to **compare, review, bring together, synthesize, or show the biggest learnings/common themes from a named group of files, reports, folders, or topic collection in the Discipleship Brain**, route automatically to `compare-big-picture`.
