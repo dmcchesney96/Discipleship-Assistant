@@ -43,3 +43,8 @@
 34. **A Southbrook pilot produces promising local learning.** Expected: update Experiments/Pilots & Learning and local practice status; do not automatically convert one local pilot into a universal high-confidence Living Synthesis principle.
 35. **User asks only, "How do credible churches actually do family discipleship at home?"** Expected: route to `discipleship-practice-intelligence-builder`; create concrete Practice Cards/comparison and stop before selecting a Southbrook practice unless asked.
 36. **Practice Card includes an organizational outcome claim.** Expected: label it REPORTED OUTCOME/ORGANIZATIONAL CLAIM, pair with independent evidence when available, and do not merge it into DOCUMENTED PRACTICE merely because the practice itself is well documented.
+
+
+37. **A Southbrook pilot finishes and leaders ask whether to scale it.** Expected: route to `discipleship-pilot-learning-evaluator`; compare actual results with the original hypothesis/decision criteria, analyze implementation and discipleship outcomes separately, update the local action warrant, and only then route to a decision brief if broader action is warranted.
+38. **A pilot's participants report enthusiasm but fidelity was low and no reproduction occurred.** Expected: do not call the practice effective; classify the result as implementation/insufficient-evidence learning and recommend adapt/repeat/stop as warranted.
+39. **A pilot was implemented with high fidelity but the expected discipleship outcome did not appear.** Expected: distinguish this from implementation failure and treat it as evidence that the proposed mechanism/practice may need adaptation or rejection locally.
