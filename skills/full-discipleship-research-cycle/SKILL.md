@@ -151,7 +151,7 @@ When a Drive document/file-creation capability is available:
 3. classify it as `AI-GENERATED RESEARCH INPUT`;
 4. use `discipleship-research-librarian-drive-curator` to resolve the live destination, deduplicate, index, and verify the raw artifact.
 
-Do not treat this raw artifact as the final human-facing report. The polished PDF is created after verification in Stage 11A.
+Do not treat this raw artifact as the final human-facing report. The polished PDF is created after verification in Stage 11.
 
 Default classification:
 
