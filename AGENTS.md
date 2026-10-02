@@ -191,6 +191,7 @@ Discipleship-specific:
 - `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
 - `southbrook-practice-fit-assessor` — assesses contextual fit and decision-calibrated action warrant
 - `discipleship-pilot-learning-evaluator` — turns Southbrook pilot results into local learning and updated action warrant
+- `discipleship-practice-implementation-kit-builder` — makes a selected practice/pilot ready for ordinary leaders to carry
 - `discipleship-research-source-ingestor`
 - `daily-discipleship-research-prompt`
 - `discipleship-research-scout-agenda-builder`
