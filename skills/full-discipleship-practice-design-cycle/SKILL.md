@@ -33,14 +33,16 @@ This is distinct from `full-discipleship-research-cycle`, whose primary question
 
 ## Authorization boundary
 
-A practice/design-cycle request authorizes internal analysis and creation of:
+A practice/design-cycle request authorizes bounded internal analysis **and Drive writes** for artifacts created by that cycle when connector permissions exist:
 
-- practice intelligence;
+- practice intelligence / Practice Cards;
 - practice comparisons;
 - local fit assessment;
 - proposed experiments/pilots;
 - proposed measurement plan;
 - decision brief draft when needed.
+
+Use the existing Brain architecture and verify destinations/results.
 
 It does not authorize launching ministry changes, committing staff/volunteers, spending money, or recording a proposal as an approved Southbrook decision.
 
@@ -220,7 +222,13 @@ Uncertainty and boundaries.
 
 # What was saved in the Brain
 
-Practice Cards, fit assessment, pilot draft, measurement plan, decision brief status.
+Explicitly report:
+- Practice Cards/comparison saved: yes/no + link(s) when available;
+- local fit assessment saved: yes/no + destination;
+- pilot/test draft saved: yes/no;
+- measurement plan saved: yes/no;
+- decision brief status;
+- what remains proposed vs approved.
 
 ## Stop conditions
 
