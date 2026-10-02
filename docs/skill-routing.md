@@ -5,6 +5,9 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | User intent | Primary skill |
 |---|---|
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
+| Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
+| Build concrete practice options/Practice Cards from churches, books, movements, or research | `discipleship-practice-intelligence-builder` |
+| Assess candidate practices for Southbrook fit and action warrant | `southbrook-practice-fit-assessor` |
 | Conduct a defined research contract and produce the complete sourced report | `discipleship-deep-research-executor` |
 | Publish a completed research report as the standard professional PDF + editable master | `discipleship-research-report-publisher` |
 | Add a new research/source set to the Brain | `discipleship-research-source-ingestor` |
@@ -37,6 +40,11 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 
 This sequence is used only when the user explicitly requests the whole cycle.
 
+### Full practice / design cycle
+`local context/diagnostic → practice intelligence → selective case-study deep dives → mechanism/evidence backbone → Southbrook practice-fit assessment → pilot designer → measurement architect → decision brief when needed → local learning`
+
+Use this when the user asks **what Southbrook should do/how to implement**, not when they only want the evidence landscape.
+
 ### New AI report
 `intake → ai verification → compare-big-picture when the user wants a readable cross-report view → living synthesis only if durable conclusions change`
 
@@ -67,6 +75,12 @@ The user never needs to say the skill name.
 Automatically use `full-discipleship-research-cycle` when the user clearly asks for the research process to continue from existing-Brain retrieval/gap selection through prompt/contract creation, actual research, report preservation, verification, evaluation, and warranted Brain updates **without stopping for separate prompts between stages**.
 
 This full-cycle trigger takes precedence over prompt-only or compare-only routing.
+
+Automatically use `full-discipleship-practice-design-cycle` when the user asks for a complete practical path from a Southbrook discipleship problem to concrete external practices, contextual fit, and a bounded test/pilot.
+
+Automatically use `discipleship-practice-intelligence-builder` when the user asks what churches/practitioners actually do or wants concrete practice options/Practice Cards without yet asking for local selection.
+
+Automatically use `southbrook-practice-fit-assessor` when candidate practices are already known and the question is which are worth exploring/testing locally and why.
 
 Automatically use `compare-big-picture` whenever the user asks to compare, review, synthesize, bring together, or identify the biggest learnings/common themes across a **specified group of Brain files, reports, a folder, or a bounded topic collection**.
 
