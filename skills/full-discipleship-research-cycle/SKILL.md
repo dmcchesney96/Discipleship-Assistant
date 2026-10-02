@@ -274,7 +274,7 @@ Research may produce:
 
 It does not automatically create an approved ministry decision.
 
-## Stage 11A — Publish the professional research report
+## Stage 11 — Publish the professional research report
 
 After verification, comparison, pattern analysis, and any warranted Brain updates, route to `discipleship-research-report-publisher`.
 
@@ -310,7 +310,7 @@ The polished report must incorporate verification corrections. Do not publish th
 
 If professional PDF generation is unavailable in the current environment, report `PDF PUBLICATION BLOCKED` and preserve the structured final content rather than falsely claiming a PDF exists.
 
-## Stage 11 — Library verification
+## Stage 12 — Library verification
 
 Route to `discipleship-research-librarian-drive-curator` to ensure:
 
@@ -320,7 +320,7 @@ Route to `discipleship-research-librarian-drive-curator` to ensure:
 - source and synthesis artifacts remain distinct;
 - the cycle is findable later.
 
-## Stage 12 — Final user-facing readout
+## Stage 13 — Final user-facing readout
 
 Always lead with ordinary language before technical detail.
 
