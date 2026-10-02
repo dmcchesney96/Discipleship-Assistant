@@ -180,7 +180,20 @@ Keep:
 
 distinct.
 
-## Stage 9 — Preserve learning
+## Stage 9 — Evaluate local results when they already exist
+
+If this request includes results from a completed/in-progress pilot, route to `discipleship-pilot-learning-evaluator` before making a larger recommendation.
+
+Distinguish:
+- implementation failure;
+- mechanism/outcome failure;
+- insufficient evidence;
+- promising local signal;
+- strong local learning.
+
+If the pilot has not happened yet, stop at the designed test/pilot and do not invent future learning.
+
+## Stage 10 — Preserve learning
 
 External practices → Practice Intelligence Library.
 
@@ -253,4 +266,5 @@ It helps Southbrook understand:
 5. what evidence supports or limits them;
 6. what fits or does not fit Southbrook;
 7. what is worth testing;
-8. how to learn before scaling.
+8. how to learn before scaling;
+9. how pilot results will later be evaluated without moving the goalposts.
