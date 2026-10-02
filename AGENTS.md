@@ -190,6 +190,7 @@ Discipleship-specific:
 - `full-discipleship-practice-design-cycle` — end-to-end local problem → practice intelligence → fit → test/pilot orchestration
 - `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
 - `southbrook-practice-fit-assessor` — assesses contextual fit and decision-calibrated action warrant
+- `discipleship-pilot-learning-evaluator` — turns Southbrook pilot results into local learning and updated action warrant
 - `discipleship-research-source-ingestor`
 - `daily-discipleship-research-prompt`
 - `discipleship-research-scout-agenda-builder`
