@@ -1,5 +1,7 @@
 # Research ↔ Practice ↔ Local Learning Framework
 
+Brain companion document: `https://docs.google.com/document/d/1qo-2MbcDDczpli87-koONL7-B8JOWMiAe6CoYSRmKdw/edit`
+
 ## Purpose
 
 The Discipleship Brain exists to help Southbrook **make faithful, practical, learnable decisions about forming disciples who make disciples**, not merely to accumulate high-confidence research conclusions.
