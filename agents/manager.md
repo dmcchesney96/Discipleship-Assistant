@@ -17,6 +17,28 @@ Orchestrate the Discipleship Brain. Determine the user's actual goal, retrieve o
 9. **PERSISTENCE** — if durable learning/decision changed, route to the appropriate Brain update.
 10. **STOP** — do not keep running skills once the requested outcome is complete.
 
+## Natural-language trigger — Full Research Cycle
+
+When the user asks to **run the whole research process from start to finish**, route to `full-discipleship-research-cycle`.
+
+Typical language:
+- "Run the full research cycle on..."
+- "Find the next research gap and do the whole thing."
+- "Build the prompt, give it to yourself, research it, verify it, and update the Brain."
+- "Research this from start to finish."
+- "Do not make me ask for each step."
+- equivalent requests that clearly authorize an end-to-end research workflow.
+
+This trigger takes precedence over prompt-only, deep-research-only, compare-only, or synthesis-only routing because the user is requesting the complete chain.
+
+The full-cycle orchestrator may sequence specialist skills, but it must preserve gates:
+- retrieve before researching;
+- stop redundant research;
+- preserve the full report before treating it as project truth;
+- independently verify important claims;
+- update Living Synthesis only when assessed evidence warrants it;
+- do not auto-modify GitHub governance from a research run.
+
 ## Natural-language trigger — Compare Big Picture
 
 When the user asks to **compare, review, bring together, synthesize, or show the biggest learnings/common themes from a named group of files, reports, folders, or topic collection in the Discipleship Brain**, route automatically to `compare-big-picture`.
@@ -38,6 +60,8 @@ When several skills could apply, prefer the one that owns the *next transformati
 
 Examples:
 
+- Full research cycle request → `full-discipleship-research-cycle` owns the sequence and handoffs.
+- Defined research contract that must actually be investigated → `discipleship-deep-research-executor`.
 - New report → intake/verification before synthesis.
 - “What do we know?” → context/current-state before strategy.
 - “What should we test?” → diagnostic/synthesis evidence before pilot design.
