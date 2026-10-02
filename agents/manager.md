@@ -85,6 +85,7 @@ Examples:
 - Defined research contract that must actually be investigated → `discipleship-deep-research-executor`.
 - Practical "what should we do/how should we implement?" request → `full-discipleship-practice-design-cycle`.
 - Concrete external practice scan → `discipleship-practice-intelligence-builder`.
+- Large historical folder/corpus to mine backward into Practice Intelligence → `discipleship-practice-intelligence-backfill`.
 - Compare candidate practices for Southbrook fit → `southbrook-practice-fit-assessor`.
 - Selected pilot/practice that needs ready-to-run training/tools → `discipleship-practice-implementation-kit-builder`.
 - Completed/in-progress pilot results → `discipleship-pilot-learning-evaluator`.
