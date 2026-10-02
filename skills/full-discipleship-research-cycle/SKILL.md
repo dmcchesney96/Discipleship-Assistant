@@ -144,7 +144,13 @@ Require source traceability for major claims and a claim register suitable for s
 
 Before interpreting the report as project truth, preserve it with provenance.
 
-Use `discipleship-research-librarian-drive-curator` for destination/index rules.
+When a Drive document-creation capability is available:
+
+1. create a durable report artifact from the **complete** executor output rather than only a short summary;
+2. prefer an editable Google Doc for the research report unless the user requested another format;
+3. preserve the research question, as-of date, claim register, source ledger, and links/citations;
+4. classify it as `AI-GENERATED RESEARCH INPUT`;
+5. use `discipleship-research-librarian-drive-curator` to resolve the live destination, deduplicate, index, and verify the resulting artifact.
 
 Default classification:
 
@@ -153,7 +159,9 @@ Default classification:
 - derived audit/synthesis artifacts remain separate;
 - link the report to its research contract and source ledger.
 
-Use the verified Drive architecture. Do not invent parallel top-level folders.
+Use the verified Drive architecture. Do not invent parallel top-level folders or guess folder IDs.
+
+If Drive creation or filing is unavailable/blocked, report `PERSISTENCE BLOCKED` with the reason and continue the analysis without falsely claiming the artifact was saved.
 
 ## Stage 6 — Independent second-pass verification
 
