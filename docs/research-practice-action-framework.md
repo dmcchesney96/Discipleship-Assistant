@@ -161,6 +161,8 @@ Stores what is actually happening locally and the bottlenecks/opportunities prac
 
 Stores Southbrook tests, results, adaptations, and local evidence.
 
+Completed/in-progress pilots should be interpreted through `discipleship-pilot-learning-evaluator` so implementation fidelity, burden, outcomes, stories, and reproduction are assessed before raising the local action warrant.
+
 ### Strategy & Decisions
 
 Stores recommendations, tradeoffs, approved decisions, rationale, and sequencing.
