@@ -43,7 +43,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 This sequence is used only when the user explicitly requests the whole cycle.
 
 ### Full practice / design cycle
-`local context/diagnostic → practice intelligence → selective case-study deep dives → mechanism/evidence backbone → Southbrook practice-fit assessment → pilot designer → measurement architect → decision brief when needed → local learning`
+`local context/diagnostic → practice intelligence → selective case-study deep dives → mechanism/evidence backbone → Southbrook practice-fit assessment → pilot designer → measurement architect → implementation kit when requested → decision brief when needed → pilot runs → pilot-learning evaluator → updated local learning/action warrant`
 
 Use this when the user asks **what Southbrook should do/how to implement**, not when they only want the evidence landscape.
 
