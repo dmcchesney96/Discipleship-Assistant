@@ -15,6 +15,7 @@ The goal is not to copy external programs or demand impossible levels of empiric
 - Southbrook practice-fit assessment;
 - action-warrant calibration;
 - sequencing into small tests/pilots;
+- creation of minimum viable implementation kits for selected pilots;
 - evaluation of completed pilot learning;
 - handoff to measurement and decision work.
 
@@ -28,7 +29,7 @@ The goal is not to copy external programs or demand impossible levels of empiric
 
 ## Default routing
 
-`Local context/diagnostic → Practice Intelligence → selective Case Study → Mechanism/Evidence Check → Southbrook Practice Fit → Pilot Designer → Measurement Architect → Pilot Learning Evaluator → Decision Brief when needed`
+`Local context/diagnostic → Practice Intelligence → selective Case Study → Mechanism/Evidence Check → Southbrook Practice Fit → Pilot Designer → Measurement Architect → Implementation Kit when needed → Pilot Learning Evaluator → Decision Brief when needed`
 
 Use the minimum subset needed.
 
