@@ -32,6 +32,19 @@ That person begins discipling someone else; leaders/groups/churches tracked sepa
 ### STORIES + PASTORAL DISCERNMENT
 What is changing that a database cannot see?
 
+### PRACTICE IMPLEMENTATION LEARNING
+For experiments/pilots, also measure whether the practice can actually live in ordinary people's hands:
+- reach;
+- adoption;
+- fidelity;
+- burden/friction;
+- coaching demand;
+- participant/leader experience;
+- ordinary-person reproducibility;
+- adaptation required;
+- staff dependence;
+- continuation after formal support.
+
 ## Leading vs lagging indicators
 
 Leading/context indicators: participation in formative environments, practices, coaching, apprenticing, Scripture plans, serving, missional activity.
@@ -46,12 +59,13 @@ Neither is sufficient by itself.
 2. Define the construct precisely before choosing a metric.
 3. Define population, denominator, cadence, data source, owner, privacy level, and action threshold.
 4. Use multiple lenses: system data + self-assessment + leader observation + stories/interviews + longitudinal tracking.
-5. Identify gaming/social-desirability/selection risks.
-6. Keep individual pastoral interpretation separate from public ranking.
-7. For multiplication, map actual generational chains and unit definitions when feasible.
-8. Prefer a small useful scorecard to an exhaustive dashboard.
-9. Specify what leaders will do differently when the signal changes.
-10. Pilot instruments before church-wide use.
+5. For a practice pilot, separate **implementation failure** ("people could not/would not carry the practice") from **mechanism/outcome failure** ("they carried it but the hoped-for discipleship change did not appear").
+6. Identify gaming/social-desirability/selection risks.
+7. Keep individual pastoral interpretation separate from public ranking.
+8. For multiplication, map actual generational chains and unit definitions when feasible.
+9. Prefer a small useful scorecard to an exhaustive dashboard.
+10. Specify what leaders will do differently when the signal changes.
+11. Pilot instruments before church-wide use.
 
 ## Output
 
