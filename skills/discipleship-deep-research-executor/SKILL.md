@@ -22,7 +22,7 @@ It must not stop at:
 - a short answer;
 - a preliminary summary.
 
-The required product is a complete, evidence-labeled, source-traceable research report.
+The required product is a complete, evidence-labeled, source-traceable **content report**. In a full-cycle workflow, this is the raw research input; the final human-facing PDF is produced later by `discipleship-research-report-publisher` after independent verification.
 
 ## Inputs
 
@@ -284,6 +284,13 @@ Return:
    - date;
    - recommended Drive evidence destination;
    - related existing synthesis domains.
+6. **Publisher Handoff Metadata**:
+   - short display title;
+   - one-sentence evidence-weighted answer draft;
+   - 3–6 candidate executive takeaways;
+   - source-key-ready source ledger;
+   - figures/tables worth publishing, if any;
+   - sections that should remain appendix-level detail.
 
 ## Boundary
 
@@ -294,3 +301,5 @@ After completion, a full-cycle workflow must route the report through:
 `ai-research-verification-integration → source-evidence-checker`
 
 before durable conclusions are promoted to the Living Synthesis.
+
+After verification and Brain-impact decisions, route the final content to `discipleship-research-report-publisher` for the standard professional PDF + editable master.
