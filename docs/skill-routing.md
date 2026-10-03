@@ -4,6 +4,8 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 
 | User intent | Primary skill |
 |---|---|
+| Capture Dan's own discipleship philosophy, strategy instincts, curriculum feedback, what rings true/false, or what should/should not be included | `discipleship-convictions-capture` |
+| Retrieve Dan's stored convictions/preferences to shape substantial strategy, system, curriculum, Bible-study, training, or implementation work | `discipleship-alignment-lens-retriever` |
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
 | Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
 | Run an end-to-end multi-session curriculum build from relevant Brain retrieval through gap research, course design, assessment, and run-ready assets | `full-discipleship-curriculum-build-cycle` |
@@ -46,12 +48,12 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 This sequence is used only when the user explicitly requests the whole cycle.
 
 ### Full practice / design cycle
-`local context/diagnostic → practice intelligence → selective case-study deep dives → mechanism/evidence backbone → Southbrook practice-fit assessment → pilot designer → measurement architect → implementation kit when requested → decision brief when needed → pilot runs → pilot-learning evaluator → updated local learning/action warrant`
+`local context/diagnostic → pastoral alignment lens → practice intelligence → selective case-study deep dives → mechanism/evidence backbone → Southbrook practice-fit assessment → pilot designer → measurement architect → implementation kit when requested → decision brief when needed → pilot runs → pilot-learning evaluator → updated local learning/action warrant`
 
 Use this when the user asks **what Southbrook should do/how to implement**, not when they only want the evidence landscape.
 
 ### Full curriculum build
-`course contract → ministry-context-retriever → bounded source/gap audit → targeted verification/research only where material → evidence packet → discipleship-curriculum-architect → discipleship-measurement-architect when needed → implementation-kit builder when run-ready assets are requested → artifact creation when requested → curriculum QA → authorized Brain persistence`
+`course contract → ministry-context-retriever → pastoral alignment lens → bounded source/gap audit → targeted verification/research only where material → evidence packet → discipleship-curriculum-architect → discipleship-measurement-architect when needed → implementation-kit builder when run-ready assets are requested → artifact creation when requested → curriculum QA → authorized Brain persistence`
 
 Use this when the requested artifact is specifically a complete multi-session curriculum/course/class shaped by the Brain and research.
 
@@ -85,6 +87,10 @@ If the requested result is already supported, stop. A handoff is useful only whe
 ## Natural-language auto-trigger
 
 The user never needs to say the skill name.
+
+Automatically use `discipleship-convictions-capture` when Dan is substantially expressing his own durable view of discipleship, ministry strategy, Bible/curriculum design, implementation, what rings true, what he dislikes, what should/should not be included, or an unresolved idea he wants the project to keep learning from. Do not trigger on ordinary factual questions, and do not persist when he says not to save the thought.
+
+Automatically use `discipleship-alignment-lens-retriever` before substantial discipleship strategy, system, curriculum, Bible-study, training, implementation, or major revision work when the stored pastoral lens could materially improve fit. Keep the retrieved lens distinct from evidence and approved Southbrook decisions.
 
 Automatically use `full-discipleship-research-cycle` when the user clearly asks for the research process to continue from existing-Brain retrieval/gap selection through prompt/contract creation, actual research, report preservation, verification, evaluation, and warranted Brain updates **without stopping for separate prompts between stages**.
 
