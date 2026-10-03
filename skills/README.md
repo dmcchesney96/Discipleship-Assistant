@@ -17,31 +17,33 @@ Reusable across ministry assistants:
 
 ## Discipleship-specific skills
 
-1. `full-discipleship-research-cycle` — explicit multi-skill orchestrator for one-command research
-2. `discipleship-deep-research-executor` — conducts a defined deep research contract
-3. `discipleship-research-report-publisher` — creates the reusable professional PDF + editable master
-4. `full-discipleship-practice-design-cycle` — orchestrates local problem → practice → fit → test/pilot
-5. `full-discipleship-curriculum-build-cycle` — orchestrates relevant Brain retrieval → source-gap audit → curriculum → assessment → run-ready assets
-6. `discipleship-curriculum-architect` — designs research-grounded multi-session curriculum around capability transfer
-7. `discipleship-practice-intelligence-builder` — creates concrete external Practice Cards and comparisons
-8. `discipleship-practice-intelligence-backfill` — mines large existing corpora into deduplicated Practice Intelligence
-9. `southbrook-practice-fit-assessor` — evaluates local fit and action warrant
-10. `discipleship-pilot-learning-evaluator` — evaluates local pilot results and updates action warrant
-11. `discipleship-practice-implementation-kit-builder` — creates ready-to-run tools/training for selected pilots
-12. `discipleship-research-source-ingestor`
-13. `daily-discipleship-research-prompt`
-14. `discipleship-research-scout-agenda-builder`
-15. `ai-research-verification-integration`
-16. `compare-big-picture`
-17. `church-movement-case-study-analyzer`
-18. `southbrook-interview-qualitative-evidence-analyzer`
-19. `southbrook-discipleship-diagnostic`
-20. `living-discipleship-synthesis-maintainer`
-21. `discipleship-measurement-architect`
-22. `discipleship-experiment-pilot-designer`
-23. `southbrook-discipleship-operating-system-designer`
-24. `discipleship-research-librarian-drive-curator`
-25. `strategy-decision-brief-builder`
+1. `discipleship-convictions-capture` — captures Dan's freeform discipleship philosophy, strategy instincts, curriculum feedback, rejections, and open questions into the canonical Pastoral Lens
+2. `discipleship-alignment-lens-retriever` — retrieves the relevant Pastoral Lens before substantial creation/design work
+3. `full-discipleship-research-cycle` — explicit multi-skill orchestrator for one-command research
+4. `discipleship-deep-research-executor` — conducts a defined deep research contract
+5. `discipleship-research-report-publisher` — creates the reusable professional PDF + editable master
+6. `full-discipleship-practice-design-cycle` — orchestrates local problem → practice → fit → test/pilot
+7. `full-discipleship-curriculum-build-cycle` — orchestrates relevant Brain retrieval → source-gap audit → curriculum → assessment → run-ready assets
+8. `discipleship-curriculum-architect` — designs research-grounded multi-session curriculum around capability transfer
+9. `discipleship-practice-intelligence-builder` — creates concrete external Practice Cards and comparisons
+10. `discipleship-practice-intelligence-backfill` — mines large existing corpora into deduplicated Practice Intelligence
+11. `southbrook-practice-fit-assessor` — evaluates local fit and action warrant
+12. `discipleship-pilot-learning-evaluator` — evaluates local pilot results and updates action warrant
+13. `discipleship-practice-implementation-kit-builder` — creates ready-to-run tools/training for selected pilots
+14. `discipleship-research-source-ingestor`
+15. `daily-discipleship-research-prompt`
+16. `discipleship-research-scout-agenda-builder`
+17. `ai-research-verification-integration`
+18. `compare-big-picture`
+19. `church-movement-case-study-analyzer`
+20. `southbrook-interview-qualitative-evidence-analyzer`
+21. `southbrook-discipleship-diagnostic`
+22. `living-discipleship-synthesis-maintainer`
+23. `discipleship-measurement-architect`
+24. `discipleship-experiment-pilot-designer`
+25. `southbrook-discipleship-operating-system-designer`
+26. `discipleship-research-librarian-drive-curator`
+27. `strategy-decision-brief-builder`
 
 ## Skill rule
 
