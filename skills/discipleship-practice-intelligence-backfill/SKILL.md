@@ -39,7 +39,7 @@ Use when the user asks to:
 
 ## Core flow
 
-`INVENTORY → DEDUPLICATE → TRIAGE → MINE → EXTRACT → MERGE PRACTICE FAMILIES → CREATE/UPDATE CARDS → BUILD LANDSCAPES → LINK EVIDENCE → IDENTIFY GAPS → VERIFY FILING`
+`INVENTORY → DEDUPLICATE → TRIAGE → MINE → EXTRACT → MERGE PRACTICE FAMILIES → CREATE/UPDATE CARDS → BUILD LANDSCAPES → LINK EVIDENCE → IDENTIFY GAPS → INDEX → CROSS-CORPUS SYNTHESIS → COMPLETION / LOCAL-READINESS GATE → VERIFY FILING`
 
 ## Stage 1 — Inventory
 
@@ -222,7 +222,67 @@ Also preserve a **Backfill Manifest** in the landscapes folder containing:
 - practice families discovered;
 - cards created/updated;
 - landscapes created/updated;
-- unresolved gaps.
+- unresolved gaps;
+- completion status / last-updated date.
+
+When the corpus is substantial, preserve beside it:
+- a **Practice Intelligence Library Index**;
+- a **Backfill Synthesis**;
+- a short **targeted verification / case-study queue** inside the synthesis or manifest.
+
+## Stage 11 — Build a library index
+
+When the backfill creates more than a small handful of cards/landscapes, create or update a **Practice Intelligence Library Index** that:
+
+- groups Practice Cards by practical domain/problem;
+- links directly to every active card;
+- links to Practice Landscapes and deeper case analyses;
+- points to the Backfill Manifest;
+- explains the intended flow: landscape → card → fit assessment → pilot → learning;
+- avoids duplicating the content of the cards themselves.
+
+The library should be navigable in under two minutes by a pastor who did not run the backfill.
+
+## Stage 12 — Cross-corpus synthesis + completion gate
+
+Create a concise **Backfill Synthesis** that answers:
+
+- What practice patterns recur most strongly?
+- Which are genuinely cross-source versus repeated inside one ecosystem?
+- Which mechanisms have stronger research support than the named programs?
+- What practical cautions/failure modes repeat?
+- Which practices are mature enough for Southbrook fit assessment?
+- Which claims/practices still deserve targeted primary-source verification?
+- Which existing analyses already close a gap and therefore should not be duplicated?
+
+### Local-readiness gate
+
+Before automatically moving into Southbrook fit assessment, check whether enough verified/current local evidence exists.
+
+If the Southbrook Diagnostic/current-state layer is empty, stale, thin, or based mainly on proposals rather than observed reality:
+
+- **do not invent a whole-church fit assessment**;
+- report the diagnostic gap;
+- identify the practices now ready for later fit assessment;
+- route to diagnostic/interview/current-state work first.
+
+A strong external Practice Intelligence library does not substitute for local reality.
+
+### Completion rule
+
+A backfill is **COMPLETE ENOUGH FOR DESIGN USE** when:
+
+- the whole requested corpus has been inventoried;
+- alternate formats/source families have been deduplicated;
+- high-yield sources have been mined;
+- medium-yield sources have been reviewed for unique practice intelligence;
+- low-yield sources are safely inventoried/reference-only;
+- materially distinct practice families are represented;
+- new sources mostly repeat already-captured practices;
+- the library has cards, landscapes, an index, and a cross-corpus synthesis;
+- remaining work is better expressed as targeted verification, a case study, or local fit/diagnostic work.
+
+Do not keep extracting merely to maximize the number of cards.
 
 ## Batch strategy
 
@@ -259,6 +319,15 @@ Created / updated / merged.
 ## Practice Landscapes
 Created / updated.
 
+## Library index
+Created / updated + link.
+
+## Cross-corpus synthesis
+Strongest recurring practice patterns, ecosystem/source-independence cautions, and what the corpus adds practically.
+
+## Completion status
+IN PROGRESS / COMPLETE ENOUGH FOR DESIGN USE / BLOCKED, with reason.
+
 ## Key practical learnings
 The most important operational insights discovered.
 
@@ -269,7 +338,9 @@ What is documented practice vs claimed outcome vs independent/mechanism evidence
 Only gaps worth further work.
 
 ## Southbrook handoff
-Do not select a local practice unless the user asked for local fit. Otherwise, identify which practice families are now ready for `southbrook-practice-fit-assessor`.
+Do not select a local practice unless the user asked for local fit. Identify which practice families are ready for `southbrook-practice-fit-assessor`.
+
+Also report whether the current Southbrook Diagnostic/current-state evidence is sufficient for responsible fit assessment. If not, route to diagnostic/current-state work before making whole-church recommendations.
 
 ## Persistence status
 Links/locations for manifest, cards, and landscapes.
