@@ -13,7 +13,7 @@ Turn research and practitioner learning into **useful, contextualized, testable 
 
 Core flow:
 
-`LOCAL PROBLEM → CONTEXT/DIAGNOSTIC → PRACTICE LANDSCAPE → OPERATIONAL DETAIL → MECHANISM/EVIDENCE BACKBONE → SOUTHBROOK FIT → ACTION WARRANT → TEST/PILOT DESIGN → MEASUREMENT → DECISION/LEARNING → STOP`
+`LOCAL PROBLEM → CONTEXT/DIAGNOSTIC → PASTORAL ALIGNMENT LENS → PRACTICE LANDSCAPE → OPERATIONAL DETAIL → MECHANISM/EVIDENCE BACKBONE → SOUTHBROOK FIT → ACTION WARRANT → TEST/PILOT DESIGN → MEASUREMENT → DECISION/LEARNING → STOP`
 
 Use `docs/research-practice-action-framework.md`.
 
@@ -53,7 +53,9 @@ Retrieve the smallest sufficient Southbrook context.
 
 Use:
 
-`ministry-context-retriever → current-state-synthesizer and/or southbrook-discipleship-diagnostic`
+`ministry-context-retriever → current-state-synthesizer and/or southbrook-discipleship-diagnostic → discipleship-alignment-lens-retriever`
+
+Keep the Pastoral Lens distinct from the local diagnostic. The diagnostic answers what is happening; the lens answers what Dan currently values, prefers, rejects, or wants designs to aim toward.
 
 State:
 
@@ -63,9 +65,10 @@ State:
 - current bottleneck;
 - what is already healthy and should be preserved;
 - known constraints/capacity;
-- what decision or learning is actually needed.
+- what decision or learning is actually needed;
+- relevant pastoral convictions/preferences and explicit "NOT FOR US" constraints.
 
-Do not begin from a favorite program.
+Do not begin from a favorite program, and do not treat a stored preference as proof that a practice will work.
 
 ## Stage 2 — Build the practice landscape
 
