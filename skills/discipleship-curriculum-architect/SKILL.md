@@ -51,12 +51,26 @@ Use the smallest sufficient set of:
 - relevant Brain research and Living Synthesis;
 - relevant Practice Cards / documented practices;
 - Southbrook context, constraints, and language;
+- relevant `USER ALIGNMENT / PASTORAL LENS` entries, especially `02 — Bible & Curriculum Design Philosophy`;
 - Scripture/theological anchors and doctrinal guardrails;
 - source-quality notes and unresolved questions;
 - accessibility needs;
 - desired multiplication/reproduction outcome, if any.
 
 If one of these is missing but can be responsibly inferred from the user's request and current project context, proceed and label the assumption. Ask only when the missing decision would materially change the course.
+
+## Pastoral alignment layer
+
+Before substantial curriculum creation or redesign, retrieve the smallest relevant pastoral lens through `discipleship-alignment-lens-retriever`.
+
+Use the lens to understand:
+- what Dan believes the curriculum should produce;
+- preferred balance of Scripture, explanation, discussion, practice, feedback, and application;
+- desired tone/depth/accessibility;
+- what he has explicitly rejected or found unhelpful;
+- unresolved design tensions.
+
+Label this input `USER ALIGNMENT / PASTORAL LENS`. It is not research evidence or doctrinal authority. If it conflicts with the user's current instruction, approved Southbrook doctrine/decisions, or stronger evidence, surface the tension rather than silently forcing the preference.
 
 ## Core design convictions
 
@@ -178,11 +192,15 @@ Use documented church, ministry, missionary, historical, or practitioner practic
 
 A documented practice is not automatically a proven practice.
 
-### D. Southbrook-local evidence
+### D. User alignment / pastoral lens
+
+Use the canonical Pastoral Convictions & Design Lens to improve fit. It records Dan's stated convictions/preferences and should shape design choices where appropriate without being treated as proof that a method works.
+
+### E. Southbrook-local evidence
 
 Use current diagnostic findings, participant experience, leader observation, pilot learning, and approved decisions to shape fit.
 
-### E. AI-generated research
+### F. AI-generated research
 
 Treat as input and lead-generation.
 
