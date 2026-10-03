@@ -28,6 +28,17 @@ Rules:
 4. A file being stored in a canonical folder does not make its claim true or its recommendation approved.
 5. Current user instruction outranks stored process documentation.
 
+### Pastoral convictions and design lens
+
+The Drive folder `00 — BRAIN OS — START HERE / 01 — PASTORAL CONVICTIONS & DESIGN LENS` is the canonical record of Dan's stated discipleship convictions, strategy instincts, curriculum preferences, explicit rejections, and unresolved ministry ideas.
+
+Treat this material as `USER ALIGNMENT / PASTORAL LENS`, not as research evidence or an approved Southbrook decision.
+
+- When Dan substantially expresses his own durable discipleship philosophy, ministry strategy instinct, curriculum feedback, "what should/should not be in this," or what strongly rings true/false, route to `discipleship-convictions-capture` unless he says not to save it.
+- Before substantial discipleship strategy, system design, curriculum, Bible-study, training, implementation, or major revision work, retrieve the smallest relevant lens through `discipleship-alignment-lens-retriever`.
+- Current explicit instruction, Scripture/theological responsibility, approved church decisions, and verified local constraints are not overridden by the stored lens.
+- If evidence challenges a stored preference, surface the tension rather than hiding the evidence or silently rewriting the preference.
+
 ## Evidence taxonomy
 
 Never collapse these categories:
@@ -188,6 +199,8 @@ Shared intelligence core:
 
 Discipleship-specific:
 
+- `discipleship-convictions-capture` — captures Dan's freeform discipleship philosophy, strategy instincts, curriculum feedback, and open questions into the canonical Pastoral Lens
+- `discipleship-alignment-lens-retriever` — retrieves the relevant Pastoral Lens before substantial design/creation work
 - `full-discipleship-research-cycle` — explicit end-to-end multi-skill research orchestrator
 - `discipleship-deep-research-executor` — conducts a defined deep research contract
 - `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
