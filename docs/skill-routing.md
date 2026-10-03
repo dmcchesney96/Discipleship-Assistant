@@ -6,6 +6,8 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 |---|---|
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
 | Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
+| Run an end-to-end multi-session curriculum build from relevant Brain retrieval through gap research, course design, assessment, and run-ready assets | `full-discipleship-curriculum-build-cycle` |
+| Design/redesign a discipleship course, class, syllabus, or week-by-week curriculum from a defined outcome/evidence base | `discipleship-curriculum-architect` |
 | Build concrete practice options/Practice Cards from churches, books, movements, or research | `discipleship-practice-intelligence-builder` |
 | Mine a large historical research/library corpus into deduplicated Practice Intelligence | `discipleship-practice-intelligence-backfill` |
 | Assess candidate practices for Southbrook fit and action warrant | `southbrook-practice-fit-assessor` |
@@ -48,6 +50,11 @@ This sequence is used only when the user explicitly requests the whole cycle.
 
 Use this when the user asks **what Southbrook should do/how to implement**, not when they only want the evidence landscape.
 
+### Full curriculum build
+`course contract → ministry-context-retriever → bounded source/gap audit → targeted verification/research only where material → evidence packet → discipleship-curriculum-architect → discipleship-measurement-architect when needed → implementation-kit builder when run-ready assets are requested → artifact creation when requested → curriculum QA → authorized Brain persistence`
+
+Use this when the requested artifact is specifically a complete multi-session curriculum/course/class shaped by the Brain and research.
+
 ### New AI report
 `intake → ai verification → compare-big-picture when the user wants a readable cross-report view → living synthesis only if durable conclusions change`
 
@@ -84,6 +91,10 @@ Automatically use `full-discipleship-research-cycle` when the user clearly asks 
 This full-cycle trigger takes precedence over prompt-only or compare-only routing.
 
 Automatically use `full-discipleship-practice-design-cycle` when the user asks for a complete practical path from a Southbrook discipleship problem to concrete external practices, contextual fit, and a bounded test/pilot.
+
+Automatically use `full-discipleship-curriculum-build-cycle` when the user asks for a complete multi-session discipleship curriculum/course/class and wants the Brain/research/resources to shape the build through source-gap analysis, any needed targeted research, full session design, assessment/transfer, and run-ready materials without separate intermediate prompts. This curriculum trigger takes precedence over practice-design and implementation-kit routing when the requested artifact is the curriculum itself.
+
+Automatically use `discipleship-curriculum-architect` when the user asks to design/redesign a syllabus, course outline, week-by-week curriculum, facilitator/participant learning journey, or curriculum architecture from a defined outcome/evidence base but does not request the entire research-to-artifact pipeline.
 
 Automatically use `discipleship-practice-intelligence-builder` when the user asks what churches/practitioners actually do or wants concrete practice options/Practice Cards without yet asking for local selection.
 

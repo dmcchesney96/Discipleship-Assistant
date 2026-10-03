@@ -165,11 +165,15 @@ When the user clearly asks for the **entire research process to run from questio
 
 When the user clearly asks for the **entire practical path from Southbrook problem through practice options, fit, and a test/pilot**, route to `full-discipleship-practice-design-cycle`.
 
+When the user clearly asks for a **complete multi-session discipleship curriculum/course built from the Brain/research through source-gap analysis, curriculum design, assessment, and run-ready assets**, route to `full-discipleship-curriculum-build-cycle`.
+
 These orchestrators are intentionally allowed to sequence bounded specialist skills. They must still honor each skill's evidence, persistence, authorization, and stop rules.
 
 A full research-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
 
 A full practice/design cycle should not skip local diagnosis, confuse practice precedent with effect evidence, or scale a practice without action warrant appropriate to the decision size.
+
+A full curriculum-build cycle should not confuse content coverage with capability transfer, flood the design with the entire Brain, treat AI-generated research as theological authority, or call attendance/completion proof of formation or skill.
 
 Shared intelligence core:
 
@@ -188,6 +192,8 @@ Discipleship-specific:
 - `discipleship-deep-research-executor` — conducts a defined deep research contract
 - `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
 - `full-discipleship-practice-design-cycle` — end-to-end local problem → practice intelligence → fit → test/pilot orchestration
+- `full-discipleship-curriculum-build-cycle` — end-to-end Brain/research → source-gap audit → curriculum → assessment → run-ready assets orchestration
+- `discipleship-curriculum-architect` — turns a defined discipleship outcome and evidence packet into a coherent capability-transfer curriculum
 - `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
 - `discipleship-practice-intelligence-backfill` — mines large historical corpora into deduplicated Practice Intelligence
 - `southbrook-practice-fit-assessor` — assesses contextual fit and decision-calibrated action warrant
