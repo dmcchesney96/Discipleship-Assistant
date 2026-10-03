@@ -17,7 +17,7 @@ and carry the work from **existing knowledge → source sufficiency → targeted
 
 Core flow:
 
-`COURSE GOAL → RELEVANT BRAIN CONTEXT → SOURCE/GAP AUDIT → TARGETED RESEARCH IF NEEDED → VERIFICATION → CAPABILITY MAP → CURRICULUM → ASSESSMENT/TRANSFER → RUN-READY ASSETS → QA → PERSIST/STOP`
+`COURSE GOAL → RELEVANT BRAIN CONTEXT → PASTORAL ALIGNMENT LENS → SOURCE/GAP AUDIT → TARGETED RESEARCH IF NEEDED → VERIFICATION → CAPABILITY MAP → CURRICULUM → ASSESSMENT/TRANSFER → RUN-READY ASSETS → QA → PERSIST/STOP`
 
 The aim is not "more content."
 
@@ -91,9 +91,9 @@ Ask only if a missing decision would materially change doctrine, audience safety
 
 Route to:
 
-`ministry-context-retriever`
+`ministry-context-retriever → discipleship-alignment-lens-retriever`
 
-Search the canonical Discipleship Brain first for the bounded topic.
+Search the canonical Discipleship Brain first for the bounded topic. Retrieve the smallest relevant Pastoral Convictions & Design Lens separately as `USER ALIGNMENT / PASTORAL LENS`, especially the Bible & Curriculum Design Philosophy for curriculum work.
 
 Retrieve only evidence likely to change the course, such as:
 
@@ -104,16 +104,18 @@ Retrieve only evidence likely to change the course, such as:
 - Southbrook diagnostic/local context;
 - existing class notes/templates;
 - prior pilots/learning;
-- approved doctrinal or strategic constraints.
+- approved doctrinal or strategic constraints;
+- relevant pastoral convictions, curriculum preferences, explicit "NOT FOR US" constraints, and open tensions.
 
-Do **not** load the entire Brain simply because it exists.
+Do **not** load the entire Brain or the entire Pastoral Lens simply because they exist.
 
 Report:
 
 - what is already known;
 - what is promising but uncertain;
 - what is missing;
-- whether the current evidence base is sufficient.
+- whether the current evidence base is sufficient;
+- which design choices are being shaped by the Pastoral Lens rather than evidence.
 
 ## Stage 3 — Run the source/gap audit
 
@@ -304,6 +306,7 @@ Before calling the work complete, verify:
 
 ### Local-fit QA
 - Southbrook language and constraints are honored;
+- relevant stored curriculum/design preferences are honored where they do not conflict with current instruction, doctrine, approved decisions, or stronger evidence;
 - PROPOSED vs APPROVED status is clear.
 
 If a serious QA failure is found, fix it before final delivery.
