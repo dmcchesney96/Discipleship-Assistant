@@ -15,6 +15,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Assess candidate practices for Southbrook fit and action warrant | `southbrook-practice-fit-assessor` |
 | Evaluate completed/in-progress Southbrook pilot results and decide what was learned | `discipleship-pilot-learning-evaluator` |
 | Build ready-to-run training/tools/coaching assets for a selected pilot/practice | `discipleship-practice-implementation-kit-builder` |
+| Apply Southbrook logo/colors/typography/style to a ministry-facing DOCX/PDF/slide/handout/tool | `southbrook-brand-artifact-stylist` |
 | Conduct a defined research contract and produce the complete sourced report | `discipleship-deep-research-executor` |
 | Publish a completed research report as the standard professional PDF + editable master | `discipleship-research-report-publisher` |
 | Add a new research/source set to the Brain | `discipleship-research-source-ingestor` |
@@ -56,6 +57,11 @@ Use this when the user asks **what Southbrook should do/how to implement**, not 
 `course contract → ministry-context-retriever → pastoral alignment lens → bounded source/gap audit → targeted verification/research only where material → evidence packet → discipleship-curriculum-architect → discipleship-measurement-architect when needed → implementation-kit builder when run-ready assets are requested → artifact creation when requested → curriculum QA → authorized Brain persistence`
 
 Use this when the requested artifact is specifically a complete multi-session curriculum/course/class shaped by the Brain and research.
+
+### Artifact production
+`content-owning skill → southbrook-brand-artifact-stylist when Southbrook-facing → artifact-specific production skill → render/inspect/QA`
+
+Use branding as a visual layer after the artifact's ministry purpose and content architecture are clear. Do not let branding make a proposal look approved.
 
 ### New AI report
 `intake → ai verification → compare-big-picture when the user wants a readable cross-report view → living synthesis only if durable conclusions change`
@@ -115,3 +121,6 @@ Automatically use `discipleship-pilot-learning-evaluator` when the user asks wha
 Automatically use `compare-big-picture` whenever the user asks to compare, review, synthesize, bring together, or identify the biggest learnings/common themes across a **specified group of Brain files, reports, a folder, or a bounded topic collection**.
 
 Respect the user's stated source boundary. Do not widen "these files" into the whole Brain unless requested.
+
+
+Automatically use `southbrook-brand-artifact-stylist` when Dan asks for a Southbrook-branded/on-brand artifact or when a polished artifact is clearly intended for Southbrook ministry use and branding would materially improve it. Use it as a visual layer after the content-owning skill. Do not brand raw Brain research by default, do not substitute a ministry sub-brand for the church brand, and do not let branding imply approval.
