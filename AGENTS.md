@@ -196,6 +196,7 @@ Shared intelligence core:
 - `decision-action-extractor`
 - `institutional-memory-writer`
 - `pattern-connector`
+- `southbrook-brand-artifact-stylist` — applies the verified Southbrook visual brand to ministry-facing artifacts after the content/design work is established
 
 Discipleship-specific:
 
