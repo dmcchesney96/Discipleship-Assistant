@@ -16,6 +16,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Evaluate completed/in-progress Southbrook pilot results and decide what was learned | `discipleship-pilot-learning-evaluator` |
 | Build ready-to-run training/tools/coaching assets for a selected pilot/practice | `discipleship-practice-implementation-kit-builder` |
 | Apply Southbrook logo/colors/typography/style to a ministry-facing DOCX/PDF/slide/handout/tool | `southbrook-brand-artifact-stylist` |
+| Create Southbrook weekly public Message Notes / sermon-outline handout from a sermon manuscript or outline | `southbrook-sermon-notes-artifact-builder` |
 | Conduct a defined research contract and produce the complete sourced report | `discipleship-deep-research-executor` |
 | Publish a completed research report as the standard professional PDF + editable master | `discipleship-research-report-publisher` |
 | Add a new research/source set to the Brain | `discipleship-research-source-ingestor` |
@@ -57,6 +58,11 @@ Use this when the user asks **what Southbrook should do/how to implement**, not 
 `course contract → ministry-context-retriever → pastoral alignment lens → bounded source/gap audit → targeted verification/research only where material → evidence packet → discipleship-curriculum-architect → discipleship-measurement-architect when needed → implementation-kit builder when run-ready assets are requested → artifact creation when requested → curriculum QA → authorized Brain persistence`
 
 Use this when the requested artifact is specifically a complete multi-session curriculum/course/class shaped by the Brain and research.
+
+### Southbrook weekly sermon notes
+`southbrook-sermon-notes-artifact-builder → southbrook-brand-artifact-stylist / current series identity → DOCX/PDF production → render/inspect/QA`
+
+Keep public Message Notes distinct from Study Questions. Preserve the preacher's sequence, points, Scripture, and response rather than replacing the sermon with a generic summary.
 
 ### Artifact production
 `content-owning skill → southbrook-brand-artifact-stylist when Southbrook-facing → artifact-specific production skill → render/inspect/QA`
@@ -124,3 +130,6 @@ Respect the user's stated source boundary. Do not widen "these files" into the w
 
 
 Automatically use `southbrook-brand-artifact-stylist` when Dan asks for a Southbrook-branded/on-brand artifact or when a polished artifact is clearly intended for Southbrook ministry use and branding would materially improve it. Use it as a visual layer after the content-owning skill. Do not brand raw Brain research by default, do not substitute a ministry sub-brand for the church brand, and do not let branding imply approval.
+
+
+Automatically use `southbrook-sermon-notes-artifact-builder` when Dan asks for the weekly Southbrook Message Notes, sermon outline handout, or a public notes artifact built from a manuscript/sermon outline. Keep Study Questions separate unless explicitly requested. After content shaping, apply current series identity and the Southbrook brand/artifact layer before final DOCX/PDF production.
