@@ -197,6 +197,7 @@ Shared intelligence core:
 - `institutional-memory-writer`
 - `pattern-connector`
 - `southbrook-brand-artifact-stylist` — applies the verified Southbrook visual brand to ministry-facing artifacts after the content/design work is established
+- `southbrook-sermon-notes-artifact-builder` — converts a sermon manuscript/outline into Southbrook's public weekly Message Notes structure before branding/production
 
 Discipleship-specific:
 
