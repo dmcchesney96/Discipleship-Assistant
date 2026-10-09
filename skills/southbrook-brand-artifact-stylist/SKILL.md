@@ -66,33 +66,57 @@ Use selectively for strong dark backgrounds, title bands, or slide sections when
 
 ### Neutrals
 
-- Logo charcoal: `#404041`
-- Practical artifact charcoal: `#2A2929`
+- Professional print charcoal: `#231F20`
+- Logo / legacy charcoal: `#404041`
+- Practical internal-document charcoal: `#2A2929`
 - Secondary gray: `#6B6E70`
+- Professional supporting gray: `#939598`
 - Near-white gray: `#F7F9FA`
 - Pale cyan callout: `#E5F7FD`
 - White: `#FFFFFF`
+
+For professionally designed print pieces, prefer `#231F20` as the dark neutral because it appears directly in the approved Kelly-produced Milestone 2 Finals and the 2026 Discipleship Group Booklet.
 
 Use color sparingly. Southbrook artifacts should feel clean and high-contrast rather than heavily decorated.
 
 ## Typography
 
-### Verified boundary
+### Professional / outward-facing design
 
-The current website uses an externally loaded Adobe Typekit / modern sans-serif treatment, but the exact official web font family has **not yet been verified**.
+**Gotham family — HIGH CONFIDENCE working precedent.**
 
-Do not invent a font name or call an unverified family "the Southbrook font."
+Recent independent Southbrook professional-design sources converge on Gotham:
 
-### Safe document default
+- Kelly Manus-owned `Milestone 2 Finals` from summer 2025;
+- the 2026 `Discipleship Group Booklet.pdf`;
+- the 2026 Kelly-owned senior invitation, which uses Gotham Condensed Medium plus an event-specific display font.
 
-Recent Southbrook ministry documents use **Arial** extensively.
+Verified Gotham variants include Gotham Book, Gotham Bold, Gotham Book Italic, and Gotham Bold Italic.
 
-Until an official typography guide is supplied or verified:
+Use Gotham when an authorized production environment already has a licensed copy or a current Communications template contains it.
 
-- use Arial for DOCX/PDF ministry artifacts;
+Do **not** extract, redistribute, attach, or package Gotham font files.
+
+Do not call Gotham the formally published "official Southbrook font" unless Communications or a formal brand guide explicitly confirms that wording.
+
+### Website typography boundary
+
+The current website uses a modern sans-serif treatment and Adobe Typekit resources, but the exact current website CSS font family has not been independently verified.
+
+Do not assume the website CSS font is Gotham merely because Gotham is strongly supported by professional print precedent.
+
+### Editable internal-document fallback
+
+Recent editable Southbrook ministry documents use **Arial** extensively.
+
+When Gotham is unavailable:
+
+- use Arial for DOCX/PDF ministry artifacts that need broad editability;
 - use Arial Bold for major titles and section heads;
 - use Arial Italic sparingly for subtitles or reflective prompts;
 - use a compatible clean sans-serif only when Arial is unavailable.
+
+Arial is a practical fallback, not the primary professional-design identity font.
 
 Practical letter-size defaults:
 
@@ -110,11 +134,38 @@ For slides, scale the same hierarchy appropriately; do not carry document font s
 
 ### Current public website assets
 
-- primary website logo: `https://cpmfiles1.com/southbrookchurch.com/logo.png`
-- dark/black website variant: `https://cpmfiles1.com/southbrookchurch.com/southbrook-logo-black.png`
-- simple/icon mark used by the website: `https://cpmfiles1.com/southbrookchurch.com/logosimple.png`
+A live official-site inspection on 2026-10-09 verified that the current Southbrook website header uses:
 
-### Drive fallback / full-color document logo
+- primary full logo / wordmark: `https://cpmfiles1.com/southbrookchurch.com/logo.png`
+- simple/favicon mark currently exposed by the site: `https://cpmfiles1.com/southbrookchurch.com/logosimple.png`
+
+The full logo is the cyan circular mark plus the `SOUTHBROOK CHURCH` wordmark.
+
+A previously observed dark/black website variant is:
+
+- `https://cpmfiles1.com/southbrookchurch.com/southbrook-logo-black.png`
+
+Use the current full website header asset as the preferred logo source unless Communications supplies a newer master.
+
+### Canonical working Drive brand-reference folder
+
+Title:
+`Southbrook Brand Reference — Current`
+
+Drive folder ID:
+`11XwWKHKFa_-9qhmnUQ2sG_IgMnCDhE3-`
+
+Drive URL:
+`https://drive.google.com/drive/folders/11XwWKHKFa_-9qhmnUQ2sG_IgMnCDhE3-`
+
+This folder contains:
+
+- `START HERE — Southbrook Brand Reference`
+- `Current Southbrook Logo — Official Website Source`
+
+The current logo reference document embeds the exact current website header image from the official public source for future visual/copy-paste reference.
+
+### Older Drive fallback logo
 
 Title: `SB Logo.png`
 
@@ -124,7 +175,7 @@ Drive file ID:
 Drive URL:
 `https://drive.google.com/file/d/1YMkf7fSnYH7MzcEcFJb5nD9_CO9ep3tX/view?usp=drivesdk`
 
-This asset contains the cyan circular Southbrook mark with the charcoal `SOUTHBROOK CHURCH` wordmark on white.
+This older file visually matches the current logo architecture, but its Drive metadata traces to an older asset set. Do not treat it as the newest master merely because it exists in Drive. Use it only when the current website source is not practically retrievable.
 
 ### Logo-use rules
 
@@ -198,6 +249,12 @@ Determine:
 
 Read `references/brand-profile.md`.
 
+For substantial Southbrook artifact production, also use the canonical Drive working folder:
+`Southbrook Brand Reference — Current`
+(`11XwWKHKFa_-9qhmnUQ2sG_IgMnCDhE3-`).
+
+Treat Kelly Manus's `Milestone 2 Finals` folder as an approved professional-design precedent set, not as a template that must be copied mechanically.
+
 If the user supplies a newer official guide/logo/font direction, that overrides the profile and the profile should be updated only with authorization.
 
 ### 3. Preserve the content architecture
@@ -240,7 +297,7 @@ Check:
 - correct logo asset and proportions;
 - Southbrook cyan used consistently;
 - text remains high contrast;
-- no invented "official" font claim;
+- Gotham is used only where legitimately available and is not mislabeled as formally published "official" unless confirmed by Communications;
 - typography hierarchy is consistent;
 - whitespace is sufficient;
 - tables/callouts are restrained;
@@ -255,7 +312,7 @@ Before finishing, ask:
 1. If the logo were removed, would the palette/type/hierarchy still feel consistent with Southbrook?
 2. Does this look like ministry communication rather than a generic AI template?
 3. Can the intended person find the next action in seconds?
-4. Is cyan functioning as an accent and hierarchy signal rather than visual noise?
+4. Is cyan functioning as an identity/hierarchy signal rather than visual noise?
 5. Does the artifact preserve Southbrook's simple, modern, high-contrast feel?
 6. Is any brand assumption being presented more confidently than the evidence supports?
 7. If this is a proposal/pilot, is its non-approved status unmistakable?
