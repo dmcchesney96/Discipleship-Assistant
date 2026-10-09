@@ -174,3 +174,14 @@ If the main value is **concrete practice** rather than a new durable principle, 
 `compare-big-picture → discipleship-practice-intelligence-builder`
 
 Use only the handoff(s) actually warranted.
+
+## Candidate-principle handoff (additional required output)
+
+After the readable brief, produce a compact **Candidate Principle Disposition** table only for the most consequential candidates:
+
+| Candidate finding | Existing ID / overlap | Independent source families | Evidence role and limitations | Disposition | Next owning skill |
+|---|---|---|---|---|---|
+
+Use one disposition for each: NEW PRINCIPLE CANDIDATE, STRENGTHENS, NARROWS, COMPLICATES, CONTRADICTS, REPEATED PRACTICE ONLY, NEW LEAD, or NO DURABLE CHANGE. Explain why *another report* does or does not add new knowledge, and identify the exact original sources that would need checking for promotion.
+
+This section is a **handoff**, not permission to make durable changes. The comparison skill ends after delivering the brief and dispositions unless an explicit full-cycle orchestrator has requested the next skill. Maintain a manageable output: no quota or invented confidence improvement. Follow `docs/principle-synthesis-system.md`.
