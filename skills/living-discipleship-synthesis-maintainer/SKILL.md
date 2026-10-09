@@ -57,3 +57,33 @@ Maturity/definition; formation; abiding/practices; community/accountability; obe
 A synthesis update is not a ministry decision.
 
 When new evidence mainly adds a useful **how-to practice** rather than changing a project-level conclusion, route it to `discipleship-practice-intelligence-builder` instead of forcing it into Living Synthesis.
+
+## Durable-principle contract (required)
+
+Use `templates/durable-principle-record-template.md` and `docs/principle-synthesis-system.md` for every new/changed durable principle. A synthesis document may contain multiple records, but every record must remain independently traceable.
+
+1. Search the topic's existing principle records and the Master Principles Index *before* creating an ID or new record. Prefer updating an existing principle over a near-duplicate.
+2. Give the principle one stable `PR-###` ID allocated from the live index (or preserve its pre-existing stable identifier and register an alias). Never silently renumber, recycle, or invent an ID that collides with another record.
+3. Preserve a concise human-readable **claim**, its **scope and outcome**, **candidate mechanism**, the **practice-to-mechanism distinction**, and **what the claim does not mean**.
+4. Record a claim-level evidence map: original source title/author/date and stable Drive/primary URL, page/location, exact supported proposition, type of support (direct, mechanism, practice, reported outcome, interpretation), context, and source-family ID. Cross-referenced summaries of one study count once; independent primary studies count separately. Note contrary evidence and missing evidence.
+5. Separate **evidence strength for mechanism**, **direct disciple-making outcome evidence**, and **project conclusion confidence**. If there is no direct church-outcome evidence, say so plainly; do not inherit an AI report's confidence label.
+6. Require a specific **promotion decision**: NEW DURABLE PRINCIPLE / STRENGTHENS / NARROWS / COMPLICATES / CONTRADICTS / NO DURABLE CHANGE / NEW LEAD. Only first five can change a durable record, and only when assessed evidence warrants it. Hypotheses and attractive unverified ideas remain Research Intelligence, not high-confidence synthesis.
+7. State counterexamples, boundary conditions, an alternative plausible explanation, what evidence could change the conclusion, and appropriate Southbrook implications (questions/hypotheses, never automatic church policy).
+8. Add version date, prior wording/confidence, what changed and why, source links and review trigger. Mark genuinely replaced claims SUPERSEDED; keep the history.
+9. On authorized writes, update the topic synthesis and Master Principles Index together, verifying both links and avoiding duplicate rows. If either write is blocked, mark INCOMPLETE / INDEX OUT OF SYNC; do not claim completion.
+10. Respect privacy: only aggregate/deidentified local data enters a cross-church principle. Keep local findings and proposed practice decisions in their owning Brain layers.
+
+### Quality gate — reject promotion if
+
+- the source is solely an unverified AI narrative or one church marketing claim;
+- three AI reports repeat one primary study but are counted as three independent confirmations;
+- the claim confuses individual disciples with groups, leaders, or planted churches;
+- the supported source finding concerns learning/participation but the principle states proven G3/G4 multiplication;
+- contrary evidence or source limitations have been omitted;
+- a specific practice or proposed Southbrook decision is mislabeled as a portable universal principle;
+- a near-duplicate principle already exists and no merge/update was attempted;
+- source locators, confidence rationale, or previous version are missing for a material change.
+
+### Write result
+
+Return principle IDs and direct Drive links; NEW/UPDATED/NO CHANGE; the source-family count; confidence shift; open evidence gaps; index-sync status; and the reason for stopping. Never manufacture a required number of principles.
