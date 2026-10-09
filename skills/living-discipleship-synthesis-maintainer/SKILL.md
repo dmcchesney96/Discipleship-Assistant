@@ -87,3 +87,7 @@ Use `templates/durable-principle-record-template.md` and `docs/principle-synthes
 ### Write result
 
 Return principle IDs and direct Drive links; NEW/UPDATED/NO CHANGE; the source-family count; confidence shift; open evidence gaps; index-sync status; and the reason for stopping. Never manufacture a required number of principles.
+
+### Counterevidence protection
+
+Log counterevidence explicitly beside evidence favoring the claim; avoid relegating substantive disconfirmation to a vague note or silently lowering its significance. Describe how the best contrary source would change wording, confidence, scope or status.
