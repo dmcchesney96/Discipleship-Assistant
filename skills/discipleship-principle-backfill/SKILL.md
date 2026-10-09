@@ -42,3 +42,7 @@ A full backfill is an **authorized multi-stage workflow only when requested**. I
 ## Stop / safety rules
 
 Do not duplicate the entire raw corpus in GitHub. Never write identifiable student, pastoral-care, medical, safeguarding, or private interview material to a general principle record. Do not silently publish a proposed Southbrook strategy as proven or current. If originals cannot be accessed, preserve uncertainty and stop that claim's promotion. Do not mutate Drive structure, delete, change sharing, or introduce duplicate syntheses to appear productive. Follow repo stop rules.
+
+### Manifest status vocabulary
+
+Use INVENTORIED for metadata-only review, ASSESSED ALREADY for a credible prior audit, DEEP REVIEWED only after a meaningful source-level assessment in this run, DEFERRED for an intentional queue, REFERENCE ONLY for low-yield material, and BLOCKED for inaccessible or unsafe sources. Never make deep-review counts equal inventory counts without source-level work.
