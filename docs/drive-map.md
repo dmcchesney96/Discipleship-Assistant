@@ -57,7 +57,7 @@ This architecture was verified from the live Drive and extended with the Practic
 - Claims & Evidence
 - Verification Queue
 - Contradictions & Disagreements
-- Strongest Converging Principles
+- Strongest Converging Principles (contains canonical thin **Master Principles Index**; topic-owned full principle records stay in 05 Living Synthesis)
 - Research Gaps & Open Questions
 - 06 Practice Intelligence Library
   - 01 Practice Cards

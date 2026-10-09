@@ -222,12 +222,15 @@ Discipleship-specific:
 - `church-movement-case-study-analyzer`
 - `southbrook-interview-qualitative-evidence-analyzer`
 - `southbrook-discipleship-diagnostic`
+- `discipleship-principle-backfill` — bounded, resumable old-corpus evidence-to-principle processing with source-family deduplication and verified Master Principles Index handoff
 - `living-discipleship-synthesis-maintainer`
 - `discipleship-measurement-architect`
 - `discipleship-experiment-pilot-designer`
 - `southbrook-discipleship-operating-system-designer`
 - `discipleship-research-librarian-drive-curator`
 - `strategy-decision-brief-builder`
+
+Durable principle records follow `docs/principle-synthesis-system.md` and the principle-record template; the canonical thin Master Principles Index belongs inside Drive `04 Research Intelligence / 04 Strongest Converging Principles`. It is not a second Living Synthesis. Do not count derivative reports as independent evidence or turn attractive church practices into causal principles.
 
 See `docs/skill-routing.md`.
 

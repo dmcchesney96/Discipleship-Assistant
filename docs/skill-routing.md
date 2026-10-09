@@ -27,6 +27,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Deep study one church/network/movement | `church-movement-case-study-analyzer` |
 | Analyze local interview transcripts qualitatively | `southbrook-interview-qualitative-evidence-analyzer` |
 | Build/update local discipleship diagnostic | `southbrook-discipleship-diagnostic` |
+| Backfill an existing corpus into traceable, verified durable disciple-making principles (not Practice Cards) | `discipleship-principle-backfill` |
 | Update project-level principles/conclusions | `living-discipleship-synthesis-maintainer` |
 | Design metrics/scorecards/instruments | `discipleship-measurement-architect` |
 | Design a test/pilot | `discipleship-experiment-pilot-designer` |
@@ -72,6 +73,11 @@ Use branding as a visual layer after the artifact's ministry purpose and content
 ### New AI report
 `intake → ai verification → compare-big-picture when the user wants a readable cross-report view → living synthesis only if durable conclusions change`
 
+### Historical evidence-to-principle backfill
+`live Brain inventory + source-family map → existing synthesis/index baseline → evidence assessment/verification → compare/pattern → living synthesis only when warranted → Master Principles Index sync → resumable manifest/QA`
+
+Use `discipleship-principle-backfill` only for a user-requested bounded retrospective corpus or whole-Brain synthesis backfill. Concrete practices use `discipleship-practice-intelligence-backfill` instead.
+
 ### Topic synthesis / "bring all this research together"
 `context/relevant assessed evidence → compare-big-picture → living synthesis only if a durable project conclusion should change`
 
@@ -115,6 +121,8 @@ Automatically use `full-discipleship-curriculum-build-cycle` when the user asks 
 Automatically use `discipleship-curriculum-architect` when the user asks to design/redesign a syllabus, course outline, week-by-week curriculum, facilitator/participant learning journey, or curriculum architecture from a defined outcome/evidence base but does not request the entire research-to-artifact pipeline.
 
 Automatically use `discipleship-practice-intelligence-builder` when the user asks what churches/practitioners actually do or wants concrete practice options/Practice Cards without yet asking for local selection.
+
+Automatically use `discipleship-principle-backfill` when the user asks to go backward through a substantial existing research corpus, assess cross-source principles, deduplicate claims, and update durable Living Synthesis/central principle indexing. Prefer this over practice backfill when the desired output is principles rather than how-to Practice Cards.
 
 Automatically use `discipleship-practice-intelligence-backfill` when the user asks to go backward through a large existing folder/library of research, books, reports, or transcripts and convert the corpus into Practice Cards, practice families, landscapes, and a deduplicated manifest.
 

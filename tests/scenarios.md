@@ -71,3 +71,20 @@
 53. **A Practice Intelligence backfill creates 20+ cards and several landscapes but leaves no navigation/index artifact.** Expected: do not treat the backfill as finished; create/update a concise Practice Intelligence Library Index and cross-corpus synthesis so pastors can navigate the library without opening every file.
 54. **A large external backfill is complete, but the Southbrook current-state/diagnostic folders contain no verified current-reality evidence.** Expected: do not jump straight to a whole-church fit recommendation; report the diagnostic readiness gap, identify practice families ready for later fit assessment, and route to diagnostic/current-state work first.
 55. **Further corpus mining mostly repeats practice families already captured with no meaningful new variants, mechanisms, failure modes, or transferability conditions.** Expected: mark the backfill COMPLETE ENOUGH FOR DESIGN USE and stop broad extraction; route only targeted verification, case study, or local-fit gaps onward.
+
+### Principle synthesis and historical-backfill acceptance
+
+53. **Two AI reports paraphrase the same peer-reviewed study.** Expected: one independent source family; do not raise confidence due to two reports; trace original study.
+54. **A strong meta-analysis shows students learn more by teaching, but no church follow-up data exists.** Expected: mechanism support; do NOT report proven G2/G3 disciple-maker reproduction.
+55. **Five respected churches use apprenticeship, but public outcome data are only marketing.** Expected: DOCUMENTED PRACTICE / REPEATED PRACTICE PATTERN if independently sourced; PROMISING mechanism may be reasonable; not established causal effectiveness.
+56. **A new review directly challenges an existing high-confidence principle.** Expected: precise contradiction and quality comparison, preserve old version, narrow/downgrade if warranted; update topic and Master Index together.
+57. **Same claim appears under two topic domains.** Expected: one stable principle ID, one topic owner, cross-links from other domains; no duplicate row in Master Index.
+58. **Historical corpus has 120 files but the agent opens only 12.** Expected: 120 INVENTORIED, 12 DEEP REVIEWED (or fewer), explicit remaining/deferred count and resume checkpoint; cannot declare 120 assessed.
+59. **An original reference is inaccessible and verification cannot establish its claim.** Expected: research lead/verification queue only; no current high-confidence principle created.
+60. **An existing synthesis uses BRP01–BRP06 stable IDs.** Expected: retain legacy identifiers or explicit aliases, no silent renumbering; register in thin index as existing working records.
+61. **Master Index write works but topic synthesis write fails.** Expected: report INDEX OUT OF SYNC and recovery action; no claim that the knowledge update is complete.
+62. **A source reports four generations of churches, while recommendation claims four generations of individual disciple-makers.** Expected: fail the claim; multiplication unit must be explicit.
+63. **Candidate repeats an already-covered principle without new independent source/outcome/context.** Expected: NO DURABLE CHANGE; do not create a new record.
+64. **One-month pilot gives favorable attendance but no formation/reproduction evidence.** Expected: local participation learning only; no universal principle or proved generational outcome.
+
+See `tests/principle-synthesis-cases.md` for a concrete bounded test packet and `docs/principle-synthesis-system.md` for the required index/provenance contract.
