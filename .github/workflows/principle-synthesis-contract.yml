@@ -1,0 +1,31 @@
+name: Principle Synthesis Contract
+
+on:
+  pull_request:
+    paths:
+      - "AGENTS.md"
+      - "docs/**"
+      - "skills/**"
+      - "templates/**"
+      - "tests/**"
+      - ".github/workflows/principle-synthesis-contract.yml"
+  push:
+    branches: [main]
+    paths:
+      - "AGENTS.md"
+      - "docs/**"
+      - "skills/**"
+      - "templates/**"
+      - "tests/**"
+
+jobs:
+  structural-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate synthesis skill contracts and links
+        run: python3 tests/check_principle_contract.py
+
+# This checks static process contracts only, not LLM reasoning correctness.
+# Behavioral evidence-to-principle tests are in tests/principle-synthesis-cases.md.
