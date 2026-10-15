@@ -7,6 +7,9 @@ Every material claim should be classified when the distinction matters:
 | Label | Meaning |
 |---|---|
 | DOCUMENTED_EVIDENCE | Identifiable source or local record supports the claim. |
+| DOCUMENTED_PRACTICE | Source establishes what practitioners do, not effectiveness. |
+| REPORTED_OUTCOME | Practitioner/organization reports an outcome; independent support must be stated. |
+| MECHANISM_SUPPORT | Evidence supports a plausible mechanism without proving the exact ministry outcome. |
 | ORGANIZATIONAL_CLAIM | A church/ministry/network reports this about itself. |
 | PRACTITIONER_OPINION | Experience-based judgment; useful but not causal proof. |
 | INTERPRETATION | Reasoned synthesis from evidence. |

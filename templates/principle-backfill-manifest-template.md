@@ -14,6 +14,7 @@
 ## Coverage (do not inflate)
 - Files inventoried:
 - Already assessed by credible pre-existing audits:
+- Inherited deep-review status (not new reviews):
 - Deep-reviewed in this run:
 - Deferred/blocked:
 - Reference-only:
@@ -27,9 +28,13 @@
 ## Change and recovery log
 - Source evidence accessed and validated:
 - Topic syntheses changed / not changed and why:
+- Operation key / principle ID / intended version / source-set fingerprint:
+- Observed topic and index versions; intended changes:
+- Confirmed topic write / index write / readback; prior failure retained:
 - Master Index synced? link + verification:
 - Unresolved conflicts:
 - Practice Intelligence handoff (if any):
 - Verification/research queues:
 - Remaining work and exact next batch:
 - What would make the batch COMPLETE:
+

@@ -18,6 +18,9 @@ status_labels:
 
 evidence_labels:
   - DOCUMENTED_EVIDENCE
+  - DOCUMENTED_PRACTICE
+  - REPORTED_OUTCOME
+  - MECHANISM_SUPPORT
   - ORGANIZATIONAL_CLAIM
   - PRACTITIONER_OPINION
   - INTERPRETATION
@@ -65,6 +68,22 @@ discipleship_skills:
   - southbrook-discipleship-operating-system-designer
   - discipleship-research-librarian-drive-curator
   - strategy-decision-brief-builder
+  - discipleship-alignment-lens-retriever
+  - discipleship-convictions-capture
+  - discipleship-curriculum-architect
+  - discipleship-deep-research-executor
+  - discipleship-pilot-learning-evaluator
+  - discipleship-practice-implementation-kit-builder
+  - discipleship-practice-intelligence-backfill
+  - discipleship-practice-intelligence-builder
+  - discipleship-principle-backfill
+  - discipleship-research-report-publisher
+  - full-discipleship-curriculum-build-cycle
+  - full-discipleship-practice-design-cycle
+  - full-discipleship-research-cycle
+  - southbrook-brand-artifact-stylist
+  - southbrook-practice-fit-assessor
+  - southbrook-sermon-notes-artifact-builder
 
 specialist_agents:
   - research-director

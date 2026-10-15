@@ -1,0 +1,94 @@
+{
+  "baseline_commit": "cb115fd8a804fc681ad942725fd7b8d3d3359c9a",
+  "as_of": "2026-10-09 America/New_York",
+  "cases": [
+    {
+      "id": "T1",
+      "name": "Route intent and degrade honestly",
+      "prompt": "Select the narrowest primary skill and bounded workflow for each request: A: Compare these seven reports and give me only three biggest learnings. Don't save anything. B: Create one next Genspark prompt; don't do the research. The Brain cannot be accessed this session. C: Find the next unanswered discipleship question and run the entire research cycle. D: Use our old research folder to recover concrete ministry methods we could try, not new general principles. Routing only; do not perform remote actions.",
+      "assertions": [
+        "A routes to compare-big-picture, respects exactly three primary findings and no writes",
+        "B produces one provisional prompt without research or claims that the Brain has been checked",
+        "C routes to full-discipleship-research-cycle and includes actual report plus verification",
+        "D routes to practice-intelligence-backfill rather than principle backfill"
+      ],
+      "mode": "fresh agent; routing/workflow evaluation only"
+    },
+    {
+      "id": "T2",
+      "name": "Audit overlapping real AI reports",
+      "prompt": "Are the Muse how-soon HTML/PDF and protégé-effect report three independent supports that early teaching produces multiplying disciples? Check three consequential claims, including one numeric learning claim, against accessible original sources. Tell me what could enter synthesis and what remains a lead. Review only; no Drive writes. At most six original-source URL attempts.",
+      "assertions": [
+        "Muse HTML/PDF treated as one report in two formats",
+        "Report count separated from original study/dataset families",
+        "Consequential verification reopens original sources and states access depth",
+        "Numeric claim remains scoped to its measured educational outcome",
+        "No G2/G3 multiplication or synthesis promotion inferred from adjacent educational evidence"
+      ],
+      "mode": "fresh agent; actual attachments and live primary sources; no writes",
+      "input_files": [
+        "Muse how-soon HTML",
+        "Muse how-soon PDF",
+        "protege-effect-learning-by-teaching-report.pdf"
+      ],
+      "input_policy": "Resolve supplied artifacts or canonical Drive originals; do not commit the real corpus into GitHub."
+    },
+    {
+      "id": "T3",
+      "name": "Correct overconfident synthesis against counterevidence",
+      "prompt": "Update our staged synthesis from the supplied assessed evidence. Show proposed wording, confidence, ID, history and what changed. Use only the synthetic packet; no live writes or network.",
+      "assertions": [
+        "Preserve PR-017 and its previous version/wording",
+        "Count A/B as one family and C separately",
+        "Retain substantive null/contrary source C",
+        "Remove unsupported two-week independent-leadership mandate and G2/G3 inference",
+        "Separate mechanism support, direct ministry evidence, and project confidence",
+        "Provide disposition and proposed index update; do not claim live sync",
+        "Mission relevance remains bounded to supported learning; no fixed graduation rule, compulsory pilot or approval is invented"
+      ],
+      "mode": "fresh agent; synthetic staged evidence; no web",
+      "input_files": [
+        "tests/fixtures/synthesis-packet.md"
+      ]
+    },
+    {
+      "id": "T4",
+      "name": "Carry bounded research through complete handoffs",
+      "prompt": "Run the full research cycle on whether preparing to teach without actually teaching improves educational learning, and what that would justify for early supervised Christian discipleship. Produce a complete bounded content report, verification and synthesis disposition; review only, no live writes. Markdown artifacts suffice; exclude PDF publication. Use at most three original academic sources and two consequential claims. Starting context: BRP04 'Invite early, bounded helping under supervision', PROMISING, adjacent mechanism only, no direct generational outcomes; topic/index otherwise unavailable.",
+      "assertions": [
+        "Research contract and actual complete bounded report produced",
+        "Raw report preserved intact before verifier output",
+        "Source ledger and consequential claim register traceable",
+        "Separate verification reopens original sources rather than certifying prose",
+        "Final report reflects audit and states transfer limits",
+        "No unsupported Brain update or approved policy claimed",
+        "Stage ledger distinguishes completed, blocked and user-excluded publication/writes",
+        "Explain which ordinary-person capability or uncertainty the research informs without counting reports or adjacent learning as disciple reproduction"
+      ],
+      "mode": "fresh orchestrator and verifier where supported; live research; production PDF/Drive excluded",
+      "input_files": [
+        "protege-effect-learning-by-teaching-report.pdf"
+      ],
+      "input_policy": "Use supplied raw report as input; preserve executor output before a fresh verifier pass."
+    },
+    {
+      "id": "T5",
+      "name": "Recover partial write and repeat without duplication",
+      "prompt": "Resume this interrupted historical principle backfill, repair the staged index, finish the bounded batch as far as evidence/access allows, then run the same recovery a second time. Show checkpoint and coverage. Use only the synthetic recovery packet; local staged files only, no live writes.",
+      "assertions": [
+        "Repair stale index for existing PR-017 before new IDs",
+        "Second pass makes no duplicate record or evidence/confidence promotion",
+        "F3 remains blocked/deferred and is not called reviewed",
+        "Separate current-run deep review from prior reviewed sources",
+        "Record accurate partial completion, sync and resume state",
+        "Write/retry history is preserved and local simulation is not described as live Drive verification"
+      ],
+      "mode": "fresh agent; local staged state; real connector failure not injected",
+      "input_files": [
+        "tests/fixtures/recovery-packet.json"
+      ]
+    }
+  ],
+  "grading_policy": "Fresh task agents do not receive assertions, suspected bugs or intended fixes. Grade outputs against these assertions after execution. Separate manual semantic grades, executable checks, blocked stages and external tool limitations.",
+  "revision_date": "2026-10-15"
+}

@@ -42,6 +42,7 @@
 
 ## Local interpretation — not approved policy
 - Southbrook relevance as a question/hypothesis:
+- Mission relevance: ordinary-person capability, decision or uncertainty this informs; distinguish formation, mission, disciple-making and further reproduction:
 - Practice/model options should link to Practice Intelligence; local pilots to Experiments:
 - Would this be reproducible without ongoing unusual staff dependence?
 
@@ -56,3 +57,4 @@
 - Unresolved research gap(s):
 
 **Master Index sync:** VERIFIED / PENDING / BLOCKED
+

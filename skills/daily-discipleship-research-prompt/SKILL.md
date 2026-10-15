@@ -33,6 +33,12 @@ Before writing the prompt, inspect the current conversation/Brain sufficiently t
 
 Do not issue another generic “best discipleship systems” prompt when adjacent deeper questions are available.
 
+## Context access limit
+
+If canonical Brain context is unavailable or partial, return one PROVISIONAL prompt using the accessible boundary. State what was checked, what was inaccessible, and that novelty against the Brain is unverified. Do not claim an unsearched topic is new. In SELF_EXECUTE mode pass this gap to the orchestrator; do not choose a highest-value project-wide gap from absent context.
+
+Apply the AGENTS.md mission-to-learning gate when choosing the question. Include the capability, decision or uncertainty it could change; do not frame report production itself as the discipleship outcome.
+
 ## Research intent + modes
 
 First choose the research intent:

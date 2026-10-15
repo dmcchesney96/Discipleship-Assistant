@@ -1,6 +1,6 @@
 ---
 name: discipleship-practice-implementation-kit-builder
-description: Turn an approved or clearly proposed discipleship test/pilot into a minimum viable implementation kit ordinary leaders can actually run: training, leader/participant tools, coaching rhythm, fidelity essentials, troubleshooting, launch checklist, and measurement prompts. Use after a practice/pilot is selected; do not use to choose the practice or launch it without authorization.
+description: "Turn an approved or clearly proposed discipleship test/pilot into a minimum viable implementation kit ordinary leaders can actually run: training, leader/participant tools, coaching rhythm, fidelity essentials, troubleshooting, launch checklist, and measurement prompts. Use after a practice/pilot is selected; do not use to choose the practice or launch it without authorization."
 metadata:
   short-description: Make a selected discipleship pilot ready for ordinary leaders to run
 ---

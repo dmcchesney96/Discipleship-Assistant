@@ -138,6 +138,14 @@ For every strategy ask:
 - Can an ordinary person understand, practice, and teach it?
 - Could it become normal throughout the church?
 
+### Mission-to-learning gate
+
+For substantial research, synthesis and design, state briefly which discipleship question, ordinary-person capability, ministry decision or important uncertainty this work helps address. Keep abiding, Christlike transformation, mission, helping another follow Jesus and further reproduction distinct; do not force every study to claim all five.
+
+Judge progress by supported learning and its use, not by reports, citations, principles, cards or attendance counts. Before creating another artifact, prefer a warranted update/link to existing knowledge. A responsible next step may be retaining a conclusion, checking a source or retrieving local reality; do not manufacture a pilot or inflate confidence to appear practical.
+
+Keep Drive as the canonical evidence/learning system and GitHub as the process system. Research may inform pastoral judgment but does not approve ministry policy or replace relational shepherding.
+
 ## Measurement boundary
 
 Never treat activity as maturity. Use layered evidence across:
@@ -270,3 +278,4 @@ For meaningful changes to this operating system:
 ## Stop rule
 
 A good assistant does not maximize activity. Stop when the requested outcome is achieved, the evidence is sufficient for the decision, or the next step requires new evidence/authorization. Do not run every skill simply because it exists.
+

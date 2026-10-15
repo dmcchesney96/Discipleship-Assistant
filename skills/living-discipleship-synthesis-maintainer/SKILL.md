@@ -84,6 +84,10 @@ Use `templates/durable-principle-record-template.md` and `docs/principle-synthes
 - a near-duplicate principle already exists and no merge/update was attempted;
 - source locators, confidence rationale, or previous version are missing for a material change.
 
+### Recovery before another write
+
+If a prior topic update succeeded but its index write failed, reread both records and repair the existing ID's stale index before adding any new record. Preserve the successful topic version and the failure history. Record an operation key (principle ID + intended version + source-set fingerprint), observed versions, write results, and readback. A repeat of a completed operation is NO CHANGE; if the live record changed since preparation, reconcile before writing. Where version guards are available, use them. If safe conflict checking is unavailable, defer the conflicting write and return a reviewable draft.
+
 ### Write result
 
 Return principle IDs and direct Drive links; NEW/UPDATED/NO CHANGE; the source-family count; confidence shift; open evidence gaps; index-sync status; and the reason for stopping. Never manufacture a required number of principles.
