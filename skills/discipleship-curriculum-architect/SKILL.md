@@ -1,6 +1,6 @@
 ---
 name: discipleship-curriculum-architect
-description: Turn a defined discipleship formation/equipping outcome plus relevant verified Brain evidence into a coherent multi-session curriculum that transfers real capability: outcomes, progression, modeling, guided practice, independent practice, feedback, assessment, participant/leader materials, and reproduction where appropriate. Use for course/class/curriculum design; do not use to run a broad research cycle or launch ministry without authorization.
+description: "Turn a defined discipleship formation/equipping outcome plus relevant verified Brain evidence into a coherent multi-session curriculum that transfers real capability: outcomes, progression, modeling, guided practice, independent practice, feedback, assessment, participant/leader materials, and reproduction where appropriate. Use for course/class/curriculum design; do not use to run a broad research cycle or launch ministry without authorization."
 metadata:
   short-description: Build research-grounded discipleship curriculum for capability transfer
 ---

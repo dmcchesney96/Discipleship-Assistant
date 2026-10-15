@@ -1,0 +1,46 @@
+{
+  "fixture_only": true,
+  "scope": "three-source historical principle backfill",
+  "sources": [
+    {
+      "id": "F1",
+      "status": "DEEP REVIEWED",
+      "family": "EDU-01",
+      "claim": "supported teaching can improve educational recall"
+    },
+    {
+      "id": "F2",
+      "status": "INVENTORIED",
+      "family": "EDU-01",
+      "duplicate_of": "F1"
+    },
+    {
+      "id": "F3",
+      "status": "BLOCKED",
+      "family": "UNKNOWN",
+      "reason": "source permission denied"
+    }
+  ],
+  "topic": {
+    "id": "PR-017",
+    "version": 4,
+    "claim": "Supported teaching may aid educational mastery; church multiplication transfer remains unestablished",
+    "confidence": "PROMISING",
+    "write_status": "CONFIRMED"
+  },
+  "index": {
+    "id": "PR-017",
+    "topic_version": 3,
+    "confidence": "HIGH CONFIDENCE",
+    "write_status": "FAILED",
+    "error": "429 rate limited"
+  },
+  "checkpoint": {
+    "id": "batch-001",
+    "state": "IN PROGRESS",
+    "resume_pointer": "index repair for PR-017 then F2 and inaccessible F3",
+    "committed_topic_version": 4
+  },
+  "authority": "local fixture repairs only; no live Drive/GitHub writes",
+  "new_discovery": false
+}

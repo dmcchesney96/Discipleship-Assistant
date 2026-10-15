@@ -115,6 +115,9 @@ When the contract is PRACTICE INTELLIGENCE or HYBRID:
 Every major claim should be classifiable as one of:
 
 - `DOCUMENTED_EVIDENCE`
+- `DOCUMENTED_PRACTICE`
+- `REPORTED_OUTCOME`
+- `MECHANISM_SUPPORT`
 - `ORGANIZATIONAL_CLAIM`
 - `PRACTITIONER_OPINION`
 - `INTERPRETATION`
@@ -338,7 +341,7 @@ Return:
 1. **Complete Research Report**
 2. **Claim Register**
 3. **Source Ledger**
-4. **Verification Handoff**, naming the 5–15 claims that most need independent second-pass checking
+4. **Verification Handoff**, naming the consequential claims that need independent second-pass checking (typically 5–15 for a broad report; fewer for a bounded question; never pad the register)
 5. **Persistence Metadata**:
    - suggested title;
    - artifact type = `AI-GENERATED RESEARCH INPUT`;

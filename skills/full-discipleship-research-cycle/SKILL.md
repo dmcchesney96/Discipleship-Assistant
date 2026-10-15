@@ -60,6 +60,14 @@ Accept either:
 2. **Agenda-selected mode** — the user asks the system to find the highest-value next question.
 3. **Bounded-follow-up mode** — the user points to an existing report/topic and asks the system to deepen/test/resolve it through the full cycle.
 
+## Run ledger and capability check
+
+Use templates/research-cycle-checkpoint-template.md for a compact resumable ledger. Keep it with the authorized cycle artifacts, not in a new parallel Brain layer. Track each stage as NOT STARTED / IN PROGRESS / COMPLETED / BLOCKED / EXCLUDED BY USER with its input, output path/link, validation result, and next action. Preserve the raw report separately before verification; do not overwrite it with the corrected final report. Use durable local artifacts when an authorized remote save is unavailable, and report remote persistence separately.
+
+A fresh source-based verifier is preferred when supported. If only a second pass in the same context is available, state that limit; never describe it as an independent agent review. Record which originals were reopened and to what depth.
+
+When Brain access is insufficient, mark novelty/priority assessment unverified. Continue a user-specified bounded question when useful; do not assert it is the project's highest-value unanswered gap. Honor review-only and artifact-format overrides without treating them as tool failures.
+
 ## Stage 1 — Retrieve the smallest sufficient Brain context
 
 Route to `ministry-context-retriever`.
@@ -380,7 +388,7 @@ State meaningful evidence gaps and what could change the conclusion.
 
 # Suggested next move
 
-Only one next move if needed. Do not create another chain after the cycle is complete.
+Only one next move if needed. Apply the AGENTS.md mission-to-learning gate: explain what the supported learning changes for discipleship, or which important uncertainty remains. Retaining the current conclusion or seeking local evidence may be the right outcome. Do not create another chain after the cycle is complete.
 
 ## Stop conditions
 

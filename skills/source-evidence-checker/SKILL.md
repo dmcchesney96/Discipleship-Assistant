@@ -21,6 +21,10 @@ Prevent attractive claims from outrunning their evidence.
 8. Assign project confidence only when enough evidence exists.
 9. Keep **claim confidence** separate from **action warrant**. Limited direct evidence for an exact practice does not automatically mean a low-risk reversible test is unwise; that judgment belongs to `southbrook-practice-fit-assessor` and depends on theology, mechanism, precedent, local fit, risk, and reversibility.
 
+## Access and claim support
+
+Record the exact locator and access depth for each checked source. A search snippet or abstract may establish a narrow proposition; label everything requiring unavailable methods/results as unverified. For numbers, preserve the exact comparison, denominator, time window and outcome; do not infer an incremental effect by subtracting effect sizes from different comparisons.
+
 ## Evidence strength
 
 Use descriptive strength (Strong / Moderate / Limited) for source support where helpful, and project confidence vocabulary from `AGENTS.md` for synthesized conclusions. Do not silently map one to the other.

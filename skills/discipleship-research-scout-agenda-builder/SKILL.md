@@ -35,7 +35,7 @@ Route practice/fit/implementation gaps to the appropriate practice-design skill 
 
 1. Map what is already well-covered versus weakly covered.
 2. Identify unresolved contradictions and high-leverage unknowns.
-3. Separate curiosity from decision-relevant research.
+3. Separate curiosity from decision-relevant research. Apply the AGENTS.md mission-to-learning gate: identify what ordinary-person capability, ministry decision or consequential uncertainty resolving the question could change. If the actual gap is local implementation, recommend that owning workflow rather than another generic report.
 4. Score candidate questions qualitatively on:
    - North Star importance;
    - novelty / redundancy risk;
@@ -64,3 +64,4 @@ Route practice/fit/implementation gaps to the appropriate practice-design skill 
 - Questions intentionally deferred + why
 
 Do not launch the research automatically unless the caller requested a multi-step workflow.
+
