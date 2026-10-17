@@ -26,3 +26,14 @@ Mark a stage COMPLETED only when its actual output and validation exist; conditi
 **Local draft or simulation status:**
 
 Resume from confirmed outputs. Repair incomplete topic/index synchronization before allocating another ID. Retain failures and prior versions. Do not treat user-excluded work as a tool failure or call an interrupted/blocked cycle complete.
+
+## Restart without the original chat
+
+**Last durable save / timezone:**
+**Exact durable checkpoint ID/link:**
+**Confirmed report/audit/output IDs and links (not scratch-only paths):**
+**Source/claim ledger links and access-depth limits:**
+**Authorized actions and excluded actions:**
+**Self-contained restart prompt:** Restate the scope; identify this checkpoint and confirmed outputs; inspect uncertain writes; resume the first unfinished stage; repair topic/index synchronization first; reuse file identities; avoid duplicate outputs and research. Do not assume chat history, scratch survival, credit-reset detection, a selected model or tool availability. Refresh this checkpoint at the next stage boundary.
+
+A named task is not scheduled merely because a restart prompt exists. Create/update an actual automation only when the user requests a time or condition.
