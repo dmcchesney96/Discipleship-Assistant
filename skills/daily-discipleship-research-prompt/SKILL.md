@@ -137,4 +137,20 @@ One complete self-contained prompt suitable for `discipleship-deep-research-exec
 ### HANDOFF
 `NEXT: discipleship-deep-research-executor`
 
-The calling orchestrator continues automatically.
+The calling orchestrator continues automatically within the user's authorization. Always include the literal named routing line `NEXT: discipleship-deep-research-executor`; a generic review state is not a substitute. For a contract-only or no-execution request, retain that routing line and separately state that research has not started and execution must respect the user's limit.
+
+## Save progress and make interrupted work resumable
+
+Include this requirement in every research contract and execution prompt, including PROMPT_ONLY output. In SELF_EXECUTE mode, carry it through the orchestrator handoff.
+
+- Save completed work at each major stage, before starting a long next stage. Do not wait for a low-usage warning; the runtime may stop without warning and may expose no remaining-usage signal.
+- Preserve the complete raw report separately from the corrected final report. Save completed contracts, source/claim registers, verification results and confirmed write receipts in the user's authorized durable destination.
+- Maintain one named resume checkpoint with run ID, date/timezone, scope, cycle/stage states, exact saved file IDs/links, source access depth, confirmed writes, partial failures, remaining work and the next exact action. Distinguish local-only, durable-saved, verified and blocked work.
+- Include a self-contained restart prompt a later session or scheduled task can use without the original chat or scratch directory. Tell it to read the checkpoint, inspect confirmed outputs, resume the first unfinished stage, repair partial topic/index synchronization and avoid duplicate files/IDs.
+- Mark unfinished cycles IN PROGRESS or BLOCKED. Never infer completion from an intended write.
+- A usage interruption is not a scheduled continuation. Do not create a scheduled task without the user's requested time/condition, promise credit-reset detection, guarantee a model/tool will be available, or imply that a task can automatically reopen a specific chat.
+- If durable saving fails, record the exact failure and provide the best available recovery files; do not call local scratch durable.
+
+## Plain-language learning requirement
+
+Require the report and any synthesis handoff to lead with 3-6 short learning sentences an ordinary ministry volunteer can explain. For each, state what it means, give a concrete example, say what a leader could try and explain the main limit. Put study methods and technical evidence fields after the readable explanation. Keep the distinction between learning a skill, helping someone learn it, and that person helping another. Preserve claim meaning, confidence, sources and uncertainty; simpler wording must not turn an association into a cause or a proposal into a decision.
