@@ -95,3 +95,21 @@ Return principle IDs and direct Drive links; NEW/UPDATED/NO CHANGE; the source-f
 ### Counterevidence protection
 
 Log counterevidence explicitly beside evidence favoring the claim; avoid relegating substantive disconfirmation to a vague note or silently lowering its significance. Describe how the best contrary source would change wording, confidence, scope or status.
+
+## Write learning people can understand
+
+Lead each update with the useful learning in ordinary language before the technical record.
+
+For every changed conclusion provide:
+1. **What we learned:** one short sentence with a person and an action.
+2. **What that means:** two or three plain sentences.
+3. **What it could look like:** a concrete everyday ministry example.
+4. **What someone could try:** a small action or question, clearly labeled as a proposal when appropriate.
+5. **How sure we are:** the existing confidence label plus one sentence explaining it.
+6. **Where this may not apply:** the important limit or contrary finding.
+
+Prefer "Let them make a real decision, then talk through how it went" to "Transfer reproductive ownership through graduated responsibility." Prefer "Check whether the person they taught can do it too" to "Assess downstream generational fidelity." Explain a necessary specialist term once in familiar words; do not make the reader decode jargon.
+
+Apply a read-aloud check: could an ordinary volunteer explain this to another volunteer without translating it? Revise abstract noun stacks, vague slogans and unexplained labels until they can. Keep the source map, stable IDs, evidence distinctions, confidence, counterevidence and version history after the readable learning. Never simplify away a material caveat, a theological boundary or the difference between a proposed practice and an approved decision.
+
+Do not rewrite unrelated historical records for style. Improve the affected current learning while preserving prior wording in history.
