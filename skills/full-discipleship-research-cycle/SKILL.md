@@ -66,6 +66,8 @@ Use templates/research-cycle-checkpoint-template.md for a compact resumable ledg
 
 A fresh source-based verifier is preferred when supported. If only a second pass in the same context is available, state that limit; never describe it as an independent agent review. Record which originals were reopened and to what depth.
 
+Refresh and durably save the checkpoint after every major stage and before a long next stage. Do not rely on a usage-warning or remaining-credit signal. Include exact saved IDs/links and a self-contained restart prompt usable without the original chat or scratch files. Record incomplete writes and resume idempotently. Do not schedule continuation, promise credit-reset detection, or guarantee model/tool availability without the user's requested schedule and supported capabilities.
+
 When Brain access is insufficient, mark novelty/priority assessment unverified. Continue a user-specified bounded question when useful; do not assert it is the project's highest-value unanswered gap. Honor review-only and artifact-format overrides without treating them as tool failures.
 
 ## Stage 1 — Retrieve the smallest sufficient Brain context
