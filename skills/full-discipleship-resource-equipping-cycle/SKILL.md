@@ -1,6 +1,6 @@
 ---
 name: full-discipleship-resource-equipping-cycle
-description: Orchestrate an end-to-end, bounded resource/equipping workflow for real church handouts, worksheets, assignments, exercises, and leader guides: catalog originals, evaluate content, compare compatible resources, draft original tools when requested, propose bounded tests, and preserve traceable resource intelligence. Separate from full research and complete curriculum build cycles.
+description: "Orchestrate an end-to-end, bounded resource/equipping workflow for real church handouts, worksheets, assignments, exercises, and leader guides: catalog originals, evaluate content, compare compatible resources, draft original tools when requested, propose bounded tests, and preserve traceable resource intelligence. Separate from full research and complete curriculum build cycles."
 metadata:
   short-description: Run intake → evaluate → compare → design → learning for practical equipping tools
 ---
