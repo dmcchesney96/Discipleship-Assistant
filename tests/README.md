@@ -1,5 +1,7 @@
 # Tests
 
+Resource & Equipping Intelligence has an **unrun** acceptance plan in `tests/resource-equipping-acceptance-plan.md`. It specifies item-level, comparison, original-design, bulk-cataloging, safeguarding and routing evaluations for a later test session. Creation of a test specification is not a passing test.
+
 The tests here are scenario/behavior checks for the assistant's operating system. They are not unit tests for a software package.
 
 A future automation layer can convert these into executable evaluations. For now, use `tests/scenarios.md` during meaningful architecture or skill changes.
