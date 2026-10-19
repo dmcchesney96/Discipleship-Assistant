@@ -125,6 +125,12 @@ A low-risk reversible test may be warranted by theological coherence, plausible 
 
 See `docs/research-practice-action-framework.md`.
 
+## Resource & equipping intelligence — distinct third workflow
+
+Research evaluates truth claims; Practice Intelligence evaluates ministry methods and systems; **Resource & Equipping Intelligence evaluates actual instructional artifacts** such as ministry handouts, exercises, assignments, leader guides and coaching tools for their usefulness in transferring capability. It does not promote a well-designed worksheet into evidence that it caused spiritual formation.
+
+Use `docs/resource-equipping-workflow.md` and the dedicated `full-discipleship-resource-equipping-cycle` only when the request asks for a complete resource/materials chain. Otherwise select the narrowest intake, evaluator, comparer, or tool-designer skill. Keep original-source attribution, exact locators, reuse/licensing restrictions, pastoral/child safeguards, human approval and review-vs-observed-impact statuses visible. Do not require a full research paper for each ministry exercise; route consequential effect claims to evidence checking when warranted.
+
 ## Formation and multiplication test
 
 For every strategy ask:
@@ -186,6 +192,8 @@ When the user clearly asks for the **entire practical path from Southbrook probl
 
 When the user clearly asks for a **complete multi-session discipleship curriculum/course built from the Brain/research through source-gap analysis, curriculum design, assessment, and run-ready assets**, route to `full-discipleship-curriculum-build-cycle`.
 
+When the user clearly asks for an **end-to-end review of real ministry worksheets, assignments, handouts, exercises or training tools through item-level evaluation, comparison and optional original drafting**, route to `full-discipleship-resource-equipping-cycle`. This is a separate resource workflow, not a substitute for research, practice-design or whole-course orchestration.
+
 These orchestrators are intentionally allowed to sequence bounded specialist skills. They must still honor each skill's evidence, persistence, authorization, and stop rules.
 
 A full research-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
@@ -193,6 +201,8 @@ A full research-cycle request should not stop after prompt generation, research 
 A full practice/design cycle should not skip local diagnosis, confuse practice precedent with effect evidence, or scale a practice without action warrant appropriate to the decision size.
 
 A full curriculum-build cycle should not confuse content coverage with capability transfer, flood the design with the entire Brain, treat AI-generated research as theological authority, or call attendance/completion proof of formation or skill.
+
+A full resource/equipping cycle should not confuse attractive materials with observed results, assume download permissions allow adaptation, strip exercises of necessary theological/coaching safeguards, or label proposals as approved Southbrook resources.
 
 Shared intelligence core:
 
@@ -216,6 +226,11 @@ Discipleship-specific:
 - `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
 - `full-discipleship-practice-design-cycle` — end-to-end local problem → practice intelligence → fit → test/pilot orchestration
 - `full-discipleship-curriculum-build-cycle` — end-to-end Brain/research → source-gap audit → curriculum → assessment → run-ready assets orchestration
+- `full-discipleship-resource-equipping-cycle` — separate end-to-end ministry-resource review, comparison, original-tool design and learning orchestration
+- `discipleship-resource-intake-cataloger` — inventory real handouts, assignments and exercises with provenance and rights
+- `discipleship-resource-evaluator` — evidence-located quality/usability/capability reviews of actual tools
+- `discipleship-resource-comparison-extractor` — compare reviewed alternatives and extract compatible design patterns
+- `discipleship-training-tool-designer` — create original, practice-centered ministry tools from reviewed patterns
 - `discipleship-curriculum-architect` — turns a defined discipleship outcome and evidence packet into a coherent capability-transfer curriculum
 - `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
 - `discipleship-practice-intelligence-backfill` — mines large historical corpora into deduplicated Practice Intelligence
