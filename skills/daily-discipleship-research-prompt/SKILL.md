@@ -65,40 +65,38 @@ Use empirical/academic evidence as a backbone and corrective for mechanisms. Do 
 
 ## Critical thinking upgrade — adaptive, not performative
 
-Make research prompts **hard to satisfy with a confident but weak answer**. Preserve the user's real task, audience, evidence boundary, and requested length. This skill *generates* the challenge; it does not perform the study or independently certify its findings.
+The prompt should challenge a weak or convenient answer **without rewarding contrarianism**. Retain the actual question, available Brain context, audience, source boundaries, and original output format. This skill creates research prompts; it does not conduct research or independently verify its own results.
 
-### Four checks for consequential research
+### Four checks for consequential questions
 
-For research that may affect doctrine/theological application, disciple-making strategy, church leadership, implementation, measurement, or a consequential decision, incorporate these checks **briefly into the generated research prompt or SELF_EXECUTE contract**:
+For uncertain or consequential conclusions (theology, disciple-making, ministry strategy, leadership, curriculum, implementation or measurement), integrate **briefly into the generated prompt/contract**:
 
-1. **Test the premise.** Identify the most consequential assumption, causal leap, or definition the question takes for granted. Ask whether the premise is supported; correct it if false rather than agreeing reflexively.
-2. **Consider the strongest fair alternative.** Ask what an informed critic would argue, including the best contrary evidence, plausible competing mechanism, and important failed or exceptional case. Defend, qualify, or concede based on evidence; do not invent straw opponents.
-3. **Name reversal conditions.** State what actual observation, original source, local outcome, implementation burden, or counterexample would materially change the conclusion. Where appropriate, suggest a proportionate, reversible local test—not an unapproved church policy.
-4. **Revise only when warranted.** After a first synthesis, reassess the weakest recommendation against the strongest alternative. Explain in 1–2 sentences what materially changed and what remains uncertain. If the first conclusion withstands scrutiny, say so; do not manufacture novelty.
+1. **Challenge the premise:** Identify the most consequential assumption, causal leap, or definition. Test it; correct a false premise instead of agreeing.
+2. **Steelman the alternative:** Ask for the strongest fair objection, competing explanation, or failure case; examine supporting and contrary evidence, and concede when deserved.
+3. **Set reversal conditions:** Identify which original-source finding, observed outcome, local constraint, or implementation cost would change the conclusion. Consider an appropriately small reversible test, not automatic policy.
+4. **Reconsider the conclusion:** Reassess the weakest preliminary claim in light of the alternative. State what substantively changed and what remains uncertain; if no change is warranted, say so. Do **not** force a Version 2.0 for its own sake.
 
-This is **not** a mandatory four-section appendix. Weave the relevant checks into existing subquestions, failure modes, findings, or decisions. A narrow source lookup, descriptive inventory, straightforward biblical reference, or simple summary may need only a single premise/accuracy check and **no** staged opponent or second-pass ritual. Increase scrutiny with the size, uncertainty, and reversibility of the decision.
+Integrate these inside existing report questions, counterevidence, or decision sections—not a mandatory lengthy appendix. For narrow fact-checks, quotations, descriptive inventories or simple summaries, use only the relevant accuracy check; do not manufacture an opponent, multiple alternatives, or needless length. Scale rigor to stakes, uncertainty, and reversibility.
 
-### Optional prompting levers — select, do not stack
+### Seven optional levers
 
-Use no more than **two or three** levers *when they improve this specific task*:
+Use **at most two or three**, only when useful, and avoid performative language:
 
-- **High expertise standard:** Demand researcher/practitioner-level definitions, methods, and auditability—not claims of IQ, real credentials, or infallibility.
-- **Questionable “obviously” premise:** Restate it as a hypothesis to test, never as settled fact.
-- **Audience:** Explain findings for a named audience (e.g., ordinary ministry volunteers, skeptical elders), anticipating fair questions while keeping full evidence accessible.
-- **Odd creative constraint:** A clear analogy, format, or short opening can aid learning, but must not displace source detail or hide uncertainty.
-- **Imaginary stakes:** Translate a “bet” into realistic failure costs, opportunity costs, tradeoffs, and what would reverse the decision. Pretend money does not improve truth.
-- **Opponent:** Steelman an evidence-informed critic without invented quotes or false dichotomies.
-- **Version 2.0:** Ask for a substantive, source-sensitive reappraisal, not merely longer prose, an arbitrary change, or another duplicate report.
+- **Expertise standard:** demand precise methodology and practitioner-level scrutiny, never pretend IQ or credentials confer accuracy.
+- **“Obviously” bait:** treat the supposed certainty as a hypothesis to test, not a fact.
+- **Audience:** tailor the plain-language opening for a skeptical board, ordinary volunteer, etc., without losing evidence detail.
+- **Weird constraint:** use a helpful analogy/form limit in the opening, not at the expense of the complete sourced report.
+- **Imaginary bet:** translate stakes into genuine costs, failure conditions and tradeoffs, not simulated monetary confidence.
+- **Opponent:** fairly defend, qualify, or concede to the strongest evidence-informed critique; no strawman or fabricated quote.
+- **Version 2.0:** demand meaningful revision when supported, not a longer paraphrase or novelty for its own sake.
 
-The levers are means, not an output checklist. **Truth-seeking, evidence quality, and decision usefulness outrank intensity, theatrical personas, or verbosity.** Minimize repeated instructions and respect the original PROMPT_ONLY/SELF_EXECUTE output contract.
+### Evidence and practical guardrails
 
-### Verification and safe transfer
+In prompts and outputs distinguish observed practices, organizational reports, independently supported effects, adjacent learning mechanisms, theological reasoning, and proposed local applications. Never invent sources, statistics, quotations, a conversation from “yesterday,” or verified outcomes. Mark inaccessible consequential claims **UNVERIFIED** and name the verification needed. Do not confuse leaders/groups/church plants with proven individual G2/G3 disciple-making.
 
-Require the resulting report to separate documented practice, organizationally reported outcomes, independent effect evidence, adjacent mechanism support, theological reasoning, and **proposed** local application. Where source access is missing, mark claims UNVERIFIED with a concrete verification need. Do not invent sources, statistics, quotes, earlier conversations, results, or a remembered answer from “yesterday.” In particular, distinguish leader/group growth from observed individual disciple-making generations; a good apprenticeship case is not proof of G2/G3 disciple multiplication.
+When recommendations could change local practice, ask for specific tasks, roles, cadence, mentor time, readiness observations, oversight/safeguarding, burdens and alternatives as appropriate; a promising model is not an adopted policy. Preserve plain-language explanations, full citations, research limits, and resume/handoff requirements below.
 
-For any recommendation affecting the local church, request actual roles, cadence, leader time/implementation burden, oversight/safeguarding boundaries, observable readiness, failure triggers, and realistic alternative options when appropriate. Keep the readable plain-language opening and the complete citations/claim register. An analogy or a shorter introduction does **not** shorten the user's requested complete report.
-
-**Evaluation discipline:** pressure tactics are unproven as accuracy improvements. Assess changes through paired same-gap prompts, repeat runs, independent source verification, decision usefulness, and verbosity/cost—not one unblinded score. Refer to `tests/prompt-pressure-evals.md`; preserve the baseline and prior pilot.
+**Do not claim these pressure tactics improve factual accuracy.** Compare prompt versions with repeated same-gap tests, independently checked sources, usefulness, and verbosity/cost. See `tests/prompt-pressure-evals.md` and the dated A/B pilot, which is exploratory, not independent validation.
 
 ## Required report artifact
 
