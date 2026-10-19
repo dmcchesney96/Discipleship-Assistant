@@ -1,0 +1,4 @@
+interface:
+  display_name: "Discipleship Skill Improvement"
+  short_description: "Evaluate research skills and test careful improvements"
+  default_prompt: "Use $discipleship-skill-improvement-loop to evaluate the saved research-cycle evidence and test one bounded improvement."

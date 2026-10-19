@@ -20,3 +20,9 @@ For each case, start a fresh task session with the pinned repo, prompt, input ar
 Run `python tests/check_skills.py` (PyYAML required) as well as the existing structural marker check. Neither executable check certifies research reasoning or live connector reliability.
 
 Run validator regression cases with python -m unittest discover -s tests -p test_skill_validation.py. Keep semantic results in a dated test-run record with exact source boundaries and whether results were observed or simulated.
+
+
+
+## Skill improvement
+
+Run `python -m unittest discover -s tests -p test_skill_improvement.py` for the local ledger, gate and recovery software tests. They use explicitly synthetic packets and reported scores, not live LLM comparisons or Drive writes. See `docs/skill-improvement-system.md` for the rubric, budgets, fresh paired evaluation protocol and activation limits. Skill-specific behavioral task definitions are in `skills/discipleship-skill-improvement-loop/references/evaluation-cases.json`; the existing T1–T5 suite remains the research baseline.

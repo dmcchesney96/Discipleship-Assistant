@@ -1,0 +1,9 @@
+{
+  "batch_cycles": 3,
+  "max_cycles_per_batch": 10,
+  "max_candidates": 1,
+  "max_iterations": 2,
+  "max_retries": 1,
+  "max_seconds": 300,
+  "max_cost_usd": 2.0
+}

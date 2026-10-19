@@ -1,0 +1,224 @@
+{
+  "backlog": {
+    "ai-research-verification-integration:tool_unavailable": {
+      "reviews": [
+        {
+          "batch_id": "final-ledger-hardening",
+          "cause": "tool",
+          "run_ids": [
+            "fixture-cycle-01.attempt-01"
+          ],
+          "status": "DEFERRED"
+        }
+      ],
+      "root_cause": "tool",
+      "run_ids": [
+        "fixture-cycle-01.attempt-01"
+      ],
+      "status": "DEFERRED"
+    }
+  },
+  "batches": {
+    "final-ledger-hardening": {
+      "comparison_ids": [
+        "ledger-hardening-02-final-probes"
+      ],
+      "finish": {
+        "issues": {
+          "ai-research-verification-integration:tool_unavailable": {
+            "cause": "tool",
+            "status": "DEFERRED"
+          }
+        },
+        "review_artifact": {
+          "path": "engineering/skill-improvement/experiments/ledger-hardening/proposal.md",
+          "sha256": "0547fb0e5ead5cefcbc3e8a8eca0279ad4d7e9470245e949146861b105677906"
+        }
+      },
+      "limits": {
+        "batch_cycles": 3,
+        "max_candidates": 1,
+        "max_cost_usd": 2.0,
+        "max_cycles_per_batch": 10,
+        "max_iterations": 2,
+        "max_retries": 1,
+        "max_seconds": 300
+      },
+      "run_ids": [
+        "fixture-cycle-01.attempt-01"
+      ],
+      "status": "COMPLETED",
+      "trigger": "CRITICAL"
+    }
+  },
+  "comparisons": {
+    "ledger-hardening-02-final-probes": {
+      "batch_id": "final-ledger-hardening",
+      "decision": "INCONCLUSIVE",
+      "evaluation": {
+        "author": "implementation-agent",
+        "baseline": {
+          "path": "engineering/skill-improvement/experiments/ledger-hardening/baseline.py",
+          "sha256": "74b55b5984c87d6ace8b0370dcd3c785631cbbaa65f99a44e306b0619af0ccbb"
+        },
+        "candidate": {
+          "path": "engineering/skill-improvement/experiments/ledger-hardening/candidate.py",
+          "sha256": "ea7c9b9528dceae8cb6eb2258cb8f698ee0068c9663b8281d6c80dd528c9d99d"
+        },
+        "cases": [
+          {
+            "baseline_output": {
+              "path": "engineering/skill-improvement/reviews/code-review-2026-10-19/baseline-results.json",
+              "sha256": "a9eb1c9a2e7efde6aecb8b7bfee36911f4964128ec72e075950803dbba4f4d86"
+            },
+            "candidate_output": {
+              "path": "engineering/skill-improvement/reviews/code-review-2026-10-19/revised-results.json",
+              "sha256": "515099af18fe01f9f644623265f5b2083849aec704e52269c3c2911f40b2bf75"
+            },
+            "gates": {
+              "approval": [
+                "UNKNOWN",
+                "UNKNOWN"
+              ],
+              "citations": [
+                "UNKNOWN",
+                "UNKNOWN"
+              ],
+              "evidence": [
+                "UNKNOWN",
+                "UNKNOWN"
+              ],
+              "mission": [
+                "UNKNOWN",
+                "UNKNOWN"
+              ],
+              "privacy": [
+                "UNKNOWN",
+                "UNKNOWN"
+              ],
+              "purpose": [
+                "UNKNOWN",
+                "UNKNOWN"
+              ],
+              "safeguarding": [
+                "UNKNOWN",
+                "UNKNOWN"
+              ]
+            },
+            "id": "five-code-probes",
+            "input": {
+              "path": "engineering/skill-improvement/reviews/code-review-2026-10-19/repro.py",
+              "sha256": "5fab9a382e0b96ec8896c0350c8275bfe398977e08827cc5dd6dc2b613d5bba4"
+            },
+            "scores": {
+              "citation_reliability": [
+                null,
+                null
+              ],
+              "completeness": [
+                null,
+                null
+              ],
+              "efficiency": [
+                null,
+                null
+              ],
+              "evidence_quality": [
+                null,
+                null
+              ],
+              "governance": [
+                null,
+                null
+              ],
+              "instruction_adherence": [
+                null,
+                null
+              ],
+              "interruption_recovery": [
+                null,
+                null
+              ],
+              "practical_usefulness": [
+                null,
+                null
+              ],
+              "research_accuracy": [
+                null,
+                null
+              ],
+              "synthesis_quality": [
+                null,
+                null
+              ],
+              "workflow_reliability": [
+                1,
+                3
+              ]
+            },
+            "split": "replay"
+          }
+        ],
+        "evaluation_id": "ledger-hardening-02-final-probes",
+        "evaluator": "code-review-agent",
+        "method": "static",
+        "privacy_reviewed": true,
+        "proposal": {
+          "path": "engineering/skill-improvement/experiments/ledger-hardening/proposal.md",
+          "sha256": "0547fb0e5ead5cefcbc3e8a8eca0279ad4d7e9470245e949146861b105677906"
+        },
+        "usage": {
+          "cost_usd": 0,
+          "iterations": 1,
+          "retries": 0,
+          "seconds": 1
+        }
+      },
+      "input_digest": "6332a865beec863b9fafe9a73a4bf5709389be465780f459fba59f810b49e5c0",
+      "reasons": {
+        "budget_exceeded": false,
+        "hard_gate_failed": false,
+        "independent_evaluator_reported": true,
+        "prior_candidate_rejection": false,
+        "regression": false,
+        "replay_and_held_out": false,
+        "strict_improvement": true,
+        "unknown": true
+      },
+      "usage": {
+        "cost_usd": 0,
+        "iterations": 1,
+        "retries": 0,
+        "seconds": 1
+      }
+    }
+  },
+  "runs": {
+    "fixture-cycle-01.attempt-01": {
+      "cycle_id": "fixture-cycle-01",
+      "origin": "fixture",
+      "privacy_reviewed": true,
+      "research_status": "COMPLETED",
+      "run_id": "fixture-cycle-01.attempt-01",
+      "schema_version": 1,
+      "skills": [
+        {
+          "name": "ai-research-verification-integration",
+          "observations": [
+            {
+              "artifact_sha256": "038af19e7752d436786b67a7e8249aa4ba01ca05bf31132b8eef76be4a2cbbf8",
+              "code": "tool_unavailable",
+              "locator": "receipt-01.http-429",
+              "result": "FAIL",
+              "severity": "critical"
+            }
+          ],
+          "outcome": "BLOCKED",
+          "retries": 1,
+          "version_sha256": "bcd4cea0d880282a6c899dae35ee1f0256d7a62824dad37fa7e0af4aead6b609"
+        }
+      ]
+    }
+  },
+  "schema_version": 1
+}

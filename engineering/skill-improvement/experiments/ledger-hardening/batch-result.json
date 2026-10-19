@@ -1,0 +1,18 @@
+{
+  "status": "IN_PROGRESS",
+  "run_ids": [
+    "fixture-cycle-01.attempt-01"
+  ],
+  "trigger": "CRITICAL",
+  "limits": {
+    "batch_cycles": 3,
+    "max_cycles_per_batch": 10,
+    "max_candidates": 1,
+    "max_iterations": 2,
+    "max_retries": 1,
+    "max_seconds": 300,
+    "max_cost_usd": 2.0
+  },
+  "comparison_ids": [],
+  "finish": null
+}

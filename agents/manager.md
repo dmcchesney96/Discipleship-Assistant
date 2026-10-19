@@ -107,3 +107,17 @@ Each skill should return:
 - one specific next handoff if needed.
 
 The manager combines handoffs into one user-facing result and prevents loops/duplicate work.
+
+
+
+## Post-research performance hook
+
+After a full research cycle completes, is blocked, or is interrupted at a safe checkpoint:
+
+1. Preserve the existing cycle's outputs, checkpoint and actual research status first. Do not delay research persistence for engineering evaluation.
+2. Load `discipleship-skill-improvement-loop` in collection mode. Pass the existing stage ledger, skill versions, tool receipts, retries and user exclusions; sanitize into its closed record contract. Record actual observations, not invented historical failures.
+3. Persist collection to `engineering/skill-improvement/memory.json` on an authorized isolated GitHub branch. Reuse the cycle/attempt identity. Record the branch/commit and exact retry command in the existing cycle checkpoint; do not copy ministry content into GitHub.
+4. If collection fails, return `IMPROVEMENT HOOK BLOCKED` separately with the error and resume pointer. Keep research completion and saved artifacts unchanged. Never hide the failure with a blanket success exit.
+5. Prepare a batch checkpoint after the configured number of unique cycles or a critical failure. Run the bounded review only with available budget and authorized tools; otherwise checkpoint it as pending. Do not recursively call the research cycle or the hook from an improvement run.
+
+This is an agent-executed completion hook, not a background daemon. It becomes the default manager behavior only after human review/merge of this integration. It grants no permission to merge, alter governance, change Drive permissions or deploy revisions. The research orchestrator and specialist skill bodies retain their existing sequence, boundaries and stop rules.

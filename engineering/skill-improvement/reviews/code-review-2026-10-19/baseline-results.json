@@ -1,0 +1,49 @@
+{
+  "scope": "offline synthetic code probes only",
+  "results": [
+    {
+      "probe": "duplicate_replay_held_out_input",
+      "accepted": true,
+      "decision": "RECOMMEND_REVIEW",
+      "same_input_hash": true
+    },
+    {
+      "probe": "same_candidate_second_iteration",
+      "first_decision": "RECOMMEND_REVIEW",
+      "second_decision": "REJECT",
+      "budget_exceeded": true,
+      "same_candidate_hash": true,
+      "total_reported_iterations": 2,
+      "limit_iterations": 2
+    },
+    {
+      "probe": "experimental_symlink_into_skills",
+      "accepted": true,
+      "decision": "RECOMMEND_REVIEW",
+      "canonical_candidate_under_skills": true
+    },
+    {
+      "probe": "new_failure_inherits_old_review_disposition",
+      "issue_status_after_original_batch_closed": "NO_CHANGE",
+      "new_run_was_in_closed_batch": false,
+      "new_run_is_in_issue_history": true
+    },
+    {
+      "probe": "prior_failed_unchanged_candidate_recommended",
+      "first_decision": "REJECT",
+      "second_decision": "RECOMMEND_REVIEW",
+      "same_candidate_hash": true,
+      "same_case_inputs": true,
+      "prior_candidate_gate_failure_still_stored": true
+    },
+    {
+      "probe": "fresh_excluded_no_patch_lifecycle",
+      "selected_runs": 3,
+      "issue_count": 0,
+      "first_finish": "COMPLETED",
+      "repeat_finish": "NO_CHANGE",
+      "next_batch": "NOT_DUE",
+      "preserved_run_count": 3
+    }
+  ]
+}

@@ -10,3 +10,11 @@ exports/
 raw-interviews/
 raw-pastoral-care/
 .DS_Store
+
+
+# Local atomic-write and lock artifacts
+engineering/skill-improvement/**/*.lock
+engineering/skill-improvement/**/*.tmp
+
+__pycache__/
+*.pyc

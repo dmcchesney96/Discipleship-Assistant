@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "run_id": "fixture-cycle-01.attempt-01",
+  "cycle_id": "fixture-cycle-01",
+  "origin": "fixture",
+  "research_status": "COMPLETED",
+  "privacy_reviewed": true,
+  "skills": [
+    {
+      "name": "ai-research-verification-integration",
+      "version_sha256": "bcd4cea0d880282a6c899dae35ee1f0256d7a62824dad37fa7e0af4aead6b609",
+      "outcome": "BLOCKED",
+      "retries": 1,
+      "observations": [
+        {
+          "code": "tool_unavailable",
+          "result": "FAIL",
+          "severity": "critical",
+          "artifact_sha256": "038af19e7752d436786b67a7e8249aa4ba01ca05bf31132b8eef76be4a2cbbf8",
+          "locator": "receipt-01.http-429"
+        }
+      ]
+    }
+  ]
+}

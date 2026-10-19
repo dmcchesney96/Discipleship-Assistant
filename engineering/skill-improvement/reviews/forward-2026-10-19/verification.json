@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "repeat_collection_no_change": true,
+    "resumed_batch_completed": true,
+    "repeat_finish_no_change": true,
+    "next_batch_not_due": true,
+    "one_run": true,
+    "one_batch": true,
+    "no_comparisons": true,
+    "research_completion_retained": true,
+    "unresolved_issue_retained": true,
+    "memory_bytes_unchanged_on_replay": true
+  },
+  "local_execution_elapsed_seconds": 0.350031,
+  "external_calls": 0,
+  "external_model_api_cost_usd": 0,
+  "candidate_count": 0,
+  "comparison_count": 0,
+  "live_behavior_tested": false,
+  "durable_remote_save_verified": false,
+  "privacy_reviewed": true
+}

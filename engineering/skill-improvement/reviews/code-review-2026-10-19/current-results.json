@@ -1,0 +1,40 @@
+{
+  "scope": "offline synthetic code probes only",
+  "results": [
+    {
+      "probe": "duplicate_replay_held_out_input",
+      "accepted": false,
+      "error": "replay and held-out inputs must differ",
+      "same_input_hash": true
+    },
+    {
+      "probe": "same_candidate_second_iteration",
+      "first_decision": "RECOMMEND_REVIEW",
+      "second_decision": "RECOMMEND_REVIEW",
+      "budget_exceeded": false,
+      "same_candidate_hash": true,
+      "total_reported_iterations": 2,
+      "limit_iterations": 2
+    },
+    {
+      "probe": "experimental_symlink_into_skills",
+      "accepted": false,
+      "error": "candidate/proposal must stay experimental",
+      "canonical_candidate_under_skills": true
+    },
+    {
+      "probe": "new_failure_inherits_old_review_disposition",
+      "issue_status_after_original_batch_closed": "OPEN",
+      "new_run_was_in_closed_batch": false,
+      "new_run_is_in_issue_history": true
+    },
+    {
+      "probe": "prior_failed_unchanged_candidate_recommended",
+      "first_decision": "REJECT",
+      "second_decision": "RECOMMEND_REVIEW",
+      "same_candidate_hash": true,
+      "same_case_inputs": true,
+      "prior_candidate_gate_failure_still_stored": true
+    }
+  ]
+}
