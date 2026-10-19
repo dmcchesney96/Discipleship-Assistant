@@ -30,25 +30,30 @@ Reusable across ministry assistants:
 11. `southbrook-practice-fit-assessor` — evaluates local fit and action warrant
 12. `discipleship-pilot-learning-evaluator` — evaluates local pilot results and updates action warrant
 13. `discipleship-practice-implementation-kit-builder` — creates ready-to-run tools/training for selected pilots
-14. `discipleship-research-source-ingestor`
-15. `daily-discipleship-research-prompt`
-16. `discipleship-research-scout-agenda-builder`
-17. `ai-research-verification-integration`
-18. `compare-big-picture`
-19. `church-movement-case-study-analyzer`
-20. `southbrook-interview-qualitative-evidence-analyzer`
-21. `southbrook-discipleship-diagnostic`
-22. `living-discipleship-synthesis-maintainer`
-23. `discipleship-measurement-architect`
-24. `discipleship-experiment-pilot-designer`
-25. `southbrook-discipleship-operating-system-designer`
-26. `discipleship-research-librarian-drive-curator`
-27. `strategy-decision-brief-builder`
+14. `full-discipleship-resource-equipping-cycle` — orchestrates a distinct source-tools → evaluation → comparison → original-resource design chain
+15. `discipleship-resource-intake-cataloger` — inventories actual assignments, handouts and exercises with rights/version tracking
+16. `discipleship-resource-evaluator` — reviews item-level theology, formation, usability, transfer, reproduction and local fit
+17. `discipleship-resource-comparison-extractor` — compares candidate tools and extracts transferable design patterns
+18. `discipleship-training-tool-designer` — drafts original actionable training tools
+19. `discipleship-research-source-ingestor`
+20. `daily-discipleship-research-prompt`
+21. `discipleship-research-scout-agenda-builder`
+22. `ai-research-verification-integration`
+23. `compare-big-picture`
+24. `church-movement-case-study-analyzer`
+25. `southbrook-interview-qualitative-evidence-analyzer`
+26. `southbrook-discipleship-diagnostic`
+27. `living-discipleship-synthesis-maintainer`
+28. `discipleship-measurement-architect`
+29. `discipleship-experiment-pilot-designer`
+30. `southbrook-discipleship-operating-system-designer`
+31. `discipleship-research-librarian-drive-curator`
+32. `strategy-decision-brief-builder`
 
 ## Skill rule
 
 A skill owns one bounded transformation. The master assistant chooses which skill(s) to use and which tools/evidence sources are appropriate. Skills should not independently trigger expensive chains of other skills unless a calling workflow explicitly requests that handoff.
 
-`full-discipleship-research-cycle`, `full-discipleship-practice-design-cycle`, and `full-discipleship-curriculum-build-cycle` are intentional orchestrator exceptions. Their bounded job is to manage complete handoff sequences while leaving research, practice intelligence, fit assessment, verification, synthesis, pilot design, measurement, and library work to the specialist skills.
+`full-discipleship-research-cycle`, `full-discipleship-practice-design-cycle`, `full-discipleship-curriculum-build-cycle`, and `full-discipleship-resource-equipping-cycle` are intentional orchestrator exceptions. Their bounded job is to manage complete handoff sequences while leaving research, practice intelligence, fit assessment, verification, synthesis, pilot design, measurement, and library work to the specialist skills.
 
 Each skill inherits `AGENTS.md` and governance rules.
