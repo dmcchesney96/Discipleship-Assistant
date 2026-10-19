@@ -1,0 +1,334 @@
+[
+  {
+    "step": "collect",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "collect",
+      "--input",
+      "tests/fixtures/skill-improvement/cycle.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.039336,
+    "stdout": {
+      "status": "COLLECTED",
+      "run_id": "fixture-cycle-01.attempt-01"
+    },
+    "stderr": ""
+  },
+  {
+    "step": "prepare-due-review",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "batch",
+      "--batch-id",
+      "forward-2026-10-19"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.04112,
+    "stdout": {
+      "status": "IN_PROGRESS",
+      "run_ids": [
+        "fixture-cycle-01.attempt-01"
+      ],
+      "trigger": "CRITICAL",
+      "limits": {
+        "batch_cycles": 3,
+        "max_cycles_per_batch": 10,
+        "max_candidates": 1,
+        "max_iterations": 2,
+        "max_retries": 1,
+        "max_seconds": 300,
+        "max_cost_usd": 2.0
+      },
+      "comparison_ids": [],
+      "finish": null
+    },
+    "stderr": ""
+  },
+  {
+    "step": "inspect-observations",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "status"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.04017,
+    "stdout": {
+      "backlog": {
+        "ai-research-verification-integration:tool_unavailable": {
+          "root_cause": "unknown",
+          "run_ids": [
+            "fixture-cycle-01.attempt-01"
+          ],
+          "status": "OPEN"
+        }
+      },
+      "batches": {
+        "forward-2026-10-19": {
+          "comparison_ids": [],
+          "finish": null,
+          "limits": {
+            "batch_cycles": 3,
+            "max_candidates": 1,
+            "max_cost_usd": 2.0,
+            "max_cycles_per_batch": 10,
+            "max_iterations": 2,
+            "max_retries": 1,
+            "max_seconds": 300
+          },
+          "run_ids": [
+            "fixture-cycle-01.attempt-01"
+          ],
+          "status": "IN_PROGRESS",
+          "trigger": "CRITICAL"
+        }
+      },
+      "comparisons": {},
+      "runs": {
+        "fixture-cycle-01.attempt-01": {
+          "cycle_id": "fixture-cycle-01",
+          "origin": "fixture",
+          "privacy_reviewed": true,
+          "research_status": "COMPLETED",
+          "run_id": "fixture-cycle-01.attempt-01",
+          "schema_version": 1,
+          "skills": [
+            {
+              "name": "ai-research-verification-integration",
+              "observations": [
+                {
+                  "artifact_sha256": "038af19e7752d436786b67a7e8249aa4ba01ca05bf31132b8eef76be4a2cbbf8",
+                  "code": "tool_unavailable",
+                  "locator": "receipt-01.http-429",
+                  "result": "FAIL",
+                  "severity": "critical"
+                }
+              ],
+              "outcome": "BLOCKED",
+              "retries": 1,
+              "version_sha256": "bcd4cea0d880282a6c899dae35ee1f0256d7a62824dad37fa7e0af4aead6b609"
+            }
+          ]
+        }
+      },
+      "schema_version": 1
+    },
+    "stderr": ""
+  },
+  {
+    "step": "finish-bounded-review",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "finish",
+      "--batch-id",
+      "forward-2026-10-19",
+      "--input",
+      "/workspace/scratch/6ed8269b4d2a/repo/engineering/skill-improvement/reviews/forward-2026-10-19/disposition.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.035503,
+    "stdout": {
+      "status": "COMPLETED",
+      "batch_id": "forward-2026-10-19"
+    },
+    "stderr": ""
+  },
+  {
+    "step": "repeat-collection",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "collect",
+      "--input",
+      "tests/fixtures/skill-improvement/cycle.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.039762,
+    "stdout": {
+      "status": "NO_CHANGE",
+      "run_id": "fixture-cycle-01.attempt-01"
+    },
+    "stderr": ""
+  },
+  {
+    "step": "resume-existing-batch",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "batch",
+      "--batch-id",
+      "forward-2026-10-19"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.035964,
+    "stdout": {
+      "comparison_ids": [],
+      "finish": {
+        "issues": {
+          "ai-research-verification-integration:tool_unavailable": {
+            "cause": "tool",
+            "status": "DEFERRED"
+          }
+        },
+        "review_artifact": {
+          "path": "engineering/skill-improvement/reviews/forward-2026-10-19/review.md",
+          "sha256": "d271470eff01279b79bc5b5e78a06844c84e8a56fa40beb97f7ac693e9933b32"
+        }
+      },
+      "limits": {
+        "batch_cycles": 3,
+        "max_candidates": 1,
+        "max_cost_usd": 2.0,
+        "max_cycles_per_batch": 10,
+        "max_iterations": 2,
+        "max_retries": 1,
+        "max_seconds": 300
+      },
+      "run_ids": [
+        "fixture-cycle-01.attempt-01"
+      ],
+      "status": "COMPLETED",
+      "trigger": "CRITICAL"
+    },
+    "stderr": ""
+  },
+  {
+    "step": "repeat-finish",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "finish",
+      "--batch-id",
+      "forward-2026-10-19",
+      "--input",
+      "/workspace/scratch/6ed8269b4d2a/repo/engineering/skill-improvement/reviews/forward-2026-10-19/disposition.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.041445,
+    "stdout": {
+      "status": "NO_CHANGE"
+    },
+    "stderr": ""
+  },
+  {
+    "step": "check-next-due-review",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "batch",
+      "--batch-id",
+      "forward-2026-10-19-next"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.036599,
+    "stdout": {
+      "status": "NOT_DUE",
+      "pending_cycles": 0
+    },
+    "stderr": ""
+  },
+  {
+    "step": "final-status",
+    "command": [
+      "python",
+      "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py",
+      "--memory",
+      "/tmp/skill-improvement-forward-nsweswhr/memory.json",
+      "status"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.033448,
+    "stdout": {
+      "backlog": {
+        "ai-research-verification-integration:tool_unavailable": {
+          "root_cause": "tool",
+          "run_ids": [
+            "fixture-cycle-01.attempt-01"
+          ],
+          "status": "DEFERRED"
+        }
+      },
+      "batches": {
+        "forward-2026-10-19": {
+          "comparison_ids": [],
+          "finish": {
+            "issues": {
+              "ai-research-verification-integration:tool_unavailable": {
+                "cause": "tool",
+                "status": "DEFERRED"
+              }
+            },
+            "review_artifact": {
+              "path": "engineering/skill-improvement/reviews/forward-2026-10-19/review.md",
+              "sha256": "d271470eff01279b79bc5b5e78a06844c84e8a56fa40beb97f7ac693e9933b32"
+            }
+          },
+          "limits": {
+            "batch_cycles": 3,
+            "max_candidates": 1,
+            "max_cost_usd": 2.0,
+            "max_cycles_per_batch": 10,
+            "max_iterations": 2,
+            "max_retries": 1,
+            "max_seconds": 300
+          },
+          "run_ids": [
+            "fixture-cycle-01.attempt-01"
+          ],
+          "status": "COMPLETED",
+          "trigger": "CRITICAL"
+        }
+      },
+      "comparisons": {},
+      "runs": {
+        "fixture-cycle-01.attempt-01": {
+          "cycle_id": "fixture-cycle-01",
+          "origin": "fixture",
+          "privacy_reviewed": true,
+          "research_status": "COMPLETED",
+          "run_id": "fixture-cycle-01.attempt-01",
+          "schema_version": 1,
+          "skills": [
+            {
+              "name": "ai-research-verification-integration",
+              "observations": [
+                {
+                  "artifact_sha256": "038af19e7752d436786b67a7e8249aa4ba01ca05bf31132b8eef76be4a2cbbf8",
+                  "code": "tool_unavailable",
+                  "locator": "receipt-01.http-429",
+                  "result": "FAIL",
+                  "severity": "critical"
+                }
+              ],
+              "outcome": "BLOCKED",
+              "retries": 1,
+              "version_sha256": "bcd4cea0d880282a6c899dae35ee1f0256d7a62824dad37fa7e0af4aead6b609"
+            }
+          ]
+        }
+      },
+      "schema_version": 1
+    },
+    "stderr": ""
+  }
+]

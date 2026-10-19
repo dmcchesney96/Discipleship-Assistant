@@ -9,6 +9,8 @@ on:
       - "templates/**"
       - "config/**"
       - "tests/**"
+      - "agents/**"
+      - "engineering/skill-improvement/**"
       - ".github/workflows/principle-synthesis-contract.yml"
   push:
     branches: [main]
@@ -19,6 +21,8 @@ on:
       - "templates/**"
       - "config/**"
       - "tests/**"
+      - "agents/**"
+      - "engineering/skill-improvement/**"
 
 jobs:
   structural-contract:
@@ -35,8 +39,11 @@ jobs:
         run: python tests/check_skills.py
       - name: Test metadata and registry validation
         run: python -m unittest discover -s tests -p 'test_skill_validation.py'
+      - name: Test skill-improvement collection, comparison and recovery
+        run: python -m unittest discover -s tests -p 'test_skill_improvement.py'
       - name: Validate synthesis skill contracts and links
         run: python3 tests/check_principle_contract.py
 
-# This checks static process contracts only, not LLM reasoning correctness.
+# These check static process contracts and local ledger behavior, not LLM reasoning correctness.
 # Behavioral evidence-to-principle tests are in tests/principle-synthesis-cases.md.
+

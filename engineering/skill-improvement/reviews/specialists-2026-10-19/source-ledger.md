@@ -1,0 +1,13 @@
+# Source ledger — synthetic packet only
+
+All entries originate in `tests/fixtures/synthesis-packet.md`, titled “Supplied staged Brain packet — synthetic evaluation data, not real research.” Full packet read on 2026-10-19. The packet says all source URLs are local fixture paths. No locator was independently opened; no real study identity, author, year, DOI, sample size, or actual publication link was supplied. Missing bibliography is recorded, not filled in.
+
+| Key | Supplied identity / packet locator | Source type / family | Supported proposition | Access and provenance |
+|---|---|---|---|---|
+| S1 | “Assessed source A — family LBT-01”; supplied locator `A.md#results`; actual title/author/date not supplied | Assessed controlled educational study summary; LBT-01 | Preparing plus teaching improved short-term retention versus private restudy in adult unfamiliar-science learning; no church/character/mission/G2/G3 data | Packet summary read; original not accessed. Task-local assessed evidence only |
+| S2 | “Source B — family LBT-01”; no separate source locator, title, author, or date supplied | Derivative AI narrative; LBT-01 | Repeats A, omits population, claims proof of rapid disciple multiplication | Packet description read; B itself not accessed. Not independent evidence |
+| S3 | “Assessed source C — family LBT-02”; supplied locator `C.md#results`; actual title/author/date not supplied | Assessed controlled educational study summary; LBT-02 | Unsupported novice explanations did not outperform retrieval practice; initial misconceptions repeated; not a finding against all supervised teaching | Packet summary read; original not accessed. Different dataset from A, as supplied |
+| S4 | “Local proposal D”; no separate locator/author/date supplied | TENTATIVE local suggestion; no empirical family | A leader suggests two-week graduation to reduce staff load; no trial or approval | Packet description only; not current policy or outcome evidence |
+| S5 | “Current topic record” and “Current index”; topic owner `fixture/topic.md`, PR-017 v3 dated 2026-09-01; PR-018 pointer `fixture/assessment.md` | Synthetic existing synthesis/index state; not study evidence | Prior PR-017 wording/HIGH CONFIDENCE, absence of direct discipleship follow-up, PR-018 boundary distinction | Packet entries read; no live topic/index opened; no Drive IDs supplied |
+
+Family accounting: two independent primary educational families as stipulated (LBT-01 and LBT-02); B is dependent; D and current records add no study families. Independence was not independently audited. Stable source keys refer to these packet entries and must never be relabeled as real bibliographic citations.

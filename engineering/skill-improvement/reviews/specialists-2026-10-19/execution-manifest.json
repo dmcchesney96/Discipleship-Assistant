@@ -1,0 +1,60 @@
+{
+  "trial_id": "specialists-2026-10-19",
+  "generated_utc": "2026-10-19T16:27:56.812258+00:00",
+  "repo_head": "3198c661123bfe9ba46e092eb5614b5064f1442b",
+  "scope": "synthetic offline review outputs only; no input mutations, live writes or production edits",
+  "assessed_content_source": "tests/fixtures/synthesis-packet.md",
+  "recovery_state_source": "tests/fixtures/recovery-packet.json",
+  "inputs_sha256": {
+    "AGENTS.md": "6690c4aca3e5974f36d111fd5a6fe5ac5d65470cc06412b1e67a5620188f1e9d",
+    "skills/discipleship-deep-research-executor/SKILL.md": "062d4810cfbc5719898cdc7d52c59c60011cddc05a8ed4fd1b78e893bccd8c1d",
+    "skills/living-discipleship-synthesis-maintainer/SKILL.md": "c6c28d6f43356fb6a99ae9ae27d9ce320078342f25db37390e0f6f787d6583c3",
+    "skills/full-discipleship-research-cycle/SKILL.md": "da5110e90202b11bc250161c9bf4e8173b860cddda3256be629f42d43b727848",
+    "skills/discipleship-research-report-publisher/SKILL.md": "96284b477660b69e0969255d4a86dcd279a322f2b1dda0554ec1c801f8130453",
+    "skills/discipleship-research-librarian-drive-curator/SKILL.md": "7f7dd1aef96daf45e6ea1ffbfe17dbe5f9c1486fd5149e6666b643ef27affa2c",
+    "templates/durable-principle-record-template.md": "f8e0825301563f8a7ce200d3a3e27403d1398c338b5ceb6a4663b33366640f39",
+    "docs/principle-synthesis-system.md": "c12266137d874fd5e1e5d9e10db4567fe0f22dc79d72bc131c24018665e3ab2e",
+    "docs/research-report-pdf-standard.md": "3f30ae7d407abe81949224b9fa113db62ddeac88d93b3f62842fb84921d6daed",
+    "templates/research-report-pdf-template.md": "fcc857782f92e2c3ed07e4531b8b9bbad2c3a7624fb7c77b8e3b1b6add3c0eb5",
+    "templates/research-cycle-checkpoint-template.md": "0840b03c8e2202a365fa80fc0c84deca137bc501adbd8f948714d11c5cd0ae97",
+    "tests/fixtures/synthesis-packet.md": "929290b0c82ae49eb138179d4907703266607b82c6186e7821761d849c74fa44",
+    "tests/fixtures/recovery-packet.json": "9ccf4ef026daad15a499ed349aea78470f14247ca4dcf43c2dfa99e1dfa8b0ba"
+  },
+  "outputs_sha256": {
+    "audit-readout.md": "5c9a4304aee7d46e16910889fdc9f44a8c2854f4bbd15ccf6d08e1aff27f7f6f",
+    "claim-register.md": "00f85e3d77f7bb05535919d167857b975358e8193ca711eacee4f05fd842913b",
+    "corrected-content.md": "c554c7d92de92fd3c49b91b6984470f71f1e30e7448b58341639da8014da97d8",
+    "execution-summary.md": "86e9d0311bf1711abb46fc6a892aa16f4fd9db1744d9aab7323de045b1789d84",
+    "filing-ledger.md": "282cd712d75cf1aae54d24644a48165aa376ef161e501666b2288ff69e81271d",
+    "publisher-handoff.md": "65c879e31f942ee4f05dbb63ec4ffff574fd0a0351ab2114ee50d2f2cc5b1107",
+    "raw-report.md": "7066b81b83ef517046b9232b52ccd43ee4f203a7c562ce0039026122f1bf577c",
+    "recovery-readout.md": "1ff88567fd2f7d57bb09e627895765017551dbcf21675679f3fb908cde80b809",
+    "source-ledger.md": "2e3d863fef4bc73eee6709fdd9080a61c2ce2edc61e99f7280de7fecc5453bdb",
+    "synthesis-proposal.md": "bb76d9242ef65aacb42e4eba91dc8b16391af32420a30c36ea0184be8d82ec5c"
+  },
+  "recovery_operation": {
+    "logical_id": "PR-017",
+    "target_version": 4,
+    "target_confidence": "PROMISING",
+    "observed_topic_version": 4,
+    "observed_index_version": 3,
+    "status": "PROPOSED ONLY; INDEX OUT OF SYNC per packet",
+    "review_input_fingerprint": "9ccf4ef026daad15a499ed349aea78470f14247ca4dcf43c2dfa99e1dfa8b0ba",
+    "original_complete_source_set_fingerprint": "NOT SUPPLIED; do not manufacture",
+    "readback": "NOT PERFORMED"
+  },
+  "validation": {
+    "required_report_sections_1_through_15": "PASS",
+    "claim_ids_C1_through_C6": "PASS",
+    "final_keys_exactly_S1_through_S5": "PASS",
+    "ledger_entries_for_each_key": "PASS",
+    "embedded_final_appendices": "PASS",
+    "raw_and_final_separate_and_distinct": "PASS",
+    "original_source_verification": "NOT PERFORMED",
+    "independent_agent_verification": "NOT PERFORMED",
+    "visual_qa": "EXCLUDED BY USER",
+    "remote_persistence": "EXCLUDED BY USER / NO LIVE TOOLS USED",
+    "evaluation_assertions_and_dated_test_reports": "NOT READ"
+  },
+  "output_directory": "/workspace/scratch/6ed8269b4d2a/repo/engineering/skill-improvement/reviews/specialists-2026-10-19"
+}

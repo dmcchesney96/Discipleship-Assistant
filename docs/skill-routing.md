@@ -6,6 +6,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 |---|---|
 | Capture Dan's own discipleship philosophy, strategy instincts, curriculum feedback, what rings true/false, or what should/should not be included | `discipleship-convictions-capture` |
 | Retrieve Dan's stored convictions/preferences to shape substantial strategy, system, curriculum, Bible-study, training, or implementation work | `discipleship-alignment-lens-retriever` |
+| Evaluate research-skill performance, collect cycle execution evidence, or compare isolated skill improvements | `discipleship-skill-improvement-loop` |
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
 | Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
 | Run an end-to-end multi-session curriculum build from relevant Brain retrieval through gap research, course design, assessment, and run-ready assets | `full-discipleship-curriculum-build-cycle` |
@@ -141,3 +142,9 @@ Automatically use `southbrook-brand-artifact-stylist` when Dan asks for a Southb
 
 
 Automatically use `southbrook-sermon-notes-artifact-builder` when Dan asks for the weekly Southbrook Message Notes, sermon outline handout, or a public notes artifact built from a manuscript/sermon outline. Keep Study Questions separate unless explicitly requested. After content shaping, apply current series identity and the Southbrook brand/artifact layer before final DOCX/PDF production.
+
+
+
+## Research-skill performance hook (human-review integration)
+
+The manager owns the post-run hook in `agents/manager.md`. After preserving research results, use `discipleship-skill-improvement-loop` for sanitized collection only. Batch/critical reviews are separate bounded engineering work, not another research stage or automatic production edit. See `docs/skill-improvement-system.md`.

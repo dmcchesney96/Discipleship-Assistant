@@ -1,0 +1,119 @@
+{
+  "evaluation_id": "ledger-hardening-02-final-probes",
+  "author": "implementation-agent",
+  "evaluator": "code-review-agent",
+  "privacy_reviewed": true,
+  "baseline": {
+    "path": "engineering/skill-improvement/experiments/ledger-hardening/baseline.py",
+    "sha256": "74b55b5984c87d6ace8b0370dcd3c785631cbbaa65f99a44e306b0619af0ccbb"
+  },
+  "candidate": {
+    "path": "engineering/skill-improvement/experiments/ledger-hardening/candidate.py",
+    "sha256": "ea7c9b9528dceae8cb6eb2258cb8f698ee0068c9663b8281d6c80dd528c9d99d"
+  },
+  "proposal": {
+    "path": "engineering/skill-improvement/experiments/ledger-hardening/proposal.md",
+    "sha256": "0547fb0e5ead5cefcbc3e8a8eca0279ad4d7e9470245e949146861b105677906"
+  },
+  "method": "static",
+  "usage": {
+    "seconds": 1,
+    "cost_usd": 0,
+    "iterations": 1,
+    "retries": 0
+  },
+  "cases": [
+    {
+      "id": "five-code-probes",
+      "split": "replay",
+      "input": {
+        "path": "engineering/skill-improvement/reviews/code-review-2026-10-19/repro.py",
+        "sha256": "5fab9a382e0b96ec8896c0350c8275bfe398977e08827cc5dd6dc2b613d5bba4"
+      },
+      "baseline_output": {
+        "path": "engineering/skill-improvement/reviews/code-review-2026-10-19/baseline-results.json",
+        "sha256": "a9eb1c9a2e7efde6aecb8b7bfee36911f4964128ec72e075950803dbba4f4d86"
+      },
+      "candidate_output": {
+        "path": "engineering/skill-improvement/reviews/code-review-2026-10-19/revised-results.json",
+        "sha256": "515099af18fe01f9f644623265f5b2083849aec704e52269c3c2911f40b2bf75"
+      },
+      "scores": {
+        "instruction_adherence": [
+          null,
+          null
+        ],
+        "research_accuracy": [
+          null,
+          null
+        ],
+        "citation_reliability": [
+          null,
+          null
+        ],
+        "completeness": [
+          null,
+          null
+        ],
+        "practical_usefulness": [
+          null,
+          null
+        ],
+        "evidence_quality": [
+          null,
+          null
+        ],
+        "synthesis_quality": [
+          null,
+          null
+        ],
+        "workflow_reliability": [
+          1,
+          3
+        ],
+        "interruption_recovery": [
+          null,
+          null
+        ],
+        "efficiency": [
+          null,
+          null
+        ],
+        "governance": [
+          null,
+          null
+        ]
+      },
+      "gates": {
+        "evidence": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "citations": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "mission": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "safeguarding": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "approval": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "privacy": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "purpose": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ]
+      }
+    }
+  ]
+}

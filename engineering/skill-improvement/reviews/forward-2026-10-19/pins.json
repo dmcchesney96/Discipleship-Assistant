@@ -1,0 +1,12 @@
+{
+  "base_commit": "3198c661123bfe9ba46e092eb5614b5064f1442b",
+  "input_origin": "fixture",
+  "files": {
+    "tests/fixtures/skill-improvement/cycle.json": "1d9cf2d3fc9dbc2a0e9c1e860336797e212e4e45a59603125785b7510e473ed5",
+    "skills/discipleship-skill-improvement-loop/scripts/improvement_loop.py": "74b55b5984c87d6ace8b0370dcd3c785631cbbaa65f99a44e306b0619af0ccbb",
+    "skills/discipleship-skill-improvement-loop/SKILL.md": "572115883c6e477adc48cfd5cf354139badbeab20f473a171073c930105ed8e9",
+    "skills/ai-research-verification-integration/SKILL.md": "bcd4cea0d880282a6c899dae35ee1f0256d7a62824dad37fa7e0af4aead6b609",
+    "config/skill-improvement.json": "38b4839e63e19b8992fd13bb552e590308ffd8009ddcb9119f4d7c05bcc9508a"
+  },
+  "fixture_skill_execution_not_verified": true
+}

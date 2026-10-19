@@ -1,0 +1,12 @@
+{
+  "review_artifact": {
+    "path": "engineering/skill-improvement/reviews/forward-2026-10-19/review.md",
+    "sha256": "d271470eff01279b79bc5b5e78a06844c84e8a56fa40beb97f7ac693e9933b32"
+  },
+  "issues": {
+    "ai-research-verification-integration:tool_unavailable": {
+      "cause": "tool",
+      "status": "DEFERRED"
+    }
+  }
+}

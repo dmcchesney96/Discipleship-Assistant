@@ -37,3 +37,15 @@ Resume from confirmed outputs. Repair incomplete topic/index synchronization bef
 **Self-contained restart prompt:** Restate the scope; identify this checkpoint and confirmed outputs; inspect uncertain writes; resume the first unfinished stage; repair topic/index synchronization first; reuse file identities; avoid duplicate outputs and research. Do not assume chat history, scratch survival, credit-reset detection, a selected model or tool availability. Refresh this checkpoint at the next stage boundary.
 
 A named task is not scheduled merely because a restart prompt exists. Create/update an actual automation only when the user requests a time or condition.
+
+
+
+## Separate engineering handoff (does not change research status)
+
+**Cycle/attempt ID and pinned skill versions:**
+**Sanitized collection: NOT STARTED / COLLECTED / BLOCKED / EXCLUDED:**
+**Engineering branch / memory path / confirmed commit:**
+**Improvement batch / next action / exact retry command:**
+**Hook failure, if any (exclude ministry/private content):**
+
+Preserve research outputs first. Resume an unconfirmed engineering save by inspecting its branch/record ID before repeating it. Never call an improvement run another research cycle or recursively invoke the completion hook.

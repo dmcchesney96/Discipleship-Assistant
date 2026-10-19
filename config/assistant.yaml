@@ -54,6 +54,7 @@ shared_skills:
   - pattern-connector
 
 discipleship_skills:
+  - discipleship-skill-improvement-loop
   - discipleship-research-source-ingestor
   - daily-discipleship-research-prompt
   - discipleship-research-scout-agenda-builder
@@ -99,3 +100,4 @@ guardrails:
   external_and_local_evidence_stay_distinct: true
   recommendations_are_not_decisions: true
   sensitive_case_data_in_github: false
+

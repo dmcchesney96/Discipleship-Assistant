@@ -1,0 +1,12 @@
+{
+  "review_artifact": {
+    "path": "engineering/skill-improvement/experiments/ledger-hardening/proposal.md",
+    "sha256": "0547fb0e5ead5cefcbc3e8a8eca0279ad4d7e9470245e949146861b105677906"
+  },
+  "issues": {
+    "ai-research-verification-integration:tool_unavailable": {
+      "cause": "tool",
+      "status": "DEFERRED"
+    }
+  }
+}
