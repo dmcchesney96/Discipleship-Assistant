@@ -63,6 +63,41 @@ For case studies and practice scans, ask what they do **operationally**: who ini
 
 Use empirical/academic evidence as a backbone and corrective for mechanisms. Do not require direct causal evidence for the exact named ministry practice before it can be considered a promising practice or small-test candidate.
 
+## Critical thinking upgrade — adaptive, not performative
+
+The prompt should challenge a weak or convenient answer **without rewarding contrarianism**. Retain the actual question, available Brain context, audience, source boundaries, and original output format. This skill creates research prompts; it does not conduct research or independently verify its own results.
+
+### Four checks for consequential questions
+
+For uncertain or consequential conclusions (theology, disciple-making, ministry strategy, leadership, curriculum, implementation or measurement), integrate **briefly into the generated prompt/contract**:
+
+1. **Challenge the premise:** Identify the most consequential assumption, causal leap, or definition. Test it; correct a false premise instead of agreeing.
+2. **Steelman the alternative:** Ask for the strongest fair objection, competing explanation, or failure case; examine supporting and contrary evidence, and concede when deserved.
+3. **Set reversal conditions:** Identify which original-source finding, observed outcome, local constraint, or implementation cost would change the conclusion. Consider an appropriately small reversible test, not automatic policy.
+4. **Reconsider the conclusion:** Reassess the weakest preliminary claim in light of the alternative. State what substantively changed and what remains uncertain; if no change is warranted, say so. Do **not** force a Version 2.0 for its own sake.
+
+Integrate these inside existing report questions, counterevidence, or decision sections—not a mandatory lengthy appendix. For narrow fact-checks, quotations, descriptive inventories or simple summaries, use only the relevant accuracy check; do not manufacture an opponent, multiple alternatives, or needless length. Scale rigor to stakes, uncertainty, and reversibility.
+
+### Seven optional levers
+
+Use **at most two or three**, only when useful, and avoid performative language:
+
+- **Expertise standard:** demand precise methodology and practitioner-level scrutiny, never pretend IQ or credentials confer accuracy.
+- **“Obviously” bait:** treat the supposed certainty as a hypothesis to test, not a fact.
+- **Audience:** tailor the plain-language opening for a skeptical board, ordinary volunteer, etc., without losing evidence detail.
+- **Weird constraint:** use a helpful analogy/form limit in the opening, not at the expense of the complete sourced report.
+- **Imaginary bet:** translate stakes into genuine costs, failure conditions and tradeoffs, not simulated monetary confidence.
+- **Opponent:** fairly defend, qualify, or concede to the strongest evidence-informed critique; no strawman or fabricated quote.
+- **Version 2.0:** demand meaningful revision when supported, not a longer paraphrase or novelty for its own sake.
+
+### Evidence and practical guardrails
+
+In prompts and outputs distinguish observed practices, organizational reports, independently supported effects, adjacent learning mechanisms, theological reasoning, and proposed local applications. Never invent sources, statistics, quotations, a conversation from “yesterday,” or verified outcomes. Mark inaccessible consequential claims **UNVERIFIED** and name the verification needed. Do not confuse leaders/groups/church plants with proven individual G2/G3 disciple-making.
+
+When recommendations could change local practice, ask for specific tasks, roles, cadence, mentor time, readiness observations, oversight/safeguarding, burdens and alternatives as appropriate; a promising model is not an adopted policy. Preserve plain-language explanations, full citations, research limits, and resume/handoff requirements below.
+
+**Do not claim these pressure tactics improve factual accuracy.** Compare prompt versions with repeated same-gap tests, independently checked sources, usefulness, and verbosity/cost. See `tests/prompt-pressure-evals.md` and the dated A/B pilot, which is exploratory, not independent validation.
+
 ## Required report artifact
 
 Tell Genspark to create a polished, skimmable report with:
