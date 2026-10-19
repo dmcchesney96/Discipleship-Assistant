@@ -9,6 +9,11 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
 | Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
 | Run an end-to-end multi-session curriculum build from relevant Brain retrieval through gap research, course design, assessment, and run-ready assets | `full-discipleship-curriculum-build-cycle` |
+| Run the full chain across real ministry handouts, worksheets, assignments, exercises and training tools: inventory → review → compare → optional original design | `full-discipleship-resource-equipping-cycle` |
+| Inventory/catalog a batch of concrete equipping resources, preserving exact locators, versions, duplication and reuse rights | `discipleship-resource-intake-cataloger` |
+| Critically evaluate one or more actual handouts, assignments, exercises or leader guides for their teachable value | `discipleship-resource-evaluator` |
+| Compare competing worksheets/exercises for the same outcome and extract source-attributed design patterns | `discipleship-resource-comparison-extractor` |
+| Create original quick-start guides, handouts, role-plays, homework, coaching cards or tools from reviewed resource patterns | `discipleship-training-tool-designer` |
 | Design/redesign a discipleship course, class, syllabus, or week-by-week curriculum from a defined outcome/evidence base | `discipleship-curriculum-architect` |
 | Build concrete practice options/Practice Cards from churches, books, movements, or research | `discipleship-practice-intelligence-builder` |
 | Mine a large historical research/library corpus into deduplicated Practice Intelligence | `discipleship-practice-intelligence-backfill` |
@@ -59,6 +64,11 @@ Use this when the user asks **what Southbrook should do/how to implement**, not 
 `course contract → ministry-context-retriever → pastoral alignment lens → bounded source/gap audit → targeted verification/research only where material → evidence packet → discipleship-curriculum-architect → discipleship-measurement-architect when needed → implementation-kit builder when run-ready assets are requested → artifact creation when requested → curriculum QA → authorized Brain persistence`
 
 Use this when the requested artifact is specifically a complete multi-session curriculum/course/class shaped by the Brain and research.
+
+### Full resource & equipping cycle — actual materials, NOT research reports
+`bounded source folder + existing index → pastoral alignment when designing → discipleship-resource-intake-cataloger → discipleship-resource-evaluator [prioritized items] → discipleship-resource-comparison-extractor [only 2+ comparable candidates] → rights-aware selection → discipleship-training-tool-designer [only when draft creation requested] → resource QA → bounded test proposal → librarian filing [authorized + verified] → later local learning if actual test occurs`
+
+Read `docs/resource-equipping-workflow.md`. For a single resource or single task, route directly to the relevant specialist. Do not automatically run research verification, create a full curriculum, publish or launch ministry tools. Treat review/permission/pilot/approval as distinct statuses.
 
 ### Southbrook weekly sermon notes
 `southbrook-sermon-notes-artifact-builder → southbrook-brand-artifact-stylist / current series identity → DOCX/PDF production → render/inspect/QA`
@@ -116,7 +126,11 @@ This full-cycle trigger takes precedence over prompt-only or compare-only routin
 
 Automatically use `full-discipleship-practice-design-cycle` when the user asks for a complete practical path from a Southbrook discipleship problem to concrete external practices, contextual fit, and a bounded test/pilot.
 
-Automatically use `full-discipleship-curriculum-build-cycle` when the user asks for a complete multi-session discipleship curriculum/course/class and wants the Brain/research/resources to shape the build through source-gap analysis, any needed targeted research, full session design, assessment/transfer, and run-ready materials without separate intermediate prompts. This curriculum trigger takes precedence over practice-design and implementation-kit routing when the requested artifact is the curriculum itself.
+Automatically use `full-discipleship-curriculum-build-cycle` when the user asks for a complete multi-session discipleship curriculum/course/class and wants the Brain/research/resources to shape the build through source-gap analysis, any needed targeted research, full session design, assessment/transfer, and run-ready materials without separate intermediate prompts.
+
+Automatically use `full-discipleship-resource-equipping-cycle` when the user requests a full hands-on review of actual ministry materials (worksheets, handouts, assignments, exercises, leader training tools) including cataloging, item-level evaluation, alternatives comparison and optional original draft tools. This route is separate from research; it takes precedence over a broad practice scan when the requested output is evaluated **artifacts**, not ministry systems. A complete multi-session curriculum still belongs to the full curriculum cycle and may call resource evaluation narrowly.
+
+Automatically use `discipleship-resource-intake-cataloger` for inventory/triage of actual tools only; `discipleship-resource-evaluator` for item-level critique; `discipleship-resource-comparison-extractor` to choose/extract comparable material; and `discipleship-training-tool-designer` when a small original worksheet, exercise, handout or coaching card is requested. Do not trigger a full chain for a single bounded stage. This curriculum trigger takes precedence over practice-design and implementation-kit routing when the requested artifact is the curriculum itself.
 
 Automatically use `discipleship-curriculum-architect` when the user asks to design/redesign a syllabus, course outline, week-by-week curriculum, facilitator/participant learning journey, or curriculum architecture from a defined outcome/evidence base but does not request the entire research-to-artifact pipeline.
 
