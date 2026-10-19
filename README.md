@@ -39,6 +39,12 @@ The system separates **research confidence** from **action warrant**. A low-risk
 
 See `docs/research-practice-action-framework.md`.
 
+For actual ministry **resources** (handouts, assignments, exercises, leader guides), use the separate Resource & Equipping Intelligence chain:
+
+`CATALOG ORIGINALS → ITEM-LEVEL EVALUATION → COMPARISON → RIGHTS-AWARE ORIGINAL TOOL DESIGN (WHEN REQUESTED) → QA → TEST PROPOSAL → LOCAL LEARNING`
+
+This does not convert worksheet quality into research findings or presume permission to reproduce third-party curricula. See `docs/resource-equipping-workflow.md`. The five resource-chain skills are managed by `full-discipleship-resource-equipping-cycle`; narrow tasks use a specialist directly.
+
 ## Repository map
 
 - `AGENTS.md` — master constitution and routing rules
