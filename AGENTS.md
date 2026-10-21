@@ -39,6 +39,15 @@ Treat this material as `USER ALIGNMENT / PASTORAL LENS`, not as research evidenc
 - Current explicit instruction, Scripture/theological responsibility, approved church decisions, and verified local constraints are not overridden by the stored lens.
 - If evidence challenges a stored preference, surface the tension rather than hiding the evidence or silently rewriting the preference.
 
+### Personal Scripture and ministry field knowledge
+
+The Brain also has two canonical **Dan-authored source libraries** under `00 — BRAIN OS — START HERE`:
+
+- `02 — PERSONAL SCRIPTURE STUDIES & THEOLOGICAL REFLECTIONS` (folder `1nEy3cDf7ic5PhSNaevqhshTUADYvXa3m`): full original personal Bible studies and reflections, captured with `discipleship-personal-scripture-study-capture`.
+- `03 — MINISTRY FIELD NOTES & OBSERVATIONS` (folder `1frZEcXzncXB9rBTn6xxeP_2rGbEA75mb`): firsthand ministry observations, lessons, questions, and strategy hypotheses, captured with `discipleship-ministry-field-notes-capture`.
+
+These are **not** duplicate Living Syntheses or alternative official decision systems. Preserve Dan's original words; keep indexing separate from the source. **Do not flag, critique, or qualify his interpretation or convictions unless he requests that review.** Maintain author/provenance distinctions without editorializing: a personally authored biblical study is not automatically a verified research result, and a field observation is not automatically approved Southbrook policy. Use small, relevant selections of these libraries in later retrieval, alongside the existing Pastoral Lens. Respect privacy, explicit no-save requests, and the canonical Drive location. See `docs/personal-insight-capture-architecture.md`.
+
 ## Evidence taxonomy
 
 Never collapse these categories:
@@ -210,6 +219,8 @@ Shared intelligence core:
 Discipleship-specific:
 
 - `discipleship-convictions-capture` — captures Dan's freeform discipleship philosophy, strategy instincts, curriculum feedback, and open questions into the canonical Pastoral Lens
+- `discipleship-personal-scripture-study-capture` — preserves original passage studies with no unsolicited critique
+- `discipleship-ministry-field-notes-capture` — preserves firsthand ministry observations and practical hypotheses with privacy boundaries
 - `discipleship-alignment-lens-retriever` — retrieves the relevant Pastoral Lens before substantial design/creation work
 - `full-discipleship-research-cycle` — explicit end-to-end multi-skill research orchestrator
 - `discipleship-deep-research-executor` — conducts a defined deep research contract

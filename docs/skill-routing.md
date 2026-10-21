@@ -5,6 +5,8 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | User intent | Primary skill |
 |---|---|
 | Capture Dan's own discipleship philosophy, strategy instincts, curriculum feedback, what rings true/false, or what should/should not be included | `discipleship-convictions-capture` |
+| Capture Dan's original passage-by-passage Bible studies, Scripture reflections, and theological notes without unsolicited critique | `discipleship-personal-scripture-study-capture` |
+| Capture Dan's original practical church/ministry observations, lessons, and tentative field ideas | `discipleship-ministry-field-notes-capture` |
 | Retrieve Dan's stored convictions/preferences to shape substantial strategy, system, curriculum, Bible-study, training, or implementation work | `discipleship-alignment-lens-retriever` |
 | Run the entire research process from gap/question through report, verification, Brain updates, and final readout | `full-discipleship-research-cycle` |
 | Run the practical workflow from Southbrook problem through practice options, fit, and test/pilot design | `full-discipleship-practice-design-cycle` |
@@ -42,6 +44,14 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Extract decisions/actions/owners/dates | `decision-action-extractor` |
 | Preserve durable rationale/history | `institutional-memory-writer` |
 | Connect patterns across evidence | `pattern-connector` |
+
+## Personal input capture (not a research cycle)
+
+- **Passage study:** one dated user-authored Bible-study Google Doc in `02 — PERSONAL SCRIPTURE STUDIES & THEOLOGICAL REFLECTIONS` → optional attributed Pastoral Lens pointer only when durable → verify body and parent.
+- **Field observation:** one dated user-authored practical note in `03 — MINISTRY FIELD NOTES & OBSERVATIONS` → privacy screening → optional pointer to relevant local evidence/convictions → verify.
+- **Conviction or preference only:** existing `discipleship-convictions-capture` workflow in `01 — PASTORAL CONVICTIONS & DESIGN LENS`.
+
+For capture, never automatically launch a theology audit, research cycle, implementation pilot, or decision workflow. No unsolicited critique/flagging of personal interpretation or convictions; later research/critique only when the user asks. Preserve authorship and evidence boundaries. See `docs/personal-insight-capture-architecture.md`.
 
 ## Common sequences
 
@@ -105,6 +115,8 @@ If the requested result is already supported, stop. A handoff is useful only whe
 ## Natural-language auto-trigger
 
 The user never needs to say the skill name.
+
+Automatically use `discipleship-personal-scripture-study-capture` when Dan supplies an original substantial study of a Bible passage for the Brain. Automatically use `discipleship-ministry-field-notes-capture` when he contributes a substantive firsthand church/ministry observation for enduring use. Keep them separate from general convictions and from approved decisions. Do not save ordinary questions, content explicitly marked no-save, or sensitive pastoral information. No unsolicited theological or personal-conviction critique during capture.
 
 Automatically use `discipleship-convictions-capture` when Dan is substantially expressing his own durable view of discipleship, ministry strategy, Bible/curriculum design, implementation, what rings true, what he dislikes, what should/should not be included, or an unresolved idea he wants the project to keep learning from. Do not trigger on ordinary factual questions, and do not persist when he says not to save the thought.
 

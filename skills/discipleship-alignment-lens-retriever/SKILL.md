@@ -45,6 +45,17 @@ Primary documents:
 - `03 — Ministry Strategy & System Preferences` — `19LTzEEwa2oE1dobktUzBsXwAdHsi6d3aoqDMzPWkBiA`
 - `04 — Open Questions, Tensions & Ideas to Test` — `19gYiqXgzhOd8SvglAtary30k0Nb9Q3hJ1RHjHPvCYv0`
 
+## Related first-person knowledge (not a second Pastoral Lens)
+
+The existing canonical Pastoral Lens remains the home for Dan's convictions/preferences. Two parallel **source libraries** preserve his own original notes:
+
+- **Personal Scripture Studies & Theological Reflections** — folder `1nEy3cDf7ic5PhSNaevqhshTUADYvXa3m` — owner skill `discipleship-personal-scripture-study-capture`.
+- **Ministry Field Notes & Observations** — folder `1frZEcXzncXB9rBTn6xxeP_2rGbEA75mb` — owner skill `discipleship-ministry-field-notes-capture`.
+
+For substantial Bible-study or teaching work, retrieve original studies on the **specific relevant passage**, in addition to the smallest relevant Pastoral Lens excerpt. For implementation/strategy involving a known local issue, retrieve a small number of closely relevant field notes as warranted. Do not retrieve entire folders indiscriminately.
+
+Attribute the notes as Dan's personal interpretation/observation, not as independently verified research or an approved Southbrook decision. **Do not initiate unsolicited critique, theological review, or flagging of Dan's interpretations or convictions.** If he explicitly requests evaluation, route it as a separate requested task and preserve the original unchanged.
+
 ## Retrieval rule
 
 Retrieve the smallest sufficient set.
