@@ -47,6 +47,16 @@ Do not trigger merely because Dan asks a factual/research question. Trigger when
 
 If Dan explicitly says not to save a thought, do not persist it.
 
+## Scope boundary: original Scripture studies and field notes
+
+This skill owns **durable convictions and preferences**, not the full source record for every passage study or real-world field observation.
+
+- If Dan supplies a substantive original Scripture passage study, route the complete study to `discipleship-personal-scripture-study-capture` in the Scripture Studies folder. If it contains a truly durable discipleship conviction, optionally add a brief attributed pointer here, but do not make a second full copy.
+- If Dan supplies firsthand ministry observations or stories for enduring use, route the source note to `discipleship-ministry-field-notes-capture`. Cross-link a durable strategy instinct only when warranted.
+- Do not flag, critique, or qualify Dan's biblical interpretations or personal convictions in the course of **capture**, unless he requests evaluation. Preserve his own voice.
+- A statement about how a Bible curriculum should be designed remains within this skill, unless the central document is an actual passage-by-passage study.
+- Verify no-save instructions, sensitive pastoral details, and destination access before any persistence.
+
 ## Standing authorization
 
 Dan authorized this capture system on October 3, 2026.
