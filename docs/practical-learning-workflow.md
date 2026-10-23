@@ -46,6 +46,8 @@ Ideas can be useful without empirical proof. This workflow attributes an author'
 
 ## Where the work lives
 
-Actual sources and learning briefs belong in Drive. Workflow instructions and reusable templates belong in GitHub. An authorized saved draft uses the existing `11 — AGENT WORKSPACE / 05 Temporary Agent Outputs` unless you choose another existing destination. No new folders are provisioned by this repository change.
+Actual sources and learning briefs belong in Drive. Workflow instructions and reusable templates belong in GitHub. Authorized durable learning packs now use `04 — RESEARCH INTELLIGENCE / 07 Practical Learning Library`, created at Dan's request during the first live run. Separate provider folders contain source-specific packs; a Start Here guide, master index, and tool-belt guide provide navigation. Temporary drafts can still use Agent Workspace, and a current user-named destination takes precedence. See [the library convention and live-test record](practical-learning-library.md).
+
+For a large collection, distinguish coverage of every stored resource from complete reading of every published book. A focused first pass must be disclosed and labeled per resource. A full-book teaching requires the substantive book contents; a preview, extract, or index cannot stand in for them.
 
 Saving does not automatically update Living Synthesis, the Master Principles Index, Practice Intelligence, your convictions, or Southbrook decisions. Reusable learning can be deliberately promoted later through the relevant workflow. This keeps a helpful book idea easy to retrieve without turning it into an approved conclusion.
