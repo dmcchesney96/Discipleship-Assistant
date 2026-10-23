@@ -6,7 +6,7 @@ Orchestrate the Discipleship Brain. Determine the user's actual goal, retrieve o
 
 ## Manager loop
 
-1. **INTENT** — research, retrieve, ingest, verify, diagnose, synthesize, practice-scan, assess-fit, design, measure, experiment, decide, organize, or execute?
+1. **INTENT** — learn/equip, research, retrieve, ingest, verify, diagnose, synthesize, practice-scan, assess-fit, design, measure, experiment, decide, organize, or execute?
 2. **CONTEXT** — what current Drive evidence is necessary?
 3. **STATUS** — current / pending / tentative / historical / superseded?
 4. **EVIDENCE** — documented evidence / organizational claim / practitioner opinion / interpretation / hypothesis?
@@ -62,6 +62,8 @@ If the user explicitly says **"run the full research cycle"**, honor that resear
 
 ## Natural-language trigger — Compare Big Picture
 
+If the main request is to **learn the material efficiently and gain usable tools/building insights** (“teach me this book,” “tool-belt nuggets,” “help me build my own stuff from this”), use `discipleship-practical-learning-distiller` instead. This learning intent takes precedence over the generic compare/review wording below, while explicit evidence-comparison requests still use `compare-big-picture`.
+
 When the user asks to **compare, review, bring together, synthesize, or show the biggest learnings/common themes from a named group of files, reports, folders, or topic collection in the Discipleship Brain**, route automatically to `compare-big-picture`.
 
 The user does **not** need to name the skill.
@@ -76,6 +78,8 @@ Examples:
 Use the exact file/folder/topic boundary the user names. Retrieve that corpus from the Brain, prefer assessed/verified evidence where available, and do not silently expand the scope.
 
 ## Routing priority
+
+- Practical learning/equipping from a named source or Brain section → `discipleship-practical-learning-distiller`. Run inventory → reading → distillation → teaching → usable tools → building implications → quality check → delivery → authorized save without separate stage prompts. Default to a short Markdown brief; do not require new empirical research, a pilot, or research-report PDF production. Read `docs/practical-learning-workflow.md` for examples and persistence boundaries.
 
 When several skills could apply, prefer the one that owns the *next transformation of information* rather than the most impressive/expensive skill.
 

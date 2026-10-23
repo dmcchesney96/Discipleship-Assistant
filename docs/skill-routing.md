@@ -4,6 +4,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 
 | User intent | Primary skill |
 |---|---|
+| Teach a named book/document set efficiently; extract practical nuggets, reusable tools, and insights for what Dan is building | `discipleship-practical-learning-distiller` |
 | Capture Dan's own discipleship philosophy, strategy instincts, curriculum feedback, what rings true/false, or what should/should not be included | `discipleship-convictions-capture` |
 | Capture Dan's original passage-by-passage Bible studies, Scripture reflections, and theological notes without unsolicited critique | `discipleship-personal-scripture-study-capture` |
 | Capture Dan's original practical church/ministry observations, lessons, and tentative field ideas | `discipleship-ministry-field-notes-capture` |
@@ -54,6 +55,11 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 For capture, never automatically launch a theology audit, research cycle, implementation pilot, or decision workflow. No unsolicited critique/flagging of personal interpretation or convictions; later research/critique only when the user asks. Preserve authorship and evidence boundaries. See `docs/personal-insight-capture-architecture.md`.
 
 ## Common sequences
+
+### Practical learning / tool belt
+`source pointer → bounded inventory → actual reading + coverage ledger → distill central ideas → teach with examples → usable tools + worked examples → concrete building implications → recall/application check → quality check → deliver → authorized save + read-back`
+
+Use `discipleship-practical-learning-distiller` for “teach me this book,” “tool-belt nuggets,” or “help me learn from this folder as I build.” It owns this sequence as one bounded skill. Prefer it over generic comparison or corpus-backfill routing when the purpose is learning/equipping. Preserve explicit requests for other workflows. No automatic deep research, formal pilot, PDF/DOCX requirement, or promotion into Living Synthesis/Practice Intelligence. See `docs/practical-learning-workflow.md`.
 
 ### Full research cycle
 `context retriever → scout/redundancy gate → prompt builder (SELF_EXECUTE) → deep research executor → preserve raw report → AI verification → evidence checker → compare-big-picture → pattern connector only if warranted → living synthesis only if warranted → research-report publisher → librarian verify → simple-first readout`
@@ -144,7 +150,7 @@ Automatically use `discipleship-practice-implementation-kit-builder` when a prac
 
 Automatically use `discipleship-pilot-learning-evaluator` when the user asks what a completed/in-progress Southbrook experiment taught us or whether to stop, adapt, repeat, expand, integrate, or scale.
 
-Automatically use `compare-big-picture` whenever the user asks to compare, review, synthesize, bring together, or identify the biggest learnings/common themes across a **specified group of Brain files, reports, a folder, or a bounded topic collection**.
+Automatically use `compare-big-picture` when the user asks to compare, review, synthesize, bring together, or identify the biggest learnings/common themes across a **specified group of Brain files, reports, a folder, or a bounded topic collection**, unless the dominant intent is practical teaching/equipping with tools and building insights. That learning intent uses `discipleship-practical-learning-distiller`; an explicit evidence-comparison request still uses `compare-big-picture`.
 
 Respect the user's stated source boundary. Do not widen "these files" into the whole Brain unless requested.
 

@@ -39,6 +39,12 @@ The system separates **research confidence** from **action warrant**. A low-risk
 
 See `docs/research-practice-action-framework.md`.
 
+## Learn a book or Brain section efficiently
+
+Ask: “Teach me [book/file/folder link] efficiently. Give me practical learnings, tools for my tool belt, and insights for building [my project].” The manager uses `discipleship-practical-learning-distiller` to read the bounded material, teach its main ideas, create usable tools with worked examples, and show concrete applications. It runs start to finish without separate stage prompts.
+
+Default output is a short chat/Markdown brief with source links and honest reading coverage. Add “save it in the Brain” to authorize saving a draft; learning does not require new empirical research or automatically change approved conclusions. See [the full workflow and examples](docs/practical-learning-workflow.md).
+
 ## Repository map
 
 - `AGENTS.md` — master constitution and routing rules

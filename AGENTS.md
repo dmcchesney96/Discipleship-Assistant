@@ -116,10 +116,13 @@ For substantial work:
 
 ## Research ↔ practice balance
 
-The Brain has two complementary operating modes:
+The Brain has three complementary operating modes:
 
 1. **RESEARCH / TRUTH MODE** — determine what appears to be true, how strongly the evidence supports it, and what mechanisms/principles deserve durable synthesis.
 2. **PRACTICE / DESIGN MODE** — study what credible churches, movements, practitioners, books, and historical examples actually do; understand the mechanism; assess Southbrook fit; and choose a responsible learning action.
+3. **PRACTICAL LEARNING / TOOL BELT MODE** — teach a named book or bounded document collection efficiently, extract usable ideas/tools, and show how they could shape Dan's own work. Route to `discipleship-practical-learning-distiller`; source fidelity and attribution matter, but causal proof, formal pilots, and research promotion are not prerequisites for learning.
+
+In practical learning mode, the endpoint is understanding plus usable tools and illustrative adaptations. The research/design sequences below apply when the requested task is evidence assessment or ministry implementation; do not automatically append them to a teaching brief. See `docs/practical-learning-workflow.md`.
 
 Do not require direct causal evidence for every named ministry practice before considering a small reversible test. Empirical research often supports the **mechanism** more strongly than the exact church program.
 
@@ -189,6 +192,8 @@ The manager/orchestrator chooses the skill. Skills do not automatically chain th
 
 ### Explicit orchestrator exceptions
 
+When the user asks to **teach/distill a book or Brain collection into practical learnings, tool-belt nuggets, and insights for what he is building**, route to `discipleship-practical-learning-distiller`. It owns the complete reading-to-teaching-to-tool workflow as one bounded skill. Prefer it over generic compare/backfill routing for this learning intent; honor explicitly requested research, comparison, design, or course workflows.
+
 When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`.
 
 When the user clearly asks for the **entire practical path from Southbrook problem through practice options, fit, and a test/pilot**, route to `full-discipleship-practice-design-cycle`.
@@ -218,6 +223,7 @@ Shared intelligence core:
 
 Discipleship-specific:
 
+- `discipleship-practical-learning-distiller` — end-to-end source reading → efficient teaching → reusable tools → building implications → authorized save
 - `discipleship-convictions-capture` — captures Dan's freeform discipleship philosophy, strategy instincts, curriculum feedback, and open questions into the canonical Pastoral Lens
 - `discipleship-personal-scripture-study-capture` — preserves original passage studies with no unsolicited critique
 - `discipleship-ministry-field-notes-capture` — preserves firsthand ministry observations and practical hypotheses with privacy boundaries

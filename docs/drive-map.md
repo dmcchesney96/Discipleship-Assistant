@@ -112,4 +112,6 @@ Strategic Priorities; Decision Log; Ministry Recommendations & Improvement Plans
 
 ## Filing rule
 
+Practical Learning Briefs from `discipleship-practical-learning-distiller` are draft learning aids. When saving is authorized, use the existing `11 — AGENT WORKSPACE / 05 Temporary Agent Outputs` unless the user names another existing destination; verify the live folder before writing. Do not automatically file these as research principles, Practice Cards, pastoral convictions, or decisions. This convention creates no folders. See `docs/practical-learning-workflow.md`.
+
 Do not create a competing top-level architecture. New sources enter through Intake, are evaluated, and move into the appropriate evidence/intelligence/synthesis/diagnostic/design/measurement/experiment/strategy layer. Temporary agent output remains temporary until intentionally promoted.
