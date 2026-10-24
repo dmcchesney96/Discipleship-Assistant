@@ -37,6 +37,11 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_skill_validation.py'
       - name: Validate synthesis skill contracts and links
         run: python3 tests/check_principle_contract.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check native document text ranges and trailing letters
+        run: node --test tests/test_native_text_ranges.mjs
 
-# This checks static process contracts only, not LLM reasoning correctness.
+# This checks static process contracts and native text-range arithmetic, not LLM reasoning correctness.
 # Behavioral evidence-to-principle tests are in tests/principle-synthesis-cases.md.

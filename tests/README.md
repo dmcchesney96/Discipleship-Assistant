@@ -24,3 +24,7 @@ For each case, start a fresh task session with the pinned repo, prompt, input ar
 Run `python tests/check_skills.py` (PyYAML required) as well as the existing structural marker check. Neither executable check certifies research reasoning or live connector reliability.
 
 Run validator regression cases with python -m unittest discover -s tests -p test_skill_validation.py. Keep semantic results in a dated test-run record with exact source boundaries and whether results were observed or simulated.
+
+## Native document formatting regression
+
+Run `node --test tests/test_native_text_ranges.mjs` (Node 22+) before native Docs branding work. CI runs the same checks. They verify UTF-16 endpoints and detect a smaller trailing character; they do not replace actual Drive content/style read-back or rendered-page inspection.

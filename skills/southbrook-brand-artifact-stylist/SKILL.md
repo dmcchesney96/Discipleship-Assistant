@@ -252,6 +252,8 @@ If the user supplies a newer official guide/logo/font direction, that overrides 
 
 ### Native Google Docs and internal records
 
+Read [native text formatting and trailing-character QA](references/native-text-formatting.md) before composing native style requests. Use its UTF-16 range helper and read-back check so the last visible character receives the intended font size; do not blindly subtract one from a connector endpoint. Formatting-only work preserves exact wording and links.
+
 Apply Southbrook typography, colors, and hierarchy in native paragraph/text styles; generic Google Docs defaults are not the finished brand treatment. Use Arial when licensed Gotham is unavailable, charcoal body text, restrained cyan rules/accents, whitespace, and the verified full logo where the layout supports it. Keep semantic headings, working source links, and visible status/provenance. Compact Brain records can use a small identity header without a cover page. Keep small text readable; use dark text on light fills when cyan would have insufficient contrast.
 
 For paginated handouts or documents where logo placement/page fit matters, export and inspect rendered pages through the document/PDF tools. Native style/content read-back alone does not verify pagination or image placement. Disclose unavailable visual QA instead of claiming it passed.
@@ -299,6 +301,7 @@ Check:
 - text remains high contrast;
 - Gotham is used only where legitimately available and is not mislabeled as formally published "official" unless confirmed by Communications;
 - typography hierarchy is consistent;
+- each styled range includes its final visible character; read-back and rendered output show no unintended smaller trailing letters;
 - whitespace is sufficient;
 - tables/callouts are restrained;
 - status labels remain visible;
