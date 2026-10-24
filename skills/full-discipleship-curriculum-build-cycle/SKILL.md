@@ -263,6 +263,8 @@ The curriculum architect owns the learning journey and session content. The impl
 
 ## Stage 9 — Create requested artifacts
 
+Apply [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) to every authored artifact, including native Google Docs and internal Brain documents. Read `southbrook-brand-artifact-stylist` and its observed header/text patterns before production. Preserve the requested format, source attribution, and status labels; complete appropriate layout and brand QA before saving or delivering.
+
 When requested and tools permit, produce the appropriate editable/source artifacts and final participant/leader outputs.
 
 Possible artifacts:

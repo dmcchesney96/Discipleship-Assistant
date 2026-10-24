@@ -86,7 +86,7 @@ Before delivering, check that:
 - Coverage matches the claim of completeness. The brief does not teach unavailable chapters, infer causation, or claim local facts without support.
 - The output fits the reading budget, avoids long quotations, and does not merely reproduce the book or a chapter-by-chapter replacement. Use selective original explanation and source pointers.
 
-Deliver one coherent brief in chat/Markdown by default, with the detailed coverage ledger at the end. Use the template selectively; omit empty sections and do not pad a thin source. PDF, DOCX, slides, branding, course production, and a formal evidence review are optional when requested. Do not inherit the research report's mandatory PDF/DOCX contract.
+Deliver one coherent brief in chat/Markdown by default, with the detailed coverage ledger at the end. Use the template selectively; omit empty sections and do not pad a thin source. PDF, DOCX, slides, course production, and a formal evidence review are optional when requested. Every document artifact, including native Google Doc learning packs, uses [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) and `southbrook-brand-artifact-stylist`. Preserve chat-only delivery without adding unrequested files. Do not inherit the research report's mandatory PDF/DOCX contract.
 
 ## 7. Save and resume only within authorization
 

@@ -228,7 +228,7 @@ Shared intelligence core:
 - `decision-action-extractor`
 - `institutional-memory-writer`
 - `pattern-connector`
-- `southbrook-brand-artifact-stylist` — applies the verified Southbrook visual brand to ministry-facing artifacts after the content/design work is established
+- `southbrook-brand-artifact-stylist` — required Southbrook identity and document-organization layer for every authored document, including internal Brain records and Google Docs
 - `southbrook-sermon-notes-artifact-builder` — converts a sermon manuscript/outline into Southbrook's public weekly Message Notes structure before branding/production
 
 Discipleship-specific:
@@ -268,6 +268,14 @@ Discipleship-specific:
 Durable principle records follow `docs/principle-synthesis-system.md` and the principle-record template; the canonical thin Master Principles Index belongs inside Drive `04 Research Intelligence / 04 Strongest Converging Principles`. It is not a second Living Synthesis. Do not count derivative reports as independent evidence or turn attractive church practices into causal principles.
 
 See `docs/skill-routing.md`.
+
+## Southbrook branding for every document build
+
+Dan's standing direction (2026-10-23): use the Southbrook Church brand for every document we create for him in this project, including internal Brain documents and Google Docs. All skills inherit this production rule. Apply `southbrook-brand-artifact-stylist` and [the shared document-build workflow](docs/southbrook-document-build-workflow.md) before creating or materially revising an authored document. The manager owns the final check even when a specialist does not repeat the brand handoff.
+
+This covers learning packs, reports, curriculum, leader/participant resources, worksheets, agendas, decision records, and other authored deliverables, with the same identity carried into requested slides and spreadsheets. Preserve the requested format and scope; chat answers and code/configuration files do not require additional graphic artifacts. Existing third-party originals, uploaded evidence, and quoted user wording remain intact; brand our presentation and retain source attribution. Keep DRAFT, PROPOSED, PILOT, and approval status visible. Branding does not approve a document.
+
+Use the main church identity, current verified assets, and the skill's typography/color guidance. Read its observed document patterns for header and text organization; do not apply a competing generic report style or an unrequested ministry sub-brand. Restyling existing documents is a separately authorized batch, with source IDs and links preserved.
 
 ## Autonomy ladder
 

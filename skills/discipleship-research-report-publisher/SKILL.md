@@ -61,6 +61,10 @@ Do not make the PDF the only surviving copy of the report.
 
 If an editable document workflow is unavailable, use the best available structured source format, but still create the PDF when possible.
 
+## Southbrook brand layer
+
+Apply [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) to every authored artifact, including native Google Docs and internal Brain documents. Read `southbrook-brand-artifact-stylist` and its observed header/text patterns before production. Preserve the requested format, source attribution, and status labels; complete appropriate layout and brand QA before saving or delivering. The report standard owns information architecture; the brand skill owns visual identity. Use the Southbrook palette and sans-serif hierarchy rather than a separate green/serif house style.
+
 ## Authoring / rendering workflow
 
 For text-heavy reports, prefer:

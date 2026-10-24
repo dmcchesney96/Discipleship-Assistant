@@ -1,6 +1,6 @@
 # Reusable Discipleship Research Report Template
 
-> Use with `discipleship-research-report-publisher` and `docs/research-report-pdf-standard.md`.
+> Use with `discipleship-research-report-publisher`, `docs/research-report-pdf-standard.md`, and the shared Southbrook document-build workflow. Apply `southbrook-brand-artifact-stylist` for the logo, palette, typography, and observed header/text patterns; preserve every evidence/status label.
 
 ---
 
@@ -18,7 +18,7 @@
 > [1–3 sentence answer in plain language.]  
 > [One small limitation line if needed.]
 
-Footer: Discipleship Brain Research | 1 / [TOTAL]
+Footer: Southbrook Church | Discipleship Brain Research | 1 / [TOTAL]
 
 ---
 

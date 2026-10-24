@@ -338,6 +338,8 @@ If the North Star requires a reproducible skill, specify:
 
 ### Stage 9 — Create the curriculum asset stack
 
+Apply [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) to every authored artifact, including native Google Docs and internal Brain documents. Read `southbrook-brand-artifact-stylist` and its observed header/text patterns before production. Preserve the requested format, source attribution, and status labels; complete appropriate layout and brand QA before saving or delivering.
+
 Create only what the course needs, typically:
 
 1. Course brief / one-page overview

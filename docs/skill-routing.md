@@ -18,7 +18,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Assess candidate practices for Southbrook fit and action warrant | `southbrook-practice-fit-assessor` |
 | Evaluate completed/in-progress Southbrook pilot results and decide what was learned | `discipleship-pilot-learning-evaluator` |
 | Build ready-to-run training/tools/coaching assets for a selected pilot/practice | `discipleship-practice-implementation-kit-builder` |
-| Apply Southbrook logo/colors/typography/style to a ministry-facing DOCX/PDF/slide/handout/tool | `southbrook-brand-artifact-stylist` |
+| Apply required Southbrook branding and header/text patterns to every authored document, including Google Docs/internal Brain records, and requested slides/tools | `southbrook-brand-artifact-stylist` |
 | Create Southbrook weekly public Message Notes / sermon-outline handout from a sermon manuscript or outline | `southbrook-sermon-notes-artifact-builder` |
 | Conduct a defined research contract and produce the complete sourced report | `discipleship-deep-research-executor` |
 | Publish a completed research report as the standard professional PDF + editable master | `discipleship-research-report-publisher` |
@@ -82,9 +82,9 @@ Use this when the requested artifact is specifically a complete multi-session cu
 Keep public Message Notes distinct from Study Questions. Preserve the preacher's sequence, points, Scripture, and response rather than replacing the sermon with a generic summary.
 
 ### Artifact production
-`content-owning skill → southbrook-brand-artifact-stylist when Southbrook-facing → artifact-specific production skill → render/inspect/QA`
+`content-owning skill → southbrook-brand-artifact-stylist → artifact-specific production skill → layout + brand QA → authorized save + read-back`
 
-Use branding as a visual layer after the artifact's ministry purpose and content architecture are clear. Do not let branding make a proposal look approved.
+All content routes inherit this required production layer, including Google Docs and internal Brain records, even if their short sequence omits it. Preserve requested formats, original sources, citations, and visible status. See [the shared workflow](southbrook-document-build-workflow.md).
 
 ### New AI report
 `intake → ai verification → compare-big-picture when the user wants a readable cross-report view → living synthesis only if durable conclusions change`
@@ -155,7 +155,7 @@ Automatically use `compare-big-picture` when the user asks to compare, review, s
 Respect the user's stated source boundary. Do not widen "these files" into the whole Brain unless requested.
 
 
-Automatically use `southbrook-brand-artifact-stylist` when Dan asks for a Southbrook-branded/on-brand artifact or when a polished artifact is clearly intended for Southbrook ministry use and branding would materially improve it. Use it as a visual layer after the content-owning skill. Do not brand raw Brain research by default, do not substitute a ministry sub-brand for the church brand, and do not let branding imply approval.
+Automatically use `southbrook-brand-artifact-stylist` for every authored document created or materially revised for Dan in this project, including internal Brain records and native Google Docs. Dan established this default on 2026-10-23. Follow the shared production workflow and observed header/text patterns. Preserve source originals and attribution, use the main church identity, and retain draft/approval labels. Honor a later explicit direction for another identity or an intentionally unstyled format.
 
 
 Automatically use `southbrook-sermon-notes-artifact-builder` when Dan asks for the weekly Southbrook Message Notes, sermon outline handout, or a public notes artifact built from a manuscript/sermon outline. Keep Study Questions separate unless explicitly requested. After content shaping, apply current series identity and the Southbrook brand/artifact layer before final DOCX/PDF production.

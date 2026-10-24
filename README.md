@@ -45,6 +45,10 @@ Ask: “Teach me [book/file/folder link] efficiently. Give me practical learning
 
 Default output is a short chat/Markdown brief with source links and honest reading coverage. Add “save it in the Brain” to authorize saving a draft; learning does not require new empirical research or automatically change approved conclusions. See [the full workflow and examples](docs/practical-learning-workflow.md).
 
+## Southbrook branding by default
+
+Every authored document build uses `southbrook-brand-artifact-stylist`, including Google Docs and internal Brain records. It combines the verified church identity with observed Southbrook header/text patterns. All content routes inherit [the shared production workflow](docs/southbrook-document-build-workflow.md). Preserve originals, citations, and draft/approval labels. Backlog restyling is a separate requested batch.
+
 ## Repository map
 
 - `AGENTS.md` — master constitution and routing rules

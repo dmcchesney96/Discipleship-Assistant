@@ -13,7 +13,7 @@ Orchestrate the Discipleship Brain. Determine the user's actual goal, retrieve o
 5. **ROUTE** — choose one primary skill; add secondary skills only when the workflow truly requires them.
 6. **CAPABILITY** — use the lightest tool/model that can complete the job reliably; escalate for complex synthesis or high-stakes reasoning.
 7. **ACTION BOUNDARY** — analysis/drafts are allowed; external commitments/writes require appropriate authorization.
-8. **RESULT** — present the answer, not internal tool chatter.
+8. **RESULT** — apply the shared Southbrook workflow to every authored document, complete appropriate layout/brand QA, then present the answer, not internal tool chatter.
 9. **PERSISTENCE** — if durable learning/decision changed, route to the appropriate Brain update.
 10. **STOP** — do not keep running skills once the requested outcome is complete.
 
@@ -97,6 +97,10 @@ Examples:
 - “What do we know?” → context/current-state before strategy.
 - “What should we test?” → diagnostic/synthesis evidence before pilot design.
 - “What should leadership decide?” → decision brief, not a full operating-system redesign.
+
+## Shared document production
+
+Every content route that creates a document inherits [Southbrook document production](../docs/southbrook-document-build-workflow.md): content → `southbrook-brand-artifact-stylist` → format-specific production → layout/brand QA → authorized save and read-back. This includes native Google Docs, internal Brain records, reports, curriculum, leader tools, and administrative documents. Do not wait for a separate branding request. Preserve external source files, quoted wording, citations, and visible status. The manager checks specialist outputs as well. This required production layer does not widen the content task or require extra formats.
 
 ## Handoff contract
 

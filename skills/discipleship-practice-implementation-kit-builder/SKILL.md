@@ -129,6 +129,10 @@ Before finishing, ask:
 
 If not, simplify.
 
+## Document production
+
+Apply [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) to every authored artifact, including native Google Docs and internal Brain documents. Read `southbrook-brand-artifact-stylist` and its observed header/text patterns before production. Preserve the requested format, source attribution, and status labels; complete appropriate layout and brand QA before saving or delivering.
+
 ## Output
 
 # Minimum Viable Implementation Kit — [Pilot/Practice]

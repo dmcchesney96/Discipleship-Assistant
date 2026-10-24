@@ -1,6 +1,6 @@
 ---
 name: southbrook-brand-artifact-stylist
-description: Apply the verified Southbrook Church visual brand to ministry-facing artifacts such as DOCX/PDF handouts, leader guides, participant tools, one-pagers, reports, and slide decks. Use after the content-owning skill has established what the artifact should say. Preserve readability and never invent an official font or logo rule that has not been verified.
+description: Apply Southbrook Church branding and observed header/text patterns to every authored document for Dan, including native Google Docs, internal Brain records, DOCX/PDF handouts, reports, curriculum, and requested slides or spreadsheets. Use after content shaping; preserve originals, attribution, visible status, readability, and the requested format.
 metadata:
   short-description: Keep Southbrook ministry artifacts visually on brand
 ---
@@ -17,20 +17,13 @@ It should help future artifacts share recognizable Southbrook visual DNA without
 
 ## Trigger
 
-Use automatically when:
+Dan established Southbrook Church branding as the default for **every document we create for him in this project** on 2026-10-23. Apply automatically after content shaping, including native Google Docs, internal Brain records, learning packs, reports, curriculum, leader/participant tools, agendas, and decision records. Carry the identity into requested slides and spreadsheets. A separate branding request or public audience is not required.
 
-- Dan explicitly asks for something to be Southbrook-branded, on brand, or to use the Southbrook logo/colors/style;
-- a requested artifact is clearly intended for Southbrook leaders, volunteers, parents, students, members, or public ministry use and visual branding would materially improve it;
-- another skill creates a run-ready Southbrook ministry tool and the artifact is being turned into a polished DOCX, PDF, handout, one-pager, workbook, guide, or presentation.
+Follow [the shared document-build workflow](../../docs/southbrook-document-build-workflow.md), which all content skills inherit. Read [observed document patterns](references/document-patterns.md) for headers and text organization alongside the brand profile.
 
-Do not auto-apply when:
+Preserve external originals, uploaded evidence, quoted user wording, citations, attribution, and approval status. Brand our authored presentation; never relabel another author's source as a Southbrook-authored original. Branded DRAFT, PROPOSED, and PILOT documents must retain those labels clearly.
 
-- the artifact is a raw research/evidence record in the Discipleship Brain;
-- the user requests a different visual identity;
-- the artifact is intentionally plain-text or utilitarian;
-- branding would create false authority, such as a tentative proposal that could be mistaken for approved church policy.
-
-For proposals or pilots, preserve clear status language such as **PROPOSED**, **DRAFT**, or **PILOT** even when the artifact is visually branded.
+A later explicit request for another identity or an intentionally unstyled output takes precedence. Honor chat/plain-text/code constraints without creating extra graphic files. Report format limitations accurately rather than calling an unstyled artifact fully branded.
 
 ## Source priority
 
@@ -45,7 +38,7 @@ When brand sources disagree, use this order:
 
 Never promote an inference into an official brand rule.
 
-Read `references/brand-profile.md` before substantial branded artifact creation.
+Read `references/brand-profile.md` and the relevant sections of `references/document-patterns.md` before branded document creation. Reuse the packet within a batch; refresh when the source or artifact role changes.
 
 ## Current verified brand foundation
 
@@ -257,6 +250,12 @@ Treat Kelly Manus's `Milestone 2 Finals` folder as an approved professional-desi
 
 If the user supplies a newer official guide/logo/font direction, that overrides the profile and the profile should be updated only with authorization.
 
+### Native Google Docs and internal records
+
+Apply Southbrook typography, colors, and hierarchy in native paragraph/text styles; generic Google Docs defaults are not the finished brand treatment. Use Arial when licensed Gotham is unavailable, charcoal body text, restrained cyan rules/accents, whitespace, and the verified full logo where the layout supports it. Keep semantic headings, working source links, and visible status/provenance. Compact Brain records can use a small identity header without a cover page. Keep small text readable; use dark text on light fills when cyan would have insufficient contrast.
+
+For paginated handouts or documents where logo placement/page fit matters, export and inspect rendered pages through the document/PDF tools. Native style/content read-back alone does not verify pagination or image placement. Disclose unavailable visual QA instead of claiming it passed.
+
 ### 3. Preserve the content architecture
 
 The content-owning skill determines what the artifact needs to accomplish.
@@ -283,6 +282,7 @@ Use the verified color tokens, typography boundary, hierarchy, spacing, and logo
 
 Use the artifact-specific production skill:
 
+- native Google Docs: verify native styles, logo/source links, and destination; export/render when page fit or images matter;
 - DOCX: follow the DOCX render → inspect → iterate workflow;
 - PDF: follow the PDF generation/verification workflow;
 - slides: follow the slides creation/verification workflow;
@@ -343,4 +343,4 @@ Stop when:
 - the artifact is visibly consistent with the verified Southbrook identity;
 - the next improvement would be decorative rather than functional;
 - an unresolved official-brand question requires a current source or human confirmation;
-- the user requested only content and not artifact production.
+- the requested deliverable has been completed in its requested format; chat-only delivery does not require an additional branded file.

@@ -224,6 +224,10 @@ Use the smallest palette needed for the artifact.
 
 `#231F20` should now be preferred over inferred generic charcoal values for professionally designed print pieces because it appears directly in the approved professional-design references.
 
+## Header and text organization
+
+The 2026-10-23 review adds [observed document patterns](document-patterns.md) from selected rendered Booklet pages, the native Group Journal's hierarchy, two internal agendas, and official website pages. Its source/coverage notes distinguish visual inspection, native styles, and text-only observations. These are precedents and design adaptations, not a new Communications manual. Working highlights and one-off layouts do not become brand rules.
+
 ## Working layout grammar
 
 Southbrook ministry artifacts should generally feel:
