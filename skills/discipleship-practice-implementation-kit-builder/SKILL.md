@@ -13,6 +13,10 @@ Bridge the gap between **a good pilot design** and **something ordinary leaders 
 
 The goal is not to create a giant curriculum. The goal is the smallest complete set of tools needed to preserve the mechanism, reduce friction, support leaders, and learn faithfully.
 
+## Resource-design aim
+
+Apply [the heart of our resources](../../AGENTS.md#heart-of-the-resources-we-create), explicitly adopted by Dan: practice following Jesus together and equip people to help someone else do the same. In the design and final review, identify the concrete practice, the relational support or shared setting, and the supported next step for helping another person. Scale these to the resource and audience; preserve existing competence and pastoral boundaries.
+
 ## Trigger
 
 Use when:

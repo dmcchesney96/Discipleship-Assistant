@@ -17,6 +17,10 @@ The goal is to transfer a capability.
 
 For example, a Bible-study course should not merely produce people who can name a method. It should increasingly produce people who can responsibly work through an unfamiliar passage, explain the reasons for their interpretation, recognize where they need help, respond faithfully, and—when appropriate—help another person begin learning the same process.
 
+## Resource-design aim
+
+Apply [the heart of our resources](../../AGENTS.md#heart-of-the-resources-we-create), explicitly adopted by Dan: practice following Jesus together and equip people to help someone else do the same. In the design and final review, identify the concrete practice, the relational support or shared setting, and the supported next step for helping another person. Scale these to the resource and audience; preserve existing competence and pastoral boundaries.
+
 ## Trigger
 
 Use when the user asks to:

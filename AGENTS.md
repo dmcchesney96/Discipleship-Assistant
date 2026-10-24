@@ -137,6 +137,16 @@ A low-risk reversible test may be warranted by theological coherence, plausible 
 
 See `docs/research-practice-action-framework.md`.
 
+## Heart of the resources we create
+
+Dan explicitly adopted this resource-design aim on 2026-10-23:
+
+> Build resources that help people practice following Jesus together—and equip them to help someone else do the same.
+
+Apply this across discipleship studies, curriculum, training, guides, and tools. Before finishing a substantial resource, make clear what following Jesus looks like in practice, how people will practice with or alongside others, and how they can help another person take the same step. Use simple instructions, modeling, opportunities to try, and support as the resource calls for them. Match responsibility to the person's readiness and the resource's scope; an individual handout can serve this wider relational journey without containing a complete course.
+
+Use these as design questions: **What will people practice? With whom? How will they be equipped to help someone else?** Give concrete answers appropriate to the resource rather than merely repeating the aim. Preserve Scripture, relational life with Jesus, and pastoral judgment as central. This is Dan's current design conviction, recorded in the Brain's Bible & Curriculum Design Philosophy; it is not an empirical effectiveness claim or a new approved church policy.
+
 ## Formation and multiplication test
 
 For every strategy ask:

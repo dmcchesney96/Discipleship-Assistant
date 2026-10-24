@@ -23,6 +23,10 @@ The aim is not "more content."
 
 The aim is a faithful, research-grounded learning experience that transfers a discipleship capability to ordinary people.
 
+## Resource-design aim
+
+Apply [the heart of our resources](../../AGENTS.md#heart-of-the-resources-we-create), explicitly adopted by Dan: practice following Jesus together and equip people to help someone else do the same. In the design and final review, identify the concrete practice, the relational support or shared setting, and the supported next step for helping another person. Scale these to the resource and audience; preserve existing competence and pastoral boundaries.
+
 ## Natural-language trigger
 
 Automatically route here when the user asks for a **complete multi-session curriculum/course/class/training** and clearly wants the existing Brain/research/resources to shape the build, especially language such as:

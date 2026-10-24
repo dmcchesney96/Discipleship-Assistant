@@ -68,6 +68,8 @@ If the source is conceptual, say so and label any tool you create as an adaptati
 
 ## 5. Connect to what Dan is building
 
+When proposing ministry-resource adaptations, apply [the resource-design aim in AGENTS.md](../../AGENTS.md#heart-of-the-resources-we-create): show a concrete practice, a relational setting, and a way to help another person take that step, suited to the requested scope. Keep the original source's teaching distinct from this design adaptation.
+
 Offer 1–3 specific building implications suited to the stated project. Show the design move, not just “apply this”: a before/after outline, a sample activity, a revised coaching question, a decision criterion, or a small draft component.
 
 Distinguish the author's idea from the proposed adaptation. Use real local constraints only when retrieved or supplied; otherwise label the example as illustrative. Preserve Dan's authorship and pastoral judgment. Do not silently record the book's teaching or an assistant proposal as Dan's conviction, approved Southbrook policy, or a durable research principle.
