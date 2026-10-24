@@ -23,6 +23,10 @@ The aim is not "more content."
 
 The aim is a faithful, research-grounded learning experience that transfers a discipleship capability to ordinary people.
 
+## Resource-design aim
+
+Apply [the heart of our resources](../../AGENTS.md#heart-of-the-resources-we-create), explicitly adopted by Dan: practice following Jesus together and equip people to help someone else do the same. In the design and final review, identify the concrete practice, the relational support or shared setting, and the supported next step for helping another person. Scale these to the resource and audience; preserve existing competence and pastoral boundaries.
+
 ## Natural-language trigger
 
 Automatically route here when the user asks for a **complete multi-session curriculum/course/class/training** and clearly wants the existing Brain/research/resources to shape the build, especially language such as:
@@ -258,6 +262,8 @@ Use it only for the pieces beyond curriculum architecture, such as:
 The curriculum architect owns the learning journey and session content. The implementation-kit builder owns practical execution support.
 
 ## Stage 9 — Create requested artifacts
+
+Apply [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) to every authored artifact, including native Google Docs and internal Brain documents. Read `southbrook-brand-artifact-stylist` and its observed header/text patterns before production. Preserve the requested format, source attribution, and status labels; complete appropriate layout and brand QA before saving or delivering.
 
 When requested and tools permit, produce the appropriate editable/source artifacts and final participant/leader outputs.
 

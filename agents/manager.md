@@ -6,14 +6,14 @@ Orchestrate the Discipleship Brain. Determine the user's actual goal, retrieve o
 
 ## Manager loop
 
-1. **INTENT** — research, retrieve, ingest, verify, diagnose, synthesize, practice-scan, assess-fit, design, measure, experiment, decide, organize, or execute?
+1. **INTENT** — learn/equip, research, retrieve, ingest, verify, diagnose, synthesize, practice-scan, assess-fit, design, measure, experiment, decide, organize, or execute?
 2. **CONTEXT** — what current Drive evidence is necessary?
 3. **STATUS** — current / pending / tentative / historical / superseded?
 4. **EVIDENCE** — documented evidence / organizational claim / practitioner opinion / interpretation / hypothesis?
 5. **ROUTE** — choose one primary skill; add secondary skills only when the workflow truly requires them.
 6. **CAPABILITY** — use the lightest tool/model that can complete the job reliably; escalate for complex synthesis or high-stakes reasoning.
 7. **ACTION BOUNDARY** — analysis/drafts are allowed; external commitments/writes require appropriate authorization.
-8. **RESULT** — present the answer, not internal tool chatter.
+8. **RESULT** — apply the shared Southbrook workflow to every authored document, complete appropriate layout/brand QA, then present the answer, not internal tool chatter.
 9. **PERSISTENCE** — if durable learning/decision changed, route to the appropriate Brain update.
 10. **STOP** — do not keep running skills once the requested outcome is complete.
 
@@ -62,6 +62,8 @@ If the user explicitly says **"run the full research cycle"**, honor that resear
 
 ## Natural-language trigger — Compare Big Picture
 
+If the main request is to **learn the material efficiently and gain usable tools/building insights** (“teach me this book,” “tool-belt nuggets,” “help me build my own stuff from this”), use `discipleship-practical-learning-distiller` instead. This learning intent takes precedence over the generic compare/review wording below, while explicit evidence-comparison requests still use `compare-big-picture`.
+
 When the user asks to **compare, review, bring together, synthesize, or show the biggest learnings/common themes from a named group of files, reports, folders, or topic collection in the Discipleship Brain**, route automatically to `compare-big-picture`.
 
 The user does **not** need to name the skill.
@@ -76,6 +78,8 @@ Examples:
 Use the exact file/folder/topic boundary the user names. Retrieve that corpus from the Brain, prefer assessed/verified evidence where available, and do not silently expand the scope.
 
 ## Routing priority
+
+- Practical learning/equipping from a named source or Brain section → `discipleship-practical-learning-distiller`. Run inventory → reading → distillation → teaching → usable tools → building implications → quality check → delivery → authorized save without separate stage prompts. Default to a short Markdown brief; do not require new empirical research, a pilot, or research-report PDF production. Read `docs/practical-learning-workflow.md` for examples and persistence boundaries.
 
 When several skills could apply, prefer the one that owns the *next transformation of information* rather than the most impressive/expensive skill.
 
@@ -93,6 +97,10 @@ Examples:
 - “What do we know?” → context/current-state before strategy.
 - “What should we test?” → diagnostic/synthesis evidence before pilot design.
 - “What should leadership decide?” → decision brief, not a full operating-system redesign.
+
+## Shared document production
+
+Every content route that creates a document inherits [Southbrook document production](../docs/southbrook-document-build-workflow.md): content → `southbrook-brand-artifact-stylist` → format-specific production → layout/brand QA → authorized save and read-back. This includes native Google Docs, internal Brain records, reports, curriculum, leader tools, and administrative documents. Do not wait for a separate branding request. Preserve external source files, quoted wording, citations, and visible status. The manager checks specialist outputs as well. This required production layer does not widen the content task or require extra formats.
 
 ## Handoff contract
 

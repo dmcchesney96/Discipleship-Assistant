@@ -116,10 +116,13 @@ For substantial work:
 
 ## Research ↔ practice balance
 
-The Brain has two complementary operating modes:
+The Brain has three complementary operating modes:
 
 1. **RESEARCH / TRUTH MODE** — determine what appears to be true, how strongly the evidence supports it, and what mechanisms/principles deserve durable synthesis.
 2. **PRACTICE / DESIGN MODE** — study what credible churches, movements, practitioners, books, and historical examples actually do; understand the mechanism; assess Southbrook fit; and choose a responsible learning action.
+3. **PRACTICAL LEARNING / TOOL BELT MODE** — teach a named book or bounded document collection efficiently, extract usable ideas/tools, and show how they could shape Dan's own work. Route to `discipleship-practical-learning-distiller`; source fidelity and attribution matter, but causal proof, formal pilots, and research promotion are not prerequisites for learning.
+
+In practical learning mode, the endpoint is understanding plus usable tools and illustrative adaptations. The research/design sequences below apply when the requested task is evidence assessment or ministry implementation; do not automatically append them to a teaching brief. See `docs/practical-learning-workflow.md`.
 
 Do not require direct causal evidence for every named ministry practice before considering a small reversible test. Empirical research often supports the **mechanism** more strongly than the exact church program.
 
@@ -133,6 +136,16 @@ Keep **research confidence** separate from **action warrant**. The evidence thre
 A low-risk reversible test may be warranted by theological coherence, plausible mechanism, credible precedent, local need, and clear learning criteria even when exact-program causal evidence is limited. Broad integration/scale should require materially stronger local learning and leadership judgment.
 
 See `docs/research-practice-action-framework.md`.
+
+## Heart of the resources we create
+
+Dan explicitly adopted this resource-design aim on 2026-10-23:
+
+> Build resources that help people practice following Jesus together—and equip them to help someone else do the same.
+
+Apply this across discipleship studies, curriculum, training, guides, and tools. Before finishing a substantial resource, make clear what following Jesus looks like in practice, how people will practice with or alongside others, and how they can help another person take the same step. Use simple instructions, modeling, opportunities to try, and support as the resource calls for them. Match responsibility to the person's readiness and the resource's scope; an individual handout can serve this wider relational journey without containing a complete course.
+
+Use these as design questions: **What will people practice? With whom? How will they be equipped to help someone else?** Give concrete answers appropriate to the resource rather than merely repeating the aim. Preserve Scripture, relational life with Jesus, and pastoral judgment as central. This is Dan's current design conviction, recorded in the Brain's Bible & Curriculum Design Philosophy; it is not an empirical effectiveness claim or a new approved church policy.
 
 ## Formation and multiplication test
 
@@ -189,6 +202,8 @@ The manager/orchestrator chooses the skill. Skills do not automatically chain th
 
 ### Explicit orchestrator exceptions
 
+When the user asks to **teach/distill a book or Brain collection into practical learnings, tool-belt nuggets, and insights for what he is building**, route to `discipleship-practical-learning-distiller`. It owns the complete reading-to-teaching-to-tool workflow as one bounded skill. Prefer it over generic compare/backfill routing for this learning intent; honor explicitly requested research, comparison, design, or course workflows.
+
 When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`.
 
 When the user clearly asks for the **entire practical path from Southbrook problem through practice options, fit, and a test/pilot**, route to `full-discipleship-practice-design-cycle`.
@@ -213,11 +228,12 @@ Shared intelligence core:
 - `decision-action-extractor`
 - `institutional-memory-writer`
 - `pattern-connector`
-- `southbrook-brand-artifact-stylist` — applies the verified Southbrook visual brand to ministry-facing artifacts after the content/design work is established
+- `southbrook-brand-artifact-stylist` — required Southbrook identity and document-organization layer for every authored document, including internal Brain records and Google Docs
 - `southbrook-sermon-notes-artifact-builder` — converts a sermon manuscript/outline into Southbrook's public weekly Message Notes structure before branding/production
 
 Discipleship-specific:
 
+- `discipleship-practical-learning-distiller` — end-to-end source reading → efficient teaching → reusable tools → building implications → authorized save
 - `discipleship-convictions-capture` — captures Dan's freeform discipleship philosophy, strategy instincts, curriculum feedback, and open questions into the canonical Pastoral Lens
 - `discipleship-personal-scripture-study-capture` — preserves original passage studies with no unsolicited critique
 - `discipleship-ministry-field-notes-capture` — preserves firsthand ministry observations and practical hypotheses with privacy boundaries
@@ -252,6 +268,14 @@ Discipleship-specific:
 Durable principle records follow `docs/principle-synthesis-system.md` and the principle-record template; the canonical thin Master Principles Index belongs inside Drive `04 Research Intelligence / 04 Strongest Converging Principles`. It is not a second Living Synthesis. Do not count derivative reports as independent evidence or turn attractive church practices into causal principles.
 
 See `docs/skill-routing.md`.
+
+## Southbrook branding for every document build
+
+Dan's standing direction (2026-10-23): use the Southbrook Church brand for every document we create for him in this project, including internal Brain documents and Google Docs. All skills inherit this production rule. Apply `southbrook-brand-artifact-stylist` and [the shared document-build workflow](docs/southbrook-document-build-workflow.md) before creating or materially revising an authored document. The manager owns the final check even when a specialist does not repeat the brand handoff.
+
+This covers learning packs, reports, curriculum, leader/participant resources, worksheets, agendas, decision records, and other authored deliverables, with the same identity carried into requested slides and spreadsheets. Preserve the requested format and scope; chat answers and code/configuration files do not require additional graphic artifacts. Existing third-party originals, uploaded evidence, and quoted user wording remain intact; brand our presentation and retain source attribution. Keep DRAFT, PROPOSED, PILOT, and approval status visible. Branding does not approve a document.
+
+Use the main church identity, current verified assets, and the skill's typography/color guidance. Read its observed document patterns for header and text organization; do not apply a competing generic report style or an unrequested ministry sub-brand. Restyling existing documents is a separately authorized batch, with source IDs and links preserved.
 
 ## Autonomy ladder
 

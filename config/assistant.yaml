@@ -54,6 +54,7 @@ shared_skills:
   - pattern-connector
 
 discipleship_skills:
+  - discipleship-practical-learning-distiller
   - discipleship-research-source-ingestor
   - daily-discipleship-research-prompt
   - discipleship-research-scout-agenda-builder
@@ -70,6 +71,8 @@ discipleship_skills:
   - strategy-decision-brief-builder
   - discipleship-alignment-lens-retriever
   - discipleship-convictions-capture
+  - discipleship-personal-scripture-study-capture
+  - discipleship-ministry-field-notes-capture
   - discipleship-curriculum-architect
   - discipleship-deep-research-executor
   - discipleship-pilot-learning-evaluator

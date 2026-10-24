@@ -13,6 +13,10 @@ Bridge the gap between **a good pilot design** and **something ordinary leaders 
 
 The goal is not to create a giant curriculum. The goal is the smallest complete set of tools needed to preserve the mechanism, reduce friction, support leaders, and learn faithfully.
 
+## Resource-design aim
+
+Apply [the heart of our resources](../../AGENTS.md#heart-of-the-resources-we-create), explicitly adopted by Dan: practice following Jesus together and equip people to help someone else do the same. In the design and final review, identify the concrete practice, the relational support or shared setting, and the supported next step for helping another person. Scale these to the resource and audience; preserve existing competence and pastoral boundaries.
+
 ## Trigger
 
 Use when:
@@ -124,6 +128,10 @@ Before finishing, ask:
 - Does the tool preserve relational/theological depth while staying simple?
 
 If not, simplify.
+
+## Document production
+
+Apply [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) to every authored artifact, including native Google Docs and internal Brain documents. Read `southbrook-brand-artifact-stylist` and its observed header/text patterns before production. Preserve the requested format, source attribution, and status labels; complete appropriate layout and brand QA before saving or delivering.
 
 ## Output
 

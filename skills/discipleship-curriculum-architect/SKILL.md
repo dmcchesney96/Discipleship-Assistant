@@ -17,6 +17,10 @@ The goal is to transfer a capability.
 
 For example, a Bible-study course should not merely produce people who can name a method. It should increasingly produce people who can responsibly work through an unfamiliar passage, explain the reasons for their interpretation, recognize where they need help, respond faithfully, and—when appropriate—help another person begin learning the same process.
 
+## Resource-design aim
+
+Apply [the heart of our resources](../../AGENTS.md#heart-of-the-resources-we-create), explicitly adopted by Dan: practice following Jesus together and equip people to help someone else do the same. In the design and final review, identify the concrete practice, the relational support or shared setting, and the supported next step for helping another person. Scale these to the resource and audience; preserve existing competence and pastoral boundaries.
+
 ## Trigger
 
 Use when the user asks to:
@@ -333,6 +337,8 @@ If the North Star requires a reproducible skill, specify:
 - what evidence counts as the next person becoming capable.
 
 ### Stage 9 — Create the curriculum asset stack
+
+Apply [the shared Southbrook document-build workflow](../../docs/southbrook-document-build-workflow.md) to every authored artifact, including native Google Docs and internal Brain documents. Read `southbrook-brand-artifact-stylist` and its observed header/text patterns before production. Preserve the requested format, source attribution, and status labels; complete appropriate layout and brand QA before saving or delivering.
 
 Create only what the course needs, typically:
 

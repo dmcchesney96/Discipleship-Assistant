@@ -27,6 +27,8 @@ This skill is selected automatically by the manager from natural-language intent
 
 ## Trigger
 
+When the dominant request is “teach me this book efficiently,” practical tool-belt nuggets, or tools/insights for building Dan's own resources, use `discipleship-practical-learning-distiller` instead. Keep this skill for evidence-weighted cross-source comparison; honor an explicit request to compare evidence.
+
 
 Use when the user asks to compare, review, or synthesize a **defined collection** of research into the biggest learnings/common themes in simple terms.
 

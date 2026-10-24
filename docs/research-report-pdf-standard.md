@@ -14,9 +14,7 @@ The desired feel is:
 - evidence-aware;
 - more like a professionally designed research brief than a chat export.
 
-The visual inspiration is the clean editorial quality of the Muse-style research reports already used in the project: generous white space, strong serif headlines, restrained color, prominent evidence-weighted answer boxes, numbered sections, callouts, and simple comparison panels.
-
-Do **not** copy another report's branding, proprietary typography, or exact layout. Use the principles below as the house style.
+Retain useful editorial structure: generous white space, a prominent evidence-weighted answer, numbered sections, callouts, and simple comparisons. Apply **Southbrook Church's visual identity** through `southbrook-brand-artifact-stylist` and [the shared production workflow](southbrook-document-build-workflow.md), including observed header/text patterns. This standard owns information architecture, not a competing visual brand.
 
 ## 1. Page format
 
@@ -31,26 +29,20 @@ Do **not** copy another report's branding, proprietary typography, or exact layo
 
 ### Color palette
 
-Use a restrained palette with strong contrast:
+Use the verified Southbrook palette with strong contrast:
 
-- Warm paper / cover background: soft ivory
-- Primary ink: near-black with slight green warmth
-- Primary accent: deep evergreen
-- Secondary accent: muted rust
-- Warning/uncertainty accent: muted amber
-- Light panel: pale sage / neutral gray-green
-- Body pages: white or near-white
+- Body/cover background: white or near-white `#F7F9FA`
+- Primary ink: print charcoal `#231F20`
+- Identity accent and rules: cyan `#00AEEF`
+- Dark title/answer panel: navy `#002A40`, with white text
+- Light callout: pale cyan `#E5F7FD`, with dark text
+- Metadata: a readable gray from the brand profile
 
-The design should still work if printed grayscale.
+Keep the document usable in grayscale. Evidence/status distinctions must remain explicit in text.
 
 ### Typography
 
-Use a two-family hierarchy when available:
-
-- Display/section headings: strong readable serif
-- Body, labels, tables: clean humanist sans-serif
-
-Fallbacks should be common/system-safe fonts.
+Use the Southbrook sans-serif hierarchy: licensed Gotham where legitimately available, otherwise Arial for editable masters and exports. Use bold headings, short differentiated labels, and generous spacing. Do not introduce serif headlines as a separate report identity. Adjust the sizes below for readability and document role.
 
 Recommended scale:
 
@@ -82,7 +74,7 @@ Primary callout:
 - one small qualifier/limitation line when needed
 
 Footer:
-- `Discipleship Brain Research`
+- `Southbrook Church | Discipleship Brain Research`
 - page 1 / total
 
 The cover should have enough empty space to feel intentional.
@@ -112,7 +104,7 @@ Each major section begins with:
 - thin divider;
 - accent rule;
 - numbered section label;
-- strong serif headline;
+- strong Southbrook sans-serif headline;
 - 1–3 sentence section lead.
 
 Use numbered sections consistently:
@@ -148,13 +140,13 @@ Avoid making every finding a full-page card.
 ## 7. Callout styles
 
 ### Evidence-weighted answer
-Dark evergreen panel, white text.
+Deep navy panel, white text.
 
 ### Evidence boundary
-Pale panel with evergreen left rule.
+Pale cyan or neutral panel with a thin cyan rule and dark text.
 
 ### Important caution / do not overclaim
-Pale warm/amber panel with rust/amber label.
+Light neutral panel with a clear charcoal caution label and restrained rule.
 
 ### Southbrook implication
 Light neutral panel. Label clearly:
@@ -163,7 +155,7 @@ or
 `SOUTHBROOK QUESTION`
 
 ### Brain change
-Light green/neutral panel:
+Light cyan/neutral panel:
 `WHAT CHANGED IN THE BRAIN`
 
 Keep callouts concise. They should help scanning, not interrupt every page.
@@ -172,11 +164,13 @@ Keep callouts concise. They should help scanning, not interrupt every page.
 
 Use small uppercase labels:
 
-- HIGH CONFIDENCE — evergreen
-- PROMISING — muted blue/green
-- CONTEXT DEPENDENT — amber
-- UNCERTAIN — rust/red
-- CONTRADICTED — rust/red
+- HIGH CONFIDENCE
+- PROMISING
+- CONTEXT DEPENDENT
+- UNCERTAIN
+- CONTRADICTED
+
+Use dark navy/charcoal text on white, pale cyan, or neutral fills, with modest rules/weight for hierarchy. Preserve the explicit label instead of inventing a separate status palette.
 
 Do not rely on color alone. Always include the text label.
 

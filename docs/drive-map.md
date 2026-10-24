@@ -62,6 +62,10 @@ This architecture was verified from the live Drive and extended with the Practic
 - 06 Practice Intelligence Library
   - 01 Practice Cards
   - 02 Practice Comparisons & Landscapes
+- 07 Practical Learning Library
+  - Start Here, Master Resource Index, and Builder's Tool Belt
+  - 01 Discipleship.org — Resource Learnings
+  - 02 Replicate + Long Hollow — Resource Learnings
 
 ## 05 — LIVING DISCIPLESHIP SYNTHESIS
 
@@ -111,5 +115,7 @@ Strategic Priorities; Decision Log; Ministry Recommendations & Improvement Plans
 - 05 Temporary Agent Outputs
 
 ## Filing rule
+
+Practical Learning Briefs from `discipleship-practical-learning-distiller` are learning aids. When durable saving is authorized, use `04 — RESEARCH INTELLIGENCE / 07 Practical Learning Library`, created and verified on 2026-10-23 at Dan's request. Temporary drafts can use `11 — AGENT WORKSPACE / 05 Temporary Agent Outputs`; a current user-named destination takes precedence. Verify the live folder before writing. Do not automatically file these as research principles, Practice Cards, pastoral convictions, or decisions. See `docs/practical-learning-library.md` and `docs/practical-learning-workflow.md`.
 
 Do not create a competing top-level architecture. New sources enter through Intake, are evaluated, and move into the appropriate evidence/intelligence/synthesis/diagnostic/design/measurement/experiment/strategy layer. Temporary agent output remains temporary until intentionally promoted.

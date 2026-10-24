@@ -17,6 +17,8 @@ Reusable across ministry assistants:
 
 ## Discipleship-specific skills
 
+- `discipleship-practical-learning-distiller` — teaches a book or bounded Brain collection efficiently, builds reusable tools with worked examples, and connects insights to Dan's own work; see `docs/practical-learning-workflow.md`
+
 1. `discipleship-convictions-capture` — captures Dan's freeform discipleship philosophy, strategy instincts, curriculum feedback, rejections, and open questions into the canonical Pastoral Lens
 2. `discipleship-alignment-lens-retriever` — retrieves the relevant Pastoral Lens before substantial creation/design work
 3. `full-discipleship-research-cycle` — explicit multi-skill orchestrator for one-command research
