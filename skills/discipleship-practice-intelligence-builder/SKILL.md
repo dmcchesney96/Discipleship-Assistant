@@ -194,3 +194,7 @@ Practice Cards are derived intelligence, not proof and not approved Southbrook s
   - `southbrook-practice-fit-assessor` when local fit should be judged;
   - `church-movement-case-study-analyzer` when one exemplar needs deeper operational study;
   - `source-evidence-checker` when a consequential effect claim needs verification.
+
+## Source verification and operational completeness
+
+Use `discipleship-practice-source-verifier` for consequential operational claims in practical research. Retain exact locators, date/version, access depth and per-field DOCUMENTED / PARTIAL / UNKNOWN / NOT APPLICABLE status. Explain whether instructions are prescribed, reported in use or observed in a record. Legacy OBSERVED PRACTICE does not establish observed compliance when the source is only a manual. Missing coaching/cadence/readiness details mean unknown, not nonexistent. Keep operational completeness, effect confidence and local action warrant separate. Reuse existing cards and preserve distinct implementations rather than averaging incompatible methods.

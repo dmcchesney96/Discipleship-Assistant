@@ -290,3 +290,7 @@ It helps Southbrook understand:
 7. what is worth testing;
 8. how to learn before scaling;
 9. how pilot results will later be evaluated without moving the goalposts.
+
+## Research-only boundary
+
+For a complete external investigation of church methods without local selection or implementation, use `full-discipleship-practical-research-cycle`. This design cycle can consume its assessed cards/comparisons later; do not rerun the full research pipeline when existing learning suffices.

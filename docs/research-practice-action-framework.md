@@ -197,3 +197,7 @@ Avoid:
 - ignoring theology because a practice “works”;
 - using local anecdotes as universal truth;
 - mistaking a polished curriculum for a multiplication mechanism.
+
+## Separate practical research sequence
+
+`full-discipleship-practical-research-cycle` completes external church-methods investigation through source verification, operational comparison, Practice Cards, warranted learning and publication. It can finish before local selection. Practice/design remains the application sequence. Verify what a source prescribes separately from actual use and effect. See `practical-research-workflow.md`.

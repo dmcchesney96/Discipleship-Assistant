@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ministry Practice Source Verifier"
+  short_description: "Check ministry methods against original instructions"
+  default_prompt: "Use $discipleship-practice-source-verifier to check these church methods against their original materials and identify what remains unknown."

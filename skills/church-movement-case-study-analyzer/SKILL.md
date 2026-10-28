@@ -82,3 +82,7 @@ Do not conclude “Church X does this, so Southbrook should.”
 - Research gaps / sources
 
 Route reusable cards to `discipleship-practice-intelligence-builder` / Practice Intelligence Library. Do not bury operational practice learning only inside the case report.
+
+## Descriptive method studies
+
+For a practical church-methods question, foreground actual roles, steps, cadence, tools, training, feedback, burden and support. Scope generational analysis to relevant claims rather than requiring every method to document G4. Separate prescribed instructions, reported use, observed enactment and outcomes. Preserve unknown fields; missing documentation does not prove missing practice. Route operational verification to `discipleship-practice-source-verifier`.

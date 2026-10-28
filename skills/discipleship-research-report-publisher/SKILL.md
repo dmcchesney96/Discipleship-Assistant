@@ -84,7 +84,7 @@ Never claim the PDF is finished without this render-and-inspect pass when render
 
 ## Publication timing in a full research cycle
 
-Publish the polished PDF **after** the major claims have gone through independent second-pass verification and after the cycle has determined what changed in the Brain.
+Publish the polished PDF **after** major claims have passed the owner's required source-based second-pass verification and the cycle has determined what changed in the Brain. Prefer fresh independent verification. When the owning cycle expressly permits a same-agent source-based pass, publish with that limitation visible and never label it independent. Reopening adequate originals and correcting consequential claims remain mandatory; rereading the generated report alone is insufficient.
 
 The raw executor report may be preserved earlier as `AI-GENERATED RESEARCH INPUT`, but the polished PDF should incorporate:
 
@@ -309,3 +309,7 @@ This skill publishes; it does not:
 - override verification results;
 - promote findings into the Living Synthesis;
 - convert a hypothesis into an approved Southbrook decision.
+
+## PRACTICAL report architecture override
+
+When publishing `full-discipleship-practical-research-cycle`, use the owner's practical contract order: plain learning → concrete methods → worked operational examples → comparison/tradeoffs → documentation and outcome limits → reusable practices → Brain impact → audit/source ledger. Do not force an academic section, local pilot, or new principle. Preserve technical source traceability, default PDF/editable master, user format overrides and full visual QA. A constructed example must be labeled original illustration, not an observed event.

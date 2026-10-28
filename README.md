@@ -39,6 +39,12 @@ The system separates **research confidence** from **action warrant**. A low-risk
 
 See `docs/research-practice-action-framework.md`.
 
+For actual ministry **resources** (handouts, assignments, exercises, leader guides), use the separate Resource & Equipping Intelligence chain:
+
+`CATALOG ORIGINALS → ITEM-LEVEL EVALUATION → COMPARISON → RIGHTS-AWARE ORIGINAL TOOL DESIGN (WHEN REQUESTED) → QA → TEST PROPOSAL → LOCAL LEARNING`
+
+This does not convert worksheet quality into research findings or presume permission to reproduce third-party curricula. See `docs/resource-equipping-workflow.md`. The five resource-chain skills are managed by `full-discipleship-resource-equipping-cycle`; narrow tasks use a specialist directly.
+
 ## Repository map
 
 - `AGENTS.md` — master constitution and routing rules
@@ -62,3 +68,7 @@ Use knowledge status: `CURRENT`, `PENDING`, `TENTATIVE`, `HISTORICAL`, `SUPERSED
 Discipleship Brain: `https://drive.google.com/drive/folders/1TwlvfbE7l-04uExGoal36ejwlJc7KcoU`
 
 See `docs/drive-map.md` for the verified folder architecture.
+
+## Full practical ministry research
+
+Ask: "Run the full practical research cycle on how churches train ordinary people to lead Scripture conversations. Focus on methods, exact steps, training, support and tradeoffs; verify originals and save useful learning." The assistant routes the complete workflow without a separate request for each stage. See `docs/practical-research-workflow.md`.

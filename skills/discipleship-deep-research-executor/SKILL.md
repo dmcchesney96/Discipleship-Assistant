@@ -375,3 +375,7 @@ After completion, a full-cycle workflow must route the report through:
 before durable conclusions are promoted to the Living Synthesis.
 
 After verification and Brain-impact decisions, route the final content to `discipleship-research-report-publisher` for the standard professional PDF + editable master.
+
+## Practical full-cycle execution override
+
+When the owner is `full-discipleship-practical-research-cycle`, follow its practical artifact order instead of forcing the default academic-first report. Prioritize original instructions and operational accounts. Use targeted mechanism/effect checks only when consequential; do not manufacture a parallel empirical review. Identify whether a source prescribes a method, reports use or records observed enactment. A manual alone cannot prove compliance. Carry source/date/locator/access and unknowns per critical field into the register; hand raw output to `discipleship-practice-source-verifier` through the owner before final promotion.

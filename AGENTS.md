@@ -134,6 +134,12 @@ A low-risk reversible test may be warranted by theological coherence, plausible 
 
 See `docs/research-practice-action-framework.md`.
 
+## Resource & equipping intelligence — distinct third workflow
+
+Research evaluates truth claims; Practice Intelligence evaluates ministry methods and systems; **Resource & Equipping Intelligence evaluates actual instructional artifacts** such as ministry handouts, exercises, assignments, leader guides and coaching tools for their usefulness in transferring capability. It does not promote a well-designed worksheet into evidence that it caused spiritual formation.
+
+Use `docs/resource-equipping-workflow.md` and the dedicated `full-discipleship-resource-equipping-cycle` only when the request asks for a complete resource/materials chain. Otherwise select the narrowest intake, evaluator, comparer, or tool-designer skill. Keep original-source attribution, exact locators, reuse/licensing restrictions, pastoral/child safeguards, human approval and review-vs-observed-impact statuses visible. Do not require a full research paper for each ministry exercise; route consequential effect claims to evidence checking when warranted.
+
 ## Formation and multiplication test
 
 For every strategy ask:
@@ -187,6 +193,13 @@ Do not call a recommendation a decision or a pilot a proven system.
 
 The manager/orchestrator chooses the skill. Skills do not automatically chain themselves unless the user or manager requested a multi-skill workflow.
 
+## Practical research routing precedence
+
+When a request says full research cycle AND specifies church methods, practitioner implementation, practical findings, or less empirical research, use `full-discipleship-practical-research-cycle`. It owns question → primary methods → raw report → operational source verification → comparison/Practice Cards → warranted Brain learning → final publication/verified filing.
+
+Use the generic research cycle for primarily truth/effectiveness investigation. Use practice/design for Southbrook selection/implementation. A descriptive practical research request does not require local diagnosis or a pilot. Evaluate actual supplied exercises through resource specialists; complete courses use curriculum orchestration. Teach a supplied book without new investigation through source distillation when available. Do not launch multiple whole cycles to satisfy one request. An explicit user choice overrides automatic routing.
+
+
 ### Explicit orchestrator exceptions
 
 When the user clearly asks for the **entire research process to run from question/gap through durable Brain learning without stopping between stages**, route to `full-discipleship-research-cycle`.
@@ -195,6 +208,8 @@ When the user clearly asks for the **entire practical path from Southbrook probl
 
 When the user clearly asks for a **complete multi-session discipleship curriculum/course built from the Brain/research through source-gap analysis, curriculum design, assessment, and run-ready assets**, route to `full-discipleship-curriculum-build-cycle`.
 
+When the user clearly asks for an **end-to-end review of real ministry worksheets, assignments, handouts, exercises or training tools through item-level evaluation, comparison and optional original drafting**, route to `full-discipleship-resource-equipping-cycle`. This is a separate resource workflow, not a substitute for research, practice-design or whole-course orchestration.
+
 These orchestrators are intentionally allowed to sequence bounded specialist skills. They must still honor each skill's evidence, persistence, authorization, and stop rules.
 
 A full research-cycle request should not stop after prompt generation, research execution, verification, comparison, or synthesis unless a defined gate/stop condition is reached. The research executor cannot certify its own report; consequential claims require a separate source-based verification pass before durable promotion.
@@ -202,6 +217,8 @@ A full research-cycle request should not stop after prompt generation, research 
 A full practice/design cycle should not skip local diagnosis, confuse practice precedent with effect evidence, or scale a practice without action warrant appropriate to the decision size.
 
 A full curriculum-build cycle should not confuse content coverage with capability transfer, flood the design with the entire Brain, treat AI-generated research as theological authority, or call attendance/completion proof of formation or skill.
+
+A full resource/equipping cycle should not confuse attractive materials with observed results, assume download permissions allow adaptation, strip exercises of necessary theological/coaching safeguards, or label proposals as approved Southbrook resources.
 
 Shared intelligence core:
 
@@ -227,6 +244,11 @@ Discipleship-specific:
 - `discipleship-research-report-publisher` — publishes verification-aware research as the standard professional PDF + editable master
 - `full-discipleship-practice-design-cycle` — end-to-end local problem → practice intelligence → fit → test/pilot orchestration
 - `full-discipleship-curriculum-build-cycle` — end-to-end Brain/research → source-gap audit → curriculum → assessment → run-ready assets orchestration
+- `full-discipleship-resource-equipping-cycle` — separate end-to-end ministry-resource review, comparison, original-tool design and learning orchestration
+- `discipleship-resource-intake-cataloger` — inventory real handouts, assignments and exercises with provenance and rights
+- `discipleship-resource-evaluator` — evidence-located quality/usability/capability reviews of actual tools
+- `discipleship-resource-comparison-extractor` — compare reviewed alternatives and extract compatible design patterns
+- `discipleship-training-tool-designer` — create original, practice-centered ministry tools from reviewed patterns
 - `discipleship-curriculum-architect` — turns a defined discipleship outcome and evidence packet into a coherent capability-transfer curriculum
 - `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
 - `discipleship-practice-intelligence-backfill` — mines large historical corpora into deduplicated Practice Intelligence
@@ -290,3 +312,9 @@ For meaningful changes to this operating system:
 
 A good assistant does not maximize activity. Stop when the requested outcome is achieved, the evidence is sufficient for the decision, or the next step requires new evidence/authorization. Do not run every skill simply because it exists.
 
+## Practical research capabilities
+
+- `full-discipleship-practical-research-cycle` — complete external church-methods research without a compulsory local implementation cycle.
+- `discipleship-practice-source-verifier` — check steps, support, cadence and authority against originals; separate instructions from actual use and outcomes.
+
+See `docs/practical-research-workflow.md`.
