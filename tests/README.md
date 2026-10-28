@@ -1,5 +1,7 @@
 # Tests
 
+Resource & Equipping Intelligence has an **unrun** acceptance plan in `tests/resource-equipping-acceptance-plan.md`. It specifies item-level, comparison, original-design, bulk-cataloging, safeguarding and routing evaluations for a later test session. Creation of a test specification is not a passing test.
+
 The tests here are scenario/behavior checks for the assistant's operating system. They are not unit tests for a software package.
 
 A future automation layer can convert these into executable evaluations. For now, use `tests/scenarios.md` during meaningful architecture or skill changes.
@@ -20,3 +22,7 @@ For each case, start a fresh task session with the pinned repo, prompt, input ar
 Run `python tests/check_skills.py` (PyYAML required) as well as the existing structural marker check. Neither executable check certifies research reasoning or live connector reliability.
 
 Run validator regression cases with python -m unittest discover -s tests -p test_skill_validation.py. Keep semantic results in a dated test-run record with exact source boundaries and whether results were observed or simulated.
+
+## Practical ministry research and resources
+
+Use `practical-research-evals.json` and `practical-research-run-2026-10-28.md` for bounded task applications and their actual limits. Run `python tests/check_practical_research_contract.py` for routing/portable-reference checks; this is structural only. Keep source-derived reports out of the repository and preserve their raw outputs separately. P4 specifically exercises raw-before-verification chronology and atomic claim coverage after P1 identified those limits.

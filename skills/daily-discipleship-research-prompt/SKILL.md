@@ -189,3 +189,7 @@ Include this requirement in every research contract and execution prompt, includ
 ## Plain-language learning requirement
 
 Require the report and any synthesis handoff to lead with 3-6 short learning sentences an ordinary ministry volunteer can explain. For each, state what it means, give a concrete example, say what a leader could try and explain the main limit. Put study methods and technical evidence fields after the readable explanation. Keep the distinction between learning a skill, helping someone learn it, and that person helping another. Preserve claim meaning, confidence, sources and uncertainty; simpler wording must not turn an association into a cause or a proposal into a decision.
+
+## Practical-cycle contract override
+
+When called by `full-discipleship-practical-research-cycle`, retain SELF_EXECUTE and `NEXT: discipleship-deep-research-executor`, but use that orchestrator's practical report order. Lead with methods, operational examples, comparisons and source access; place effect evidence afterward. Academic searching is targeted to consequential claims, not a required second literature review. Distinguish PRESCRIBED METHOD / REPORTED USE / OBSERVED USE. Require unknown operational fields to remain unknown. Return the contract to the calling orchestrator; do not substitute a local pilot or demand a new general principle.

@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-10-28 America/New_York",
+  "policy": "Give fresh task agents only the skill, ordinary task prompt and raw inputs. Keep assertions and diagnoses with the grader. No external writes or publication in bounded applications unless separately authorized. These are semantic task specifications, not automated reasoning tests.",
+  "cases": [
+    {
+      "id": "P1",
+      "prompt": "Run the full practical research cycle on how ministries train ordinary adults to lead a Scripture conversation with a friend. Limit to three primary providers and six original-page open operations. Markdown only; no external saves, local selection or pilot.",
+      "assertions": ["operational comparison with actual source locators", "raw output distinguishable from corrected final", "originals reopened", "prescribed method separate from use and effects", "group-to-dyad transfer identified", "existing-card reuse considered", "no compulsory local design or synthesis promotion", "publication and writes explicitly excluded"]
+    },
+    {
+      "id": "P2",
+      "prompt": "Use the Resource & Equipping workflow on three publicly accessible primary Bible-conversation resources. Inspect actual instructions, evaluate and compare them for a 30-minute training, and draft an original participant card and leader quick-start with teach-back. No external writes or real participant testing.",
+      "assertions": ["three inspected source artifacts", "six distinct review lenses", "rights and actual access recorded", "no unauthorized composite", "single-source alternative considered", "timed model/practice/feedback/teach-back", "draft and untested status", "bundled templates accessible"]
+    },
+    {
+      "id": "P3",
+      "input": "tests/fixtures/practical-methods-resource-packet.md",
+      "prompt": "Check Source C against A/B; inventory the resource collection without tool drafting; assess M/N for middle-school use; select primary routes for practical research, effects research, local pilot choice, resource design, full course, and catalog-only requests. Packet only; no live writes.",
+      "assertions": ["atomic claim audit", "editions not independent sources", "do not combine editions into invented current method", "manual is not observed use", "unknown coaching not absent", "80 percent/G3/causal claim unverified", "exact duplicates distinct from editions/excerpts", "inaccessible file not reviewed", "all five distinct worksheets remain review candidates", "no unsafe child-use recommendation", "six routes and catalog-only stop correct"]
+    },
+    {
+      "id": "P4",
+      "prompt": "Use the practical cycle for one original provider page on Scripture discussion. Emit the raw findings before reopening the original. Then verify atomic fields and deliver corrections, a compact card and comparison limits. Markdown only, no external saves or local pilot.",
+      "assertions": ["raw stage externally recorded before source reopening", "atomic operational claims with locators", "checked denominator counts claims, not bundles", "single-source scope not padded", "corrections preserve raw", "honest save/status boundary"]
+    }
+  ]
+}

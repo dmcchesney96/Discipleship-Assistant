@@ -10,3 +10,7 @@ exports/
 raw-interviews/
 raw-pastoral-care/
 .DS_Store
+
+# Generated Python bytecode
+__pycache__/
+*.py[cod]

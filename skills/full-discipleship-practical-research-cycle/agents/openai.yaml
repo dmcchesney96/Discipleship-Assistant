@@ -1,0 +1,4 @@
+interface:
+  display_name: "Full Practical Ministry Research Cycle"
+  short_description: "Research church methods from question to useful learning"
+  default_prompt: "Use $full-discipleship-practical-research-cycle to research how churches train ordinary adults to lead Scripture conversations, verify the methods, and preserve useful learning."

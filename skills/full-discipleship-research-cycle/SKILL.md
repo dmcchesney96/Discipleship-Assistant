@@ -124,7 +124,7 @@ Ask:
 
 ## Stage 3 — Build the research contract
 
-Route to `daily-discipleship-research-prompt` in `SELF_EXECUTE` mode.
+Route to `daily-discipleship-research-prompt` (installed alias `prompt`) in `SELF_EXECUTE` mode.
 
 The contract must include:
 
@@ -422,3 +422,7 @@ A successful run should allow the user to give **one request** and receive:
 11. a simple-language readout first;
 12. detailed sourced analysis below;
 13. no need to ask for each intermediate handoff.
+
+## Practical research precedence
+
+When the full-cycle question primarily investigates church methods or asks for practical rather than empirical findings, route to `full-discipleship-practical-research-cycle` before starting this sequence. Keep this cycle for primarily truth/effectiveness questions and user-selected hybrid work. Do not require Southbrook local fit or a pilot to finish descriptive research.

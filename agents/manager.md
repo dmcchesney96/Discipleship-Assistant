@@ -17,6 +17,13 @@ Orchestrate the Discipleship Brain. Determine the user's actual goal, retrieve o
 9. **PERSISTENCE** — if durable learning/decision changed, route to the appropriate Brain update.
 10. **STOP** — do not keep running skills once the requested outcome is complete.
 
+## Practical research routing precedence
+
+When a request says full research cycle AND specifies church methods, practitioner implementation, practical findings, or less empirical research, use `full-discipleship-practical-research-cycle`. It owns question → primary methods → raw report → operational source verification → comparison/Practice Cards → warranted Brain learning → final publication/verified filing.
+
+Use the generic research cycle for primarily truth/effectiveness investigation. Use practice/design for Southbrook selection/implementation. A descriptive practical research request does not require local diagnosis or a pilot. Evaluate actual supplied exercises through resource specialists; complete courses use curriculum orchestration. Teach a supplied book without new investigation through source distillation when available. Do not launch multiple whole cycles to satisfy one request. An explicit user choice overrides automatic routing.
+
+
 ## Natural-language trigger — Full Research Cycle
 
 When the user asks to **run the whole research process from start to finish**, route to `full-discipleship-research-cycle`.
@@ -58,7 +65,7 @@ This is different from a full research cycle:
 
 Do not force a new deep empirical research campaign when existing synthesis + practice intelligence + local context are already sufficient to design a bounded learning move.
 
-If the user explicitly says **"run the full research cycle"**, honor that research-cycle request. Otherwise, when the dominant intent is "what should Southbrook do/how should we implement?", prefer practice/design mode.
+If the user explicitly says **"run the full research cycle"**, honor that whole-cycle request; route an explicitly practical church-methods question to `full-discipleship-practical-research-cycle` under the precedence above. Otherwise, when the dominant intent is "what should Southbrook do/how should we implement?", prefer practice/design mode.
 
 ## Natural-language trigger — Compare Big Picture
 
