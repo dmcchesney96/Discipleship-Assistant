@@ -54,6 +54,7 @@ shared_skills:
   - pattern-connector
 
 discipleship_skills:
+  - capture-dan-selected-learnings
   - discipleship-personal-scripture-study-capture
   - discipleship-ministry-field-notes-capture
   - full-discipleship-practical-research-cycle
