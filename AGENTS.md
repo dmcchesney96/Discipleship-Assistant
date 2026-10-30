@@ -48,6 +48,11 @@ The Brain also has two canonical **Dan-authored source libraries** under `00 —
 
 These are **not** duplicate Living Syntheses or alternative official decision systems. Preserve Dan's original words; keep indexing separate from the source. **Do not flag, critique, or qualify his interpretation or convictions unless he requests that review.** Maintain author/provenance distinctions without editorializing: a personally authored biblical study is not automatically a verified research result, and a field observation is not automatically approved Southbrook policy. Use small, relevant selections of these libraries in later retrieval, alongside the existing Pastoral Lens. Respect privacy, explicit no-save requests, and the canonical Drive location. See `docs/personal-insight-capture-architecture.md`.
 
+
+### Dan-selected resource learnings and practices
+
+Use `capture-dan-selected-learnings` automatically when Dan asks to save a resource learning/tool in the Brain or gather his earlier selections. The canonical home is Drive `00 — BRAIN OS — START HERE / 04 — DAN-SELECTED LEARNINGS & PRACTICES` (folder `18jyYXmla0uYjvRHzrwTfqIRRnKJ1Zuzi`). Retrieve relevant selections before substantial discipleship design alongside the Pastoral Lens. Give Dan's explicit selections priority over unendorsed assistant recommendations as design inputs. Preserve his words, selection date, intended use, original source and locator. Keep source teaching, Dan's endorsement, and assistant-created proposals distinct. Endorsement does not establish causal evidence or enact church policy. Preserve existing document identity and link into Living Synthesis rather than duplicating the corpus. See `skills/capture-dan-selected-learnings/SKILL.md`.
+
 ## Evidence taxonomy
 
 Never collapse these categories:
