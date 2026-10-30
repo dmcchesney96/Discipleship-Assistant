@@ -4,6 +4,7 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 
 | User intent | Primary skill |
 |---|---|
+| Preserve a resource learning/tool Dan personally selects, gather earlier selections, or retrieve them before design | `capture-dan-selected-learnings` |
 | Run full practical research on church methods from question through verified practice learning and publication | `full-discipleship-practical-research-cycle` |
 | Verify operational claims against original ministry instructions and actual-use records | `discipleship-practice-source-verifier` |
 | Capture Dan's own discipleship philosophy, strategy instincts, curriculum feedback, what rings true/false, or what should/should not be included | `discipleship-convictions-capture` |
