@@ -39,3 +39,10 @@ Stable `APR-YYYY-###` or existing stable equivalent allocated against the live l
 - Writing review decisions → `discipleship-practice-approval-recorder`.
 - Whole-corpus backfill is staged and deduplicated; do not crawl the entire Brain without a bounded scope or turn a request for pitches into a full new external research cycle.
 - **Stop at the human gate.** Missing local diagnosis narrows confidence/approved scope; it does not justify invented current-state facts. A permission to keep an idea does not authorize action.
+
+## Verified canonical Drive destinations (created 2026-11-19)
+- Brain folder `00 — BRAIN OS — START HERE / 05 — SOUTHBROOK PRACTICE APPROVAL REVIEW`: https://drive.google.com/drive/folders/1hO0Ocar1T437I_bs1pzi7FCpaQhhGZfo
+- Pending Review Queue (APR proposals, review decisions, history): https://docs.google.com/document/d/1PUxrm1Vs46j29eMGHuYJlJ4RYP1gxeiwEBCwXftIUrs/edit
+- Dan-Approved Southbrook Design Practices — Living Selection Synthesis: https://docs.google.com/document/d/1JQph4bI4pe2QZSyuqBO75FDyGJ3zRYKCm15Xs73Zc8Y/edit
+
+Always resolve and read the live documents before writing. Avoid creating duplicate queues or a competing approved synthesis. The approved synthesis currently contains **no entries from this new approval process**; older Dan-selected resource learnings remain in their separate canonical folder. The initial queue contains three **PENDING REVIEW** proposals, not approvals.
