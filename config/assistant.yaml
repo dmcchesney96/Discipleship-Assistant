@@ -54,6 +54,9 @@ shared_skills:
   - pattern-connector
 
 discipleship_skills:
+  - discipleship-approval-review-cycle
+  - discipleship-practice-approval-pitch-builder
+  - discipleship-practice-approval-recorder
   - capture-dan-selected-learnings
   - discipleship-personal-scripture-study-capture
   - discipleship-ministry-field-notes-capture
