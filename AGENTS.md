@@ -53,6 +53,12 @@ These are **not** duplicate Living Syntheses or alternative official decision sy
 
 Use `capture-dan-selected-learnings` automatically when Dan asks to save a resource learning/tool in the Brain or gather his earlier selections. The canonical home is Drive `00 — BRAIN OS — START HERE / 04 — DAN-SELECTED LEARNINGS & PRACTICES` (folder `18jyYXmla0uYjvRHzrwTfqIRRnKJ1Zuzi`). Retrieve relevant selections before substantial discipleship design alongside the Pastoral Lens. Give Dan's explicit selections priority over unendorsed assistant recommendations as design inputs. Preserve his words, selection date, intended use, original source and locator. Keep source teaching, Dan's endorsement, and assistant-created proposals distinct. Endorsement does not establish causal evidence or enact church policy. Preserve existing document identity and link into Living Synthesis rather than duplicating the corpus. See `skills/capture-dan-selected-learnings/SKILL.md`.
 
+## Dan's practice approval gate
+
+For substantial discipleship research or review that identifies genuinely actionable, not-yet-selected options, surface a small **approval pitch** (generally 1–3 candidates) with sources, cautions and practical application. For an explicit request to mine prior research for candidate practices and get Dan's approval, use `discipleship-approval-review-cycle`. For specific pitches only use `discipleship-practice-approval-pitch-builder`; for explicit later decisions use `discipleship-practice-approval-recorder`.
+
+The process is `assessed research → shortlist → assistant proposal → Dan's explicit per-item decision → Dan-approved Southbrook design synthesis (selection, not policy) → optional separate authorized test → actual local learning`. The new Brain review queue and selection synthesis must stay separate from the research Living Synthesis and existing Dan-selected source learnings. Dan's preference never raises research confidence or authorizes a church program. See `docs/practice-approval-review-workflow.md`.
+
 ## Evidence taxonomy
 
 Never collapse these categories:
@@ -255,6 +261,9 @@ Discipleship-specific:
 - `discipleship-resource-comparison-extractor` — compare reviewed alternatives and extract compatible design patterns
 - `discipleship-training-tool-designer` — create original, practice-centered ministry tools from reviewed patterns
 - `discipleship-curriculum-architect` — turns a defined discipleship outcome and evidence packet into a coherent capability-transfer curriculum
+- `discipleship-approval-review-cycle` — orchestrates evidence-to-pitch-to-Dan-review-to-record, with an explicit human gate
+- `discipleship-practice-approval-pitch-builder` — curates and pitches strong unselected candidates from the Brain
+- `discipleship-practice-approval-recorder` — records explicit per-item decisions and maintains the distinct approved-practice selection synthesis
 - `discipleship-practice-intelligence-builder` — builds concrete external Practice Cards and comparisons
 - `discipleship-practice-intelligence-backfill` — mines large historical corpora into deduplicated Practice Intelligence
 - `southbrook-practice-fit-assessor` — assesses contextual fit and decision-calibrated action warrant
