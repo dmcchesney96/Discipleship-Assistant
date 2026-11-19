@@ -4,6 +4,9 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 
 | User intent | Primary skill |
 |---|---|
+| Mine existing researched practices/claims into a small evidence-aware **approval pitch** batch | `discipleship-practice-approval-pitch-builder` |
+| Run the new full research-to-Dan-review-to-approved-selection synthesis workflow | `discipleship-approval-review-cycle` |
+| Record Dan's explicit per-item approve, reject, park, or revise decision | `discipleship-practice-approval-recorder` |
 | Preserve a resource learning/tool Dan personally selects, gather earlier selections, or retrieve them before design | `capture-dan-selected-learnings` |
 | Run full practical research on church methods from question through verified practice learning and publication | `full-discipleship-practical-research-cycle` |
 | Verify operational claims against original ministry instructions and actual-use records | `discipleship-practice-source-verifier` |
@@ -67,6 +70,12 @@ When a request says full research cycle AND specifies church methods, practition
 
 Use the generic research cycle for primarily truth/effectiveness investigation. Use practice/design for Southbrook selection/implementation. A descriptive practical research request does not require local diagnosis or a pilot. Evaluate actual supplied exercises through resource specialists; complete courses use curriculum orchestration. Teach a supplied book without new investigation through source distillation when available. Do not launch multiple whole cycles to satisfy one request. An explicit user choice overrides automatic routing.
 
+
+## Practice review/approval sequence
+
+`relevant Brain evidence → Pastoral Lens + local reality → source/fit assessment → approval-pitch-builder → STOP FOR DAN'S PER-ITEM DECISION → approval-recorder → Dan-approved design synthesis (not Living Synthesis evidence promotion) → optional separately authorized pilot → actual local learning`.
+
+Use `docs/practice-approval-review-workflow.md`. After substantial research, surface 1–3 high-value unapproved pitches only when materially useful; do not turn every report into a noisy approval form.
 
 ## Common sequences
 
