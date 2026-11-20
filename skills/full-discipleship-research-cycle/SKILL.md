@@ -33,6 +33,8 @@ Do **not** invoke merely because a task involves several research actions. The u
 
 ## Authorization boundary
 
+Ordinary research (even detailed, deep, extended, or skill-assisted research) does not invoke this write-authorizing workflow. Require a clear user request for the established complete autonomous cycle. Otherwise give the research in chat; wait for specific save instructions. No-save or chat-only overrides take precedence.
+
 A full-cycle request is standing authorization for **bounded internal Drive writes created by this research cycle** when the relevant connector permissions exist:
 
 - preserve the complete research report;
