@@ -251,3 +251,7 @@ A successful capture means that six months later the assistant can answer:
 - When did a view change and why?
 
 without confusing any of those answers with research evidence or approved church decisions.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
