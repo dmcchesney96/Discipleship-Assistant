@@ -28,6 +28,12 @@ Rules:
 4. A file being stored in a canonical folder does not make its claim true or its recommendation approved.
 5. Current user instruction outranks stored process documentation.
 
+## Required named hyperlinks (Dan’s standing rule — November 20, 2026)
+
+This applies to every skill and every human-facing artifact created, edited, or filed for the Discipleship Brain: Google Docs, indexes, lens and synthesis records, research reports, training resources, tables, footnotes, and exported Word/PDF/slide artifacts wherever links are supported. Whenever referencing another Brain file, folder, or document, display a concise recognizable document/resource title as an actual clickable hyperlink to its verified canonical URL. Never print the entire Google Docs/Drive URL as visible prose, never rely on automatic URL detection, and never type Markdown link syntax literally into a native Google Doc. If the title already appears adjacent to a URL, hyperlink that title and remove the duplicate URL. Preserve exact destinations (including meaningful tab/heading anchors) and all attribution/footnote requirements; for a Brain source in Turabian notes, hyperlink the source title instead of printing the long Drive URL. External scholarly URLs/DOIs required by citation style and machine-readable metadata are exceptions, not an excuse for bare internal links.
+
+For native Google Docs, apply a real text-style `link.url` to the display-title range (including table cells/footnotes as applicable); for Markdown use `[short title](verified URL)`, and use real hyperlink objects in other formats. Before completion, read the actual saved document structure and verify that each named link has the correct destination and that no bare internal URLs remain in the edited material. Check existing links when revising a document, preserve formatting and revision history, and report unresolved destinations or unsupported hyperlink capabilities instead of fabricating links. This standard is inherited by all existing and future skills regardless of whether they explicitly repeat it.
+
 ### Pastoral convictions and design lens
 
 The Drive folder `00 — BRAIN OS — START HERE / 01 — PASTORAL CONVICTIONS & DESIGN LENS` is the canonical record of Dan's stated discipleship convictions, strategy instincts, curriculum preferences, explicit rejections, and unresolved ministry ideas.
