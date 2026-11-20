@@ -58,3 +58,7 @@ Report the document link, passage, verified folder location, and whether cross-l
 - Dan says "I changed my understanding of Mark 3; update the study": update/version the existing study with traceable revision; avoid duplicate.
 - Dan says "Don't save this": do not persist.
 - Dan supplies a pastoral counseling example with identifying details: avoid general Brain capture until safely generalized.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
