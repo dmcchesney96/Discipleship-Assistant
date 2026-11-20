@@ -344,3 +344,7 @@ Stop when:
 - the next improvement would be decorative rather than functional;
 - an unresolved official-brand question requires a current source or human confirmation;
 - the user requested only content and not artifact production.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
