@@ -15,6 +15,9 @@ Read `docs/practice-approval-review-workflow.md` and `templates/practice-approva
 - "What have we learned that deserves my approval?"
 - A substantive new research/synthesis pass has genuinely actionable candidate(s) and the user wants ongoing review pitches.
 
+## Chat-first default
+The pitch is a chat response. Never create or update a Brain document, queue entry, card, index, evidence record or synthesis just because you have a proposal or Dan asks for more research. Suggest what to save; wait for Dan to specify the material and destination, unless an explicitly invoked autonomous workflow authorizes its bounded required writes. Stable provisional IDs in chat do not require persistence.
+
 ## Procedure
 1. Define relevant discipleship outcome/local problem; scope past research to the smallest useful set. If historical backfill is requested, work in explicit batches and show coverage gap.
 2. Retrieve live Brain evidence, Practice Intelligence/cards, current principles, Dan's Pastoral Lens and selected resources, relevant diagnostic, pending/rejected ledger; check sources and duplicate practice families.
