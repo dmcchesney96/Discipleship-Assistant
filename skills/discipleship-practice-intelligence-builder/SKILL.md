@@ -7,6 +7,8 @@ metadata:
 
 # Discipleship Practice Intelligence Builder
 
+**Chat-first write gate:** analysis/candidate cards may be presented in chat. Do not persist cards, comparisons, supplements, or indexes from ordinary research absent specific save instructions or an explicitly authorized autonomous workflow.
+
 ## Purpose
 
 Answer:
