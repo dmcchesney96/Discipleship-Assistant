@@ -7,6 +7,8 @@ metadata:
 
 # Ministry Field Notes Capture
 
+**Chat-first write gate:** only persist when Dan explicitly requests capture/save or an existing authorized autonomous workflow requires it; a field observation discussed in chat is not permission to save.
+
 ## Mission
 Keep Dan's real-world pastoral/ministry observations, stories, strategic possibilities, patterns, leadership notes, and lessons available for future local diagnosis, design, and action without mislabeling them as verified research.
 
