@@ -113,3 +113,7 @@ Prefer "Let them make a real decision, then talk through how it went" to "Transf
 Apply a read-aloud check: could an ordinary volunteer explain this to another volunteer without translating it? Revise abstract noun stacks, vague slogans and unexplained labels until they can. Keep the source map, stable IDs, evidence distinctions, confidence, counterevidence and version history after the readable learning. Never simplify away a material caveat, a theological boundary or the difference between a proposed practice and an approved decision.
 
 Do not rewrite unrelated historical records for style. Improve the affected current learning while preserving prior wording in history.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
