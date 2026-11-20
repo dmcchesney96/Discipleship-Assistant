@@ -5,6 +5,8 @@ description: Maintain the project's evolving synthesis of what appears to produc
 
 # Living Discipleship Synthesis Maintainer
 
+**Chat-first write gate:** evidence convergence warrants a suggested update, not a Drive write. Only specific save instructions or an explicitly invoked autonomous workflow authorize changes to the synthesis and index. Otherwise present the proposed learning in chat and stop.
+
 ## Purpose
 
 Make the project increasingly smarter as research accumulates. This skill updates project-level mechanisms/principles, not raw evidence **and not the catalog of concrete ministry practices**.
