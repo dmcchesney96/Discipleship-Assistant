@@ -7,6 +7,8 @@ metadata:
 
 # Ministry Second Brain Intake
 
+**Chat-first write gate:** classify and suggest filing in chat without creating or editing Brain records unless Dan explicitly instructs a specific save or invokes an established autonomous workflow whose required writes cover it.
+
 ## Purpose
 
 Prevent useful knowledge from disappearing into chats, notes, emails, research reports, transcripts, or one-off documents while avoiding accidental promotion of tentative information into permanent truth.
