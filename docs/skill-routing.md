@@ -56,6 +56,10 @@ Use the narrowest skill that owns the requested work. Do not run a chain of skil
 | Preserve durable rationale/history | `institutional-memory-writer` |
 | Connect patterns across evidence | `pattern-connector` |
 
+
+## Mandatory chat-first / write gate
+For ordinary research, review, proposals, and collaborative design, use skills to retrieve and reason, then present results in chat. No Brain writes, including proposal queue updates or creating artifacts, unless Dan explicitly asks to save/create/update the specific output or explicitly invokes an established autonomous workflow whose required outputs authorize those writes. The global AGENTS.md chat-first rule overrides all persistence and automatic capture triggers below. A request for deeper research or to use a skill is not that authorization.
+
 ## Personal input capture (not a research cycle)
 
 - **Passage study:** one dated user-authored Bible-study Google Doc in `02 — PERSONAL SCRIPTURE STUDIES & THEOLOGICAL REFLECTIONS` → optional attributed Pastoral Lens pointer only when durable → verify body and parent.
