@@ -9,7 +9,7 @@ metadata:
 
 ## Purpose
 
-Create the **human-reading artifact** for discipleship research.
+Create the **human-reading artifact** for discipleship research only when Dan explicitly requests that artifact or an explicitly invoked autonomous workflow requires it. Ordinary research and collaborative review should return findings in chat; do not create a PDF, editable master, Drive document, or file it unasked. A requested artifact alone does not authorize Brain filing.
 
 The deep-research executor produces content. Verification tests important claims. This skill turns the finalized, verification-aware content into a professional report that is easy to skim, reference, print, and revisit.
 
