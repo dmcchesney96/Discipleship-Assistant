@@ -51,3 +51,7 @@ Before a relevant strategy, pilot, or curriculum request, look up a **small** se
 - Dan shares an identifiable student pastoral situation: do not save confidential details into general Brain.
 - Dan says "Maybe we could try giving apprentice leaders one task a month": capture as tentative if clearly for durable Brain, not approved church strategy.
 - Dan revises a previous observation: preserve provenance and date, update linked follow-up rather than overwrite history.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
