@@ -9,6 +9,9 @@ Convert accumulated credible discipleship intelligence into **selective, reviewa
 - Never equate `Dan endorses exploring a practice` with `Southbrook leadership has adopted it`.
 - Do not rewrite the empirically grounded Living Synthesis merely because Dan likes a practice. Living Synthesis changes only on independently assessed evidence under its own skill.
 
+## Chat-first review gate
+Present initial and revised pitches in chat only by default. Do not create or update the review queue, Practice Cards, research reports, or any Brain artifact during ordinary collaborative review or research. An explicit request to save selected material or record a decision authorizes only the selected scope; explicit autonomous full-workflow authorization permits its required bounded writes. A liked idea or request to refine it is not approval to save or record. Suggest filing instead and wait.
+
 ## Intake and review loop
 `RELEVANT BRAIN EVIDENCE → DEDUPLICATE → EVALUATE (THEOLOGY / MECHANISM / SOURCES / LIMITS / LOCAL RELEVANCE) → SHORTLIST → PITCH TO DAN → EXPLICIT PER-ITEM CHOICE → RECORD SCOPE/RATIONALE → OPTIONAL TEST DESIGN → LOCAL LEARNING → RE-PITCH IF WARRANTED`
 
