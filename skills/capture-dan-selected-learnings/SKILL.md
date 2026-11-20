@@ -59,3 +59,7 @@ Do not save private pastoral cases, personal prayer-target names, student record
 - Merely ask whether a resource is useful: evaluate it without entering it as personally selected.
 
 Finish with the verified document/folder link and a short explanation of what was preserved and what remains proposed. Report partial saves honestly.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
