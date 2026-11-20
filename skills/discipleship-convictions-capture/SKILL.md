@@ -217,6 +217,15 @@ Prefer a small number of clear, memorable convictions with the user's rationale.
 
 The lens should become more useful, not more bloated.
 
+## Required citations for source-derived convictions (November 20, 2026)
+
+When Dan selects a truth, learning, or conviction from any Brain resource, apply the mandatory Turabian footnote standard in `skills/capture-dan-selected-learnings/SKILL.md` (section “Required source citations: Turabian footnotes”). Route these captures jointly: preserve the raw selection here, maintain one citation-bearing selected-learning document with all supporting source contributions, and add or update a concise, linked entry in the relevant canonical Pastoral Lens document. Do not create competing full copies.
+
+- Reopen each original source before recording its contribution. Preserve accurate quotation/paraphrase attribution, exact page or section, publication metadata and Brain/source links; use native numbered Turabian notes when supported, with the documented numbered-footnote fallback if not.
+- When Dan adds further sources to the same conviction, find the existing record and append the new supporting or qualifying insights and footnotes to that document, preserving earlier sources, dates, history and wording. Do not build an isolated conviction for every source unless Dan explicitly wants distinct convictions.
+- Record the conviction as Dan's endorsed belief, not as an author quotation or approved policy. The lens entry should link to the fully footnoted learning; any additional source-derived assertion not covered by the linked record needs its own citation. Preserve Dan's original thoughts without inventing sources or forcing a citation; Scripture references should be accurate and identify the translation when quoted.
+- Verify all saved references, citations and links and mention missing source metadata or a native-footnote fallback in the final response.
+
 ## Output after a capture
 
 Keep the chat response short and practical:
