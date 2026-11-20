@@ -7,6 +7,8 @@ metadata:
 
 # Discipleship Practice Approval Recorder
 
+**Chat-first write gate:** a conversational agreement, positive feedback, revision request, or partial selection is not permission to update the queue or approved synthesis. Only record explicit instructions to save or record that decision (including an explicit approval control that requests recording), or a decision within a clearly authorized autonomous approval workflow. Preserve the exact scope; a request to capture a specific excerpt does not authorize approving the entire proposal.
+
 Read `docs/practice-approval-review-workflow.md`.
 
 ## Trigger
