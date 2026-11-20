@@ -7,6 +7,8 @@ metadata:
 
 # Personal Scripture Study Capture
 
+**Chat-first write gate:** only persist when Dan explicitly requests a capture/save or an existing authorized autonomous workflow requires it; a study or reflection shared in chat for discussion does not authorize a Brain write.
+
 ## Mission
 Preserve Dan's developing understanding of Scripture and its discipleship applications in his own words so the Brain can retrieve those studies in future Bible, training, leadership, and curriculum work. This is **capture**, not an automated exegetical-review or church-doctrine-approval pipeline.
 
