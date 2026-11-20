@@ -5,6 +5,9 @@ description: Run a complete practical ministry research cycle on how churches, n
 
 # Full Practical Ministry Research Cycle
 
+## Authorization gate
+Do not invoke this persistence-bearing orchestrator for ordinary collaborative research, requests to go deeper, or church-method questions. Only an explicit request to run the established whole workflow autonomously authorizes its bounded required artifacts/filing; otherwise retrieve and research in chat, propose any save and stop. Explicit no-save overrides apply.
+
 ## Outcome and boundaries
 Help a leader understand credible methods, explain their differences, recover how they work, and preserve useful learning. Connect the question to ordinary people following Jesus and helping others follow him. Do not require every study to demonstrate multiplication.
 
