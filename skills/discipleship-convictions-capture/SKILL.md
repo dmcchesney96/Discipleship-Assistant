@@ -7,6 +7,8 @@ metadata:
 
 # Discipleship Convictions Capture
 
+**Mandatory chat-first gate:** discuss and draft in chat unless Dan explicitly asks to preserve the specific conviction/feedback or an explicitly authorized autonomous workflow requires the write. Substantive reflections, enthusiasm, and iterative feedback alone are not permission to write to Drive. AGENTS.md overrides older automatic capture instructions.
+
 ## Purpose
 
 Let Dan speak naturally in chat about discipleship without having to organize the thought first.
