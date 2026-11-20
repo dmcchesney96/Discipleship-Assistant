@@ -15,9 +15,12 @@ Turn abundant accumulated research into a manageable **Southbrook design selecti
 
 Use `docs/practice-approval-review-workflow.md` for statuses, source rules and persistence.
 
+## Persistence authorization (mandatory)
+Default to chat-only pitches and read-only Brain retrieval. The steps below that create or update a ledger, synthesis, or record apply only when Dan explicitly instructs a save/update or explicitly requests the established full autonomous approval workflow with those outputs. Never write a pending proposal or research artifact merely because a review was requested. Stop for instructions about what to preserve; ordinary pitch refinement is read-only.
+
 ## First invocation
 - Check whether a review ledger and a Dan-approved Southbrook design synthesis already exist in the Brain; **reuse** rather than duplicating.
-- If missing, create separate canonical **Pending Review Queue** and **Dan-Approved Southbrook Design Practices — Living Selection Synthesis** in a coherent Brain folder after verifying destination. The latter begins empty unless Dan has explicitly authorized importing specific earlier selections; cross-link the existing Dan-selected learnings rather than silently reclassifying them.
+- If explicitly authorized to create the records and missing, create separate canonical **Pending Review Queue** and **Dan-Approved Southbrook Design Practices — Living Selection Synthesis** in a coherent Brain folder after verifying destination. The latter begins empty unless Dan has explicitly authorized importing specific earlier selections; cross-link the existing Dan-selected learnings rather than silently reclassifying them.
 - Prioritize no more than 3–5 current candidates, preserving source links and the not-yet-verified flags.
 - Stop after presenting the review batch. No approval claims.
 
