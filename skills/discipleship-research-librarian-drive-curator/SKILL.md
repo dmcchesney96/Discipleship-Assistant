@@ -45,3 +45,7 @@ Do not emulate Drive moves via download/reupload when native file lifecycle tool
 ## Output
 
 **Library Maintenance Report**: scope/coverage; inventory findings; canonical/index findings; duplicates/revisions; stale/missing links; operation ledger with applied/proposed/blocked/no-change; verification; reversal notes; downstream content handoffs.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
