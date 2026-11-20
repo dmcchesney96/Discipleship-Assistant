@@ -313,3 +313,7 @@ This skill publishes; it does not:
 ## PRACTICAL report architecture override
 
 When publishing `full-discipleship-practical-research-cycle`, use the owner's practical contract order: plain learning → concrete methods → worked operational examples → comparison/tradeoffs → documentation and outcome limits → reusable practices → Brain impact → audit/source ledger. Do not force an academic section, local pilot, or new principle. Preserve technical source traceability, default PDF/editable master, user format overrides and full visual QA. A constructed example must be labeled original illustration, not an observed event.
+
+## Named hyperlinks — mandatory publication check
+
+Apply the repository-wide **Required named hyperlinks** standard in `AGENTS.md` to every artifact this skill creates or updates. Use concise recognizable titles as actual clickable links to verified Brain files/folders, never visible raw Google Docs/Drive URLs. Use native hyperlink formatting (Google Docs text-style link.url); hyperlink existing adjacent titles instead of adding duplicated labels. Verify saved link text and exact destinations on readback, including tables, indexes, citations/footnotes and export formats where relevant. Preserve citation style, meaningful anchors, and machine-readable metadata. Report unresolved links rather than guessing.
