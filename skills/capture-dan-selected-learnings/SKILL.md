@@ -11,6 +11,9 @@ Use Google Drive Discipleship Brain / 00 — BRAIN OS — START HERE / 04 — DA
 Verified folder ID: `18jyYXmla0uYjvRHzrwTfqIRRnKJ1Zuzi`.
 Verify current identity and access before writes. Find its Start Here index inside the folder; do not invent IDs or create a competing folder.
 
+## Explicit selection and save gate
+A user saying an idea resonates, discussing a source, or asking for research or elaboration is not a capture request. Save only specifically requested content; when Dan designates a topic-specific working document/folder, keep one canonical capture there, with existing index/lens pointers only as needed. Do not create a second research report or alternate selected-learning document; no unrequested companion artifacts or new folders. The global AGENTS.md chat-first rule controls all saves.
+
 ## Capture
 
 1. Treat an explicit request to save a resource insight as authorization to preserve that selected insight. Do not require another approval. Do not classify mere questions, reading requests, or assistant enthusiasm as Dan's selection.
