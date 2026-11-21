@@ -43,7 +43,7 @@ Use automatically when Dan is substantially expressing his own:
 - strong negative reaction ("I don't want this", "this is too academic", "not for us");
 - unresolved ministry ideas or tensions he wants to keep developing.
 
-The user does not need to say "save this," "remember this," or the skill name.
+The user does not need to use a skill name, but the trigger is for discussion/retrieval; a durable save requires explicit instruction.
 
 Do not trigger merely because Dan asks a factual/research question. Trigger when he is contributing his own durable perspective.
 
@@ -63,7 +63,7 @@ This skill owns **durable convictions and preferences**, not the full source rec
 
 Dan authorized this capture system on October 3, 2026.
 
-Within the Discipleship project, qualifying pastoral-philosophy/design input may be written to the canonical Brain lens without requesting separate approval each time, unless:
+Within the Discipleship project, save qualifying pastoral-philosophy/design input only on explicit instruction or a separately authorized written workflow. New or revised convictions and supporting content always require Dan's explicit approval. Do not save when:
 
 - the user says not to save it;
 - the content is sensitive/private in a way that should not be durably stored;
@@ -99,6 +99,14 @@ Raw archive:
 - Folder ID: `1OYtlYqD02r-Kh6SkdRwAZt5NsFdpPWQU`
 
 Always verify the target still exists before a consequential write.
+
+## Linked conviction architecture (November 21, 2026)
+
+Use the existing `01 — Living Discipleship Convictions` document (ID `1mIdqp-MZSyFBSjTVy7Jb61YDfb5tCFO9-As2NLAs3pA`) as a concise index of Dan's **explicitly endorsed** convictions. One short bold/heading statement with a stable DC-### identifier, one or two explanatory sentences, and one native Google Docs footnote whose named hyperlink opens the individual foundation document. Keep foundational and working statuses distinct; do not put detailed research, excerpts, long explanations, duplicate bibliographic lists, or visible raw URLs in the master. Preserve a compact dated change log.
+
+Each conviction has exactly one canonical foundation document in `01 — PASTORAL CONVICTIONS & DESIGN LENS / 05 — CONVICTION FOUNDATIONS` (folder ID `1wKmpK2Pt_6sLAt2UR2xhBAZ41mZ9ThVx`). Use stable `DC-### — [title]` names and do not reuse identifiers. Preserve the conviction in Dan's words; distinguish the reasons, biblical foundations, exact selected content and dated development, assistant explanatory synthesis, source claims, and research limitations. Use native Turabian notes and clickable named original-source links for sourced quotations and claims. Keep each selected learning or research finding in its existing canonical home and link it from the foundation with a short explanation of its relevance; add multiple named links when multiple learnings inform the conviction. A source-derived selected-learning record that already contains the foundation is the same canonical file, not another copy: retain its original Google Doc ID, SEL identifier, sources, history and selected-learning index entry when it is stored in Conviction Foundations. Include a named link returning to the master and links to related convictions where relevant. An existing research pointer is not a claim of endorsement or church-policy approval.
+
+**Explicit approval and reporting:** ordinary research, requests to show excerpts, and agreement expressed in discussion do not authorize a new conviction or source enrichment. Do not automatically promote a learning to a conviction, add related source passages, or revise conviction wording: present material for Dan to review first, and save only the specifically approved content. A direct instruction to save a learning authorizes that learning, not a new conviction unless Dan also explicitly identifies it as a conviction or asks to add it to one. When Dan expressly approves a new conviction, create its foundation and add the linked concise entry to the master; when he expressly approves additional support for an existing conviction, update its foundation without changing its master statement unless requested. Link existing records rather than copying them. After any authorized creation or change, verify the native footnote, hyperlink destinations, document identity/parent, and the changed wording in both places. Tell Dan in the current response exactly which conviction/foundation/master or selected-learning record changed, include named links, distinguish a new conviction from added support, and state if the master was not changed. Never silently modify his conviction list.
 
 ## Classification
 
@@ -226,7 +234,7 @@ When Dan selects a truth, learning, or conviction from any Brain resource, apply
 - Explicit approval gate: do not independently enrich an existing or newly selected conviction with additional sources or excerpts. Present candidate material in chat when Dan requests it, then wait for him to say what to add or exclude. A request to save a particular learning authorizes only the selected content and its necessary source citations; a request to research or show excerpts authorizes no Brain writes. The source-enrichment approval gate in `capture-dan-selected-learnings` governs both workflows, regardless of the general standing authorization for capturing Dan's own expressed convictions.
 - Reopen each original source before recording its contribution. Preserve accurate quotation/paraphrase attribution, exact page or section, publication metadata and Brain/source links; use native numbered Turabian notes when supported, with the documented numbered-footnote fallback if not.
 - When Dan explicitly approves adding further sources to the same conviction, find the existing record and append the new supporting or qualifying insights and footnotes to that document, preserving earlier sources, dates, history and wording. Do not build an isolated conviction for every source unless Dan explicitly wants distinct convictions.
-- Record the conviction as Dan's endorsed belief, not as an author quotation or approved policy. The lens entry should be a concise statement of Dan's conviction and link to the fully footnoted learning. Avoid restating source-specific excerpts, arguments, or bibliographic details in lens/index entries. A pure internal pointer does not need a duplicate note. If an independent document actually quotes or paraphrases an external source, it still requires its own native numbered Turabian footnote. Do not repeat bibliographic citation lines or source lists in the body when footnotes supply that information. Preserve Dan's original thoughts without inventing sources or forcing a citation; Scripture references should be accurate and identify the translation when quoted.
+- Record the conviction as Dan's endorsed belief, not as an author quotation or approved policy. The lens entry should be a concise statement of Dan's conviction with a native footnote linking its fully footnoted individual foundation; the foundation links existing separate learning documents where applicable. Avoid restating source-specific excerpts, arguments, or bibliographic details in lens/index entries. A pure internal pointer does not need a duplicate note. If an independent document actually quotes or paraphrases an external source, it still requires its own native numbered Turabian footnote. Do not repeat bibliographic citation lines or source lists in the body when footnotes supply that information. Preserve Dan's original thoughts without inventing sources or forcing a citation; Scripture references should be accurate and identify the translation when quoted.
 - Verify all saved references, citations and links and mention missing source metadata or a native-footnote fallback in the final response.
 
 ## Output after a capture
