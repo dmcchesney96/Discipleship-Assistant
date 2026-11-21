@@ -44,6 +44,10 @@ For source-derived convictions, maintain one full, citation-bearing selected-lea
 
 The canonical document holds the full Turabian notes. Keep navigation and lens entries concise and rely on internal cross-references rather than repeating the source apparatus. If an independent document actually quotes or paraphrases an external resource, it still requires its own Turabian note. This rule does not require an external source for a purely original pastoral conviction.
 
+## Bottom-up conviction development and reciprocal links
+
+Apply AGENTS.md's "Bottom-up and bidirectional conviction development" rule. A learning can exist before any conviction; several separately approved learnings can later converge into one proposed conviction. Present the candidate and supporting trail in chat and wait for Dan's explicit approval. On approval, retain the learning records and citations, link each approved learning to its DC-### foundation under Related convictions, and link back from that foundation with the learning's contribution and date. Do not copy or automatically promote learnings. Keep a learning's multiple conviction connections distinct; never edit original source files. Verify the reciprocal links and report whether the master changed.
+
 ## Retrieval priority
 
 Before substantial discipleship strategy, training, curriculum or implementation work, retrieve the relevant entries from this folder alongside the Pastoral Lens and needed evidence. Give Dan's explicit selections greater design priority than unendorsed assistant recommendations. Preserve current instruction, Scripture/doctrinal responsibility, approved church decisions, and established facts. Never turn personal endorsement into causal research proof or an enacted church-wide program.
