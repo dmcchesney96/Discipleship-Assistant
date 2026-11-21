@@ -49,6 +49,10 @@ Primary documents:
 
 `01 — Living Discipleship Convictions` is a concise master list. Each DC-### entry has one native footnote with a named hyperlink to its individual foundation in `05 — CONVICTION FOUNDATIONS` (folder ID `1wKmpK2Pt_6sLAt2UR2xhBAZ41mZ9ThVx`). Retrieve the master first. For substantive strategy, training, teaching or research affecting a specific conviction, follow that footnote into the foundation and read the relevant approved learning and original-source links when necessary. Keep the concise belief, supporting reasoning, source evidence and local implementation decisions distinct. Read-only retrieval does not authorize any update or automatic conviction promotion. See AGENTS.md, Linked conviction architecture.
 
+## Bidirectional retrieval
+
+When the task begins with a selected learning rather than a known conviction, start with that learning, read its source citations and any Related convictions links, then follow the relevant DC-### foundation and master entry. A foundation can link many learning records; a learning can inform several foundations. Deduplicate by stable document IDs and follow only the relevant links; no circular traversal. If learnings have no conviction link, leave them unpromoted and present any proposed connection for Dan's approval in chat. See AGENTS.md's Bottom-up and bidirectional conviction development rule. Read-only retrieval never authorizes writes.
+
 ## Related first-person knowledge (not a second Pastoral Lens)
 
 The existing canonical Pastoral Lens remains the home for Dan's convictions/preferences. Two parallel **source libraries** preserve his own original notes:
