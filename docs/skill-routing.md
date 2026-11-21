@@ -64,7 +64,7 @@ For ordinary research, review, proposals, and collaborative design, use skills t
 
 - **Passage study:** one dated user-authored Bible-study Google Doc in `02 — PERSONAL SCRIPTURE STUDIES & THEOLOGICAL REFLECTIONS` → optional attributed Pastoral Lens pointer only when durable → verify body and parent.
 - **Field observation:** one dated user-authored practical note in `03 — MINISTRY FIELD NOTES & OBSERVATIONS` → privacy screening → optional pointer to relevant local evidence/convictions → verify.
-- **Conviction or preference only:** existing `discipleship-convictions-capture` workflow in `01 — PASTORAL CONVICTIONS & DESIGN LENS`.
+- **Conviction or preference only:** existing `discipleship-convictions-capture` workflow in `01 — PASTORAL CONVICTIONS & DESIGN LENS`. For an explicitly approved conviction, create/reuse its DC-### foundation in `05 — CONVICTION FOUNDATIONS`, update the concise master entry with a native linked footnote, and report the change. An approved learning stays a learning unless Dan explicitly endorses it as a conviction. See AGENTS.md, Linked conviction architecture.
 
 For capture, never automatically launch a theology audit, research cycle, implementation pilot, or decision workflow. No unsolicited critique/flagging of personal interpretation or convictions; later research/critique only when the user asks. Preserve authorship and evidence boundaries. See `docs/personal-insight-capture-architecture.md`.
 
