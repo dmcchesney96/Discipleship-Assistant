@@ -45,6 +45,10 @@ Primary documents:
 - `03 — Ministry Strategy & System Preferences` — `19LTzEEwa2oE1dobktUzBsXwAdHsi6d3aoqDMzPWkBiA`
 - `04 — Open Questions, Tensions & Ideas to Test` — `19gYiqXgzhOd8SvglAtary30k0Nb9Q3hJ1RHjHPvCYv0`
 
+## Follow linked conviction foundations
+
+`01 — Living Discipleship Convictions` is a concise master list. Each DC-### entry has one native footnote with a named hyperlink to its individual foundation in `05 — CONVICTION FOUNDATIONS` (folder ID `1wKmpK2Pt_6sLAt2UR2xhBAZ41mZ9ThVx`). Retrieve the master first. For substantive strategy, training, teaching or research affecting a specific conviction, follow that footnote into the foundation and read the relevant approved learning and original-source links when necessary. Keep the concise belief, supporting reasoning, source evidence and local implementation decisions distinct. Read-only retrieval does not authorize any update or automatic conviction promotion. See AGENTS.md, Linked conviction architecture.
+
 ## Related first-person knowledge (not a second Pastoral Lens)
 
 The existing canonical Pastoral Lens remains the home for Dan's convictions/preferences. Two parallel **source libraries** preserve his own original notes:
